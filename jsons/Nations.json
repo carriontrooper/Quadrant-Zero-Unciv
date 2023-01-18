@@ -1,4 +1,53 @@
 [
+/*
+ideas:
+United Frontiers
+(Strong small ships, faster cultural expansion)
+UU: Torpedo Frigate
+UB: UF Embassy
+
+Rextani Empire
+(Strong big ships, enclave bully)
+UU: Rexxar-Class Dreadnought
+UI: Forward Base
+
+Zzathak Swarm
+(Strong carriers, pop growth bonus)
+UU: Stinger Fighters
+UU: Hiveship
+
+Karak-Haan Nomads
+(Can enter Hyperspace earlier, boost on Hyperspace tiles)
+UB: Karwan Bazaar
+UI: Relay Buoy
+
+Slirathine Institute
+(Receives prototypes of spaceships after researching their prereqs, more science per any specialist)
+UU: Mobile Observatory
+UB: Skunkwork Labs
+
+Valthari Divine Mandate
+(Faith for kills, extra belief)
+UU: Heavenly Envoy
+UNW: Pilgrimage Nexus
+
+Starwind Roiders
+(Strong in asteroids, extra production from space habitats)
+UU: Rockhopper
+UI: Asteroid Base
+
+Tyvergis Corporate Solutions
+(Extra money on luxuries, can buyout enclaves)
+UB: Crypto-bank
+UB: Enforcer Precinct
+
+Mekhan Processors
+(Faster ship build speed, science on damage)
+UB: Printer Shipyard
+UU: Coordinator Ship
+
+*/
+
 	// Spectator
 	{
 		"name": "Spectator",
