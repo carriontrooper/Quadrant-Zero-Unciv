@@ -72,10 +72,11 @@
 		]
 	},
 	
-	// CS types: Cultural, Agricultural, Economic, Militaristic, Religious, Scientific
+	// CS types: Cultural, Agrarian, Corporate, Military, Religious, Scientific, Industrial
+	// Rename to Enclave
 	
 	{
-		"name": "OutpostName",
+		"name": "EnclaveName",
 		"adjective": ["Adjective"],
 		"cityStateType": "Mercantile",
 		"startBias": ["Tundra"],
@@ -88,19 +89,19 @@
 		"cities": ["Sputnik Outpost"]
 	}
 	
-	// Cultured -> Cultural
+	// Cultural
 		"outerColor": [50, 50, 50],
 		"innerColor": [197, 55, 222],
 		
-	// Maritime -> Agricultural
+	// Agrarian
 		"outerColor": [50, 50, 50],
 		"innerColor": [114, 222, 55],
 	
-	// Mercantile -> Economic
+	// Corporate
 		"outerColor": [50, 50, 50],
 		"innerColor": [222, 200, 55],
 	
-	// Militaristic
+	// Military
 		"outerColor": [50, 50, 50],
 		"innerColor": [200, 55, 25],
 		
@@ -117,4 +118,13 @@
 		"innerColor": [222, 116, 55],
 	
 	*/
+	
+	// Barbarian - rename to Raider
+	{
+		"name": "Barbarians",
+		"style": "raider",
+		"outerColor": [0, 0, 0],
+		"innerColor": [198, 243, 102],
+		"uniques": ["Can only heal by pillaging"]
+	}
 ]
