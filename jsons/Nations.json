@@ -1,3 +1,120 @@
 [
+	// Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [255, 255, 255]
+		// "innerColor": [255,255,255]
+	},
+
+	/* template: at least 20 city names
+	also 10 spy names
 	
+	// victory types: Scientific, Diplomatic, Cultural, Domination
+	
+	{
+		"name": "EmpireName",
+		"leaderName": "LeaderName",
+		"adjective": ["Adjective"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"tradeRequest": ".",
+
+		"outerColor": [85, 85, 85],
+		"innerColor": [126, 192, 253],
+		"favoredReligion": "ReligionName",
+		"uniqueName": "UniqueName",
+		"uniques": ["Uniques Go Here"],
+		"cities": [
+			"Capital",
+			"City1",
+			"City2",
+			"City3",
+			"City4",
+			"City5",
+			"City6",
+			"City7",
+			"City8",
+			"City9",
+			"City10",
+			"City11",
+			"City12",
+			"City13",
+			"City14",
+			"City15",
+			"City16",
+			"City17",
+			"City18",
+			"AndSoOn"
+		],
+		"spyNames": [
+			"Spy1",
+			"Spy2",
+			"Spy3",
+			"Spy4",
+			"Spy5",
+			"Spy6",
+			"Spy7",
+			"Spy8",
+			"Spy9",
+			"Spy10"
+		]
+	},
+	
+	// CS types: Cultural, Agricultural, Economic, Militaristic, Religious, Scientific
+	
+	{
+		"name": "OutpostName",
+		"adjective": ["Adjective"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Tundra"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [50, 50, 50],
+		"innerColor": [252,219,3],
+		"cities": ["Sputnik Outpost"]
+	}
+	
+	// Cultured -> Cultural
+		"outerColor": [50, 50, 50],
+		"innerColor": [197, 55, 222],
+		
+	// Maritime -> Agricultural
+		"outerColor": [50, 50, 50],
+		"innerColor": [114, 222, 55],
+	
+	// Mercantile -> Economic
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 200, 55],
+	
+	// Militaristic
+		"outerColor": [50, 50, 50],
+		"innerColor": [200, 55, 25],
+		
+	// Religious
+		"outerColor": [50, 50, 50],
+		"innerColor": [55, 200, 222],
+		
+	// Scientific
+		"outerColor": [50, 50, 50],
+		"innerColor": [20, 100, 200],
+		
+	// Industrial
+		"outerColor": [50, 50, 50],
+		"innerColor": [222, 116, 55],
+	
+	*/
 ]
