@@ -1,9 +1,182 @@
 [
 	/*
 	Terrains:
-	Base: Space (Land), Star (Mountain), Hyperspace (Water)
-	Features: Nebula, Asteroid Field, Hyperstorm, Gas Giant,
+	Base: 
+	Space (Land), Star (Mountain), Shallow Hyperspace (Lake), Hyperspace (Coast), Deep Hyperspace (Ocean), Hyperstream (River)
+	
+	Features: 
+	Nebula, Asteroid Field, Hyperstorm
+	Gas Giant, Habitable Wet Planet, Habitable Cold Planet, Habitable Dry Planet, Barren Planet, Planetoid, Frozen Planet, Magma Planet, Toxic Planet
+	Blue Star, Yellow Star, Red Star, Pulsar, Black Hole, Neutron Star, Brown Dwarf Star
+	
+	Wonders:
+	Artificial Star, Dyson Ruins, Spaceborn Carcass, Solar Tree, Hub Ruins, Shimmering Nebula
 	*/
 	
 	//Base
+	{
+		"name": "Deep Hyperspace",
+		"type": "Water",
+		//"food": 1,
+		//"gold": 1,
+		"movementCost": 1,
+		"RGB": [60, 70, 80],
+		"uniques": [
+			//"Becomes [Coast] when adjacent to [Harborship Wreck]",
+			//"Becomes [Coast] when adjacent to [Great Neuroreef]"
+		],
+		"civilopediaText": [
+			{
+				"text": "The deeper, denser parts of Hyperspace, where reality starts to fray. Tread carefully.",
+				//"link": "Resource/Vent"
+			}
+		]
+	},
+	{
+		"name": "Hyperspace",
+		"type": "Water",
+		//"food": 1,
+		//"gold": 1, //get money after getting tech to siphon hyperspace particles
+		"movementCost": 1,
+		"RGB": [75, 90, 100],
+		"uniques": [
+			//"[+2] to Fertility for Map Generation",
+			"Considered [Desirable] when determining start locations <on water maps>",
+			//"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
+		"civilopediaText": [
+			{
+				"text": "Hyperspace, an 'overlaying' parallel universe with different laws of physics - which allows faster travel to pockets of real space."
+			}
+		]
+	},
+	{
+		"name": "Shallow Hyperspace",
+		"type": "Water",
+		//"food": 2,
+		//"gold": 1, //get money after getting tech to siphon hyperspace particles
+		"RGB": [90, 100, 125],
+		"uniques": [
+			"Fresh water",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations"
+		],
+		"civilopediaText": [
+			{
+				"text": "A thinner part of Hyperspace, charged particles are easy to find here."
+			}
+		]
+	},
+	{
+		"name": "Space",
+		"type": "Land",
+		//"food": 2,
+		"movementCost": 1,
+		"RGB": [60,60,60],
+		"uniques": [
+			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			"[+3] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Space] tiles, with priority [7]",
+			//"Considered [Desirable] when determining start locations",
+			//"Considered [Food] when determining start locations <in [Jungle] Regions>",
+			//"Becomes [Mycelium] when adjacent to [Uttershroom]",
+			//"Becomes [Desert] when adjacent to [Megaxenoform Graveyard]",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
+		"civilopediaText": [
+			{
+				"text": "These fertile lands are already colonized by small, hardy vegetation that is the foundation of the local ecosystem."
+			}
+		]
+	},
+	{
+		"name": "Star",
+		"type": "Land",
+		"gold": 6,
+		"impassable": true,
+		"defenceBonus": 0.25,
+		"RGB": [222,222,222],
+		"uniques": [
+			"Rough terrain",
+			"Has an elevation of [4] for visibility calculations",
+			//"Occurs in chains at high elevations",
+			"Units ending their turn on this terrain take [50] damage",
+			"Always Fertility [-2] for Map Generation",
+			"Considered [Undesirable] when determining start locations"
+		],
+		"civilopediaText": [
+			{
+				"text": "Hot balls of atomic fusion."
+			}
+		]
+	},
+	
+	//Feature
+	{
+		"name": "Asteroid Field",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": true,
+		"defenceBonus": 0.25,
+		"RGB": [105, 125, 72],
+		"occursOn": [
+			"Tundra",
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Snow",
+			"Mycelium"
+		],
+		"uniques": [
+			"Rough terrain",
+			"[+5] Strength for cities built on this terrain",
+			//"Has an elevation of [2] for visibility calculations",
+			"Blocks line-of-sight from tiles at same elevation",
+			"Occurs in groups around high elevations",
+			"[+1] to Fertility for Map Generation",
+			"A Region is formed with at least [40]% [Asteroid Field] tiles, with priority [5]",
+			"Base Terrain on this tile is not counted for Region determination",
+			//"Starts in regions of this type receive an extra [Chitin]",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
+		"civilopediaText": [
+			{
+				"text": "Stellar debris that decided to swarm together, traversing these fields require extra caution."
+			}
+		]
+	},
+	{
+		"name": "Nebula",
+		"type": "TerrainFeature",
+		"production": 1,
+		//"food": 1,
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Space"],
+		"uniques": [
+			"Rough terrain",
+			"Vegetation",
+			//"Provides a one-time Production bonus to the closest city when cut down",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[50]% Chance to be destroyed by nukes",
+			"A Region is formed with at least [30]% [Nebula] tiles, with priority [3]",
+			//"A Region is formed with at least [35]% [Forest] tiles and [Jungle] tiles, with priority [3]",
+			//"A Region can not contain more [Jungle] tiles than [Forest] tiles",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			//"Considered [Food] when determining start locations <in [Forest] Regions>",
+			//"Considered [Food] when determining start locations <in [Tundra] Regions>",
+			"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
+		"civilopediaText": [
+			{
+				"text": "Dense particulates of interstellar dust and gas, make sure your sensors are calibrated correctly."
+			}
+		]
+	}
 ]
