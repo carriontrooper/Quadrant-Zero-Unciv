@@ -1,17 +1,17 @@
 [
 /*
 ideas:
-United Frontiers
+United Frontiers (human)
 (Strong small ships, faster cultural expansion)
 UU: Torpedo Frigate
 UB: UF Embassy
 
-Rextani Empire
+Rextani Empire (reptilian)
 (Strong big ships, enclave bully)
 UU: Rexxar-Class Dreadnought
 UI: Forward Base
 
-Zzathak Swarm
+Zzathak Swarm (insectoid)
 (Strong carriers, pop growth bonus)
 UU: Stinger Fighters
 UU: Hiveship
@@ -21,7 +21,7 @@ Karak-Haan Nomads
 UB: Karwan Bazaar
 UI: Relay Buoy
 
-Slirathine Institute
+Slirathine Institute (reptilian)
 (Receives prototypes of spaceships after researching their prereqs, more science per any specialist)
 UU: Mobile Observatory
 UB: Skunkwork Labs
@@ -31,7 +31,7 @@ Valthari Divine Mandate
 UU: Heavenly Envoy
 UNW: Pilgrimage Nexus
 
-Starwind Roiders
+Starwind Roiders (human)
 (Strong in asteroids, extra production from space habitats)
 UU: Rockhopper
 UI: Asteroid Base
@@ -41,10 +41,25 @@ Tyvergis Corporate Solutions
 UB: Crypto-bank
 UB: Enforcer Precinct
 
-Mekhan Processors
+Mekhan Processors (robotic)
 (Faster ship build speed, science on damage)
 UB: Printer Shipyard
-UU: Coordinator Ship
+UU: Coordinator Unit
+
+Jor Remnants
+(Ships fight as if not wounded, bonuses while golden age)
+UU: Ancient Titan
+UI: Hyperspace Pylon
+
+Werraklan Junta
+(Ships fight harder during a war, bonus strength on star forts)
+UU: Interdictor Cruiser
+UB: Planetary Conscription
+
+Aflorax Roots
+(ships can heal faster near suns, better city defense)
+UI: Skygrove
+UU: Vinehunter
 
 */
 
