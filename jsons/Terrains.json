@@ -6,6 +6,7 @@
 	
 	Features: 
 	Nebula, Asteroid Field, Hyperstorm
+	Antiparticle Storm (Fallout)
 	Gas Giant, Habitable Wet Planet, Habitable Cold Planet, Habitable Dry Planet, Barren Planet, Planetoid, Frozen Planet, Magma Planet, Toxic Planet
 	Blue Star, White Star, Yellow Star, Red Star, Pulsar, Black Hole, Neutron Star, Brown Dwarf Star
 	
@@ -125,6 +126,8 @@
 		],
 		"uniques": [
 			"Rough terrain",
+			//"Vegetation",
+			"Provides a one-time Production bonus to the closest city when cut down",
 			"[+5] Strength for cities built on this terrain",
 			//"Has an elevation of [2] for visibility calculations",
 			"Blocks line-of-sight from tiles at same elevation",
@@ -156,8 +159,8 @@
 		"occursOn": ["Space"],
 		"uniques": [
 			"Rough terrain",
-			"Vegetation",
-			//"Provides a one-time Production bonus to the closest city when cut down",
+			//"Vegetation",
+			"Provides a one-time Production bonus to the closest city when cut down",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
 			"A Region is formed with at least [30]% [Nebula] tiles, with priority [3]",
@@ -165,8 +168,7 @@
 			//"A Region can not contain more [Jungle] tiles than [Forest] tiles",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
-			//"Considered [Food] when determining start locations <in [Forest] Regions>",
-			//"Considered [Food] when determining start locations <in [Tundra] Regions>",
+			"Considered [Production] when determining start locations <in [Nebula] Regions>",
 			"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -183,28 +185,45 @@
 		"movementCost": 2,
 		"overrideStats": true,
 		"unbuildable": true,
-		"defenceBonus": 0.25,
+		"defenceBonus": -0.25,
 		"occursOn": ["Shallow Hyperspace","Hyperspace","Deep Hyperspace"],
 		"uniques": [
 			"Rough terrain",
-			"Vegetation",
-			//"Provides a one-time Production bonus to the closest city when cut down",
 			"Blocks line-of-sight from tiles at same elevation",
-			"[50]% Chance to be destroyed by nukes",
+			//"[50]% Chance to be destroyed by nukes",
 			"Units ending their turn on this terrain take [25] damage",
-			//"A Region is formed with at least [30]% [Nebula] tiles, with priority [3]",
-			//"A Region is formed with at least [35]% [Forest] tiles and [Jungle] tiles, with priority [3]",
-			//"A Region can not contain more [Jungle] tiles than [Forest] tiles",
-			//"Considered [Desirable] when determining start locations",
-			//"Considered [Production] when determining start locations",
-			//"Considered [Food] when determining start locations <in [Forest] Regions>",
-			//"Considered [Food] when determining start locations <in [Tundra] Regions>",
-			//"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
 			{
-				"text": "High concentration of excited hyperspace. Enter carefully."
+				"text": "High concentration of excited hyperspace particles. Do not linger any longer than you have to."
 			}
 		]
-	}
+	},
+	{
+		"name": "Gas Giant",
+		"type": "TerrainFeature",
+		"production": 1,
+		//"food": 1,
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.5,
+		"occursOn": ["Space"],
+		"uniques": [
+			"Rough terrain",
+			//"Vegetation",
+			"Provides a one-time Production bonus to the closest city when cut down",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[50]% Chance to be destroyed by nukes",
+			//"Considered [Desirable] when determining start locations",
+			//"Considered [Production] when determining start locations",
+			//"Considered [Production] when determining start locations <in [Nebula] Regions>",
+			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
+		"civilopediaText": [
+			{
+				"text": "Dense particulates of interstellar dust and gas, make sure your sensors are calibrated correctly."
+			}
+		]
+	},
 ]
