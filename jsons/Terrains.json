@@ -59,7 +59,7 @@
 		"RGB": [90, 100, 125],
 		"uniques": [
 			"Fresh water",
-			"Considered [Food] when determining start locations",
+			//"Considered [Food] when determining start locations",
 			"Considered [Desirable] when determining start locations"
 		],
 		"civilopediaText": [
@@ -159,7 +159,7 @@
 		"occursOn": ["Space"],
 		"uniques": [
 			"Rough terrain",
-			//"Vegetation",
+			"Vegetation",
 			"Provides a one-time Production bonus to the closest city when cut down",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
@@ -199,12 +199,15 @@
 			}
 		]
 	},
+	
+	//Planets
+	//Unhabitable
 	{
 		"name": "Gas Giant",
 		"type": "TerrainFeature",
-		"production": 1,
+		"production": 3,
 		//"food": 1,
-		"movementCost": 2,
+		"movementCost": 4,
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.5,
@@ -212,17 +215,200 @@
 		"uniques": [
 			"Rough terrain",
 			//"Vegetation",
-			"Provides a one-time Production bonus to the closest city when cut down",
+			//"Provides a one-time Production bonus to the closest city when cut down",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
 			//"Considered [Desirable] when determining start locations",
 			//"Considered [Production] when determining start locations",
 			//"Considered [Production] when determining start locations <in [Nebula] Regions>",
-			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
 			{
 				"text": "Dense particulates of interstellar dust and gas, make sure your sensors are calibrated correctly."
+			}
+		]
+	},
+	{
+		"name": "Barren Planet",
+		"type": "TerrainFeature",
+		"production": 3,
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.5,
+		"occursOn": ["Space"],
+		"uniques": [
+			"Planet",
+			"Rough terrain",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[50]% Chance to be destroyed by nukes",
+			//"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
+		"civilopediaText": [
+			{
+				"text": "A dead world, with no atmosphere protecting it."
+			}
+		]
+	},
+	{
+		"name": "Frozen Planet",
+		"type": "TerrainFeature",
+		"production": 3,
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.5,
+		"occursOn": ["Space"],
+		"uniques": [
+			"Planet",
+			"Cold planet",
+			"Rough terrain",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[50]% Chance to be destroyed by nukes",
+			//"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
+		"civilopediaText": [
+			{
+				"text": "A cold world, with temperatures low enough to freeze gases."
+			}
+		]
+	},
+	{
+		"name": "Molten Planet",
+		"type": "TerrainFeature",
+		"production": 3,
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.5,
+		"occursOn": ["Space"],
+		"uniques": [
+			"Planet",
+			"Hot planet",
+			"Rough terrain",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[50]% Chance to be destroyed by nukes",
+			//"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
+		"civilopediaText": [
+			{
+				"text": "A molten world, its unstable tectonic processes produces seas of blazing liquid rock on its surface."
+			}
+		]
+	},
+	{
+		"name": "Toxic Planet",
+		"type": "TerrainFeature",
+		"production": 3,
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.5,
+		"occursOn": ["Space"],
+		"uniques": [
+			"Planet",
+			"Rough terrain",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[50]% Chance to be destroyed by nukes",
+			//"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
+		"civilopediaText": [
+			{
+				"text": "A poisonous world, its dense, suffocating atmosphere a deadly cocktail of chemicals."
+			}
+		]
+	},
+	
+	//Habitable
+	{
+		"name": "Habitable Wet Planet",
+		"type": "TerrainFeature",
+		"production": 3,
+		"food": 5,
+		"science": 1,
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.5,
+		"occursOn": ["Space"],
+		"uniques": [
+			"Planet",
+			"Rough terrain",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[50]% Chance to be destroyed by nukes",
+			"Always Fertility [5] for Map Generation",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
+		"civilopediaText": [
+			{
+				"text": "A world teeming with life, due to its abundant liquid water."
+			}
+		]
+	},
+	{
+		"name": "Habitable Cold Planet",
+		"type": "TerrainFeature",
+		"production": 3,
+		"food": 5,
+		"science": 1,
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.5,
+		"occursOn": ["Space"],
+		"uniques": [
+			"Planet",
+			"Cold planet",
+			"Rough terrain",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[50]% Chance to be destroyed by nukes",
+			"Always Fertility [5] for Map Generation",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
+		"civilopediaText": [
+			{
+				"text": "A world teeming with life, despite its chilly atmosphere."
+			}
+		]
+	},
+	{
+		"name": "Habitable Dry Planet",
+		"type": "TerrainFeature",
+		"production": 3,
+		"food": 5,
+		"science": 1,
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.5,
+		"occursOn": ["Space"],
+		"uniques": [
+			"Planet",
+			"Hot planet",
+			"Rough terrain",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[50]% Chance to be destroyed by nukes",
+			"Always Fertility [5] for Map Generation",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
+		"civilopediaText": [
+			{
+				"text": "A world teeming with life, despite having low amounts of liquid water."
 			}
 		]
 	},
