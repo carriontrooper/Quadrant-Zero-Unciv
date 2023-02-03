@@ -103,6 +103,7 @@
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
+			"Never receives any resources",
 			"Considered [Undesirable] when determining start locations"
 		],
 		"civilopediaText": [
@@ -218,6 +219,8 @@
 			//"Provides a one-time Production bonus to the closest city when cut down",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
+			"[+1 Gold] <within [3] tiles of a [Star]>",
+			"[+1 Gold] <within [2] tiles of a [Star]>",
 			//"Considered [Desirable] when determining start locations",
 			//"Considered [Production] when determining start locations",
 			//"Considered [Production] when determining start locations <in [Nebula] Regions>",
@@ -243,13 +246,14 @@
 			"Rough terrain",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
-			//"Considered [Desirable] when determining start locations",
+			"[+1 Gold] <within [3] tiles of a [Star]>",
+			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Production] when determining start locations",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
 			{
-				"text": "A dead world, with no atmosphere protecting it."
+				"text": "A dead world, with no atmosphere protecting it from the harshness of space."
 			}
 		]
 	},
@@ -268,7 +272,8 @@
 			"Rough terrain",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
-			//"Considered [Desirable] when determining start locations",
+			"[+1 Gold] <within [3] tiles of a [Star]>",
+			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Production] when determining start locations",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
@@ -293,7 +298,8 @@
 			"Rough terrain",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
-			//"Considered [Desirable] when determining start locations",
+			"[+1 Gold] <within [3] tiles of a [Star]>",
+			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Production] when determining start locations",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
@@ -317,13 +323,40 @@
 			"Rough terrain",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
-			//"Considered [Desirable] when determining start locations",
+			"[+1 Gold] <within [3] tiles of a [Star]>",
+			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Production] when determining start locations",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
 			{
 				"text": "A poisonous world, its dense, suffocating atmosphere a deadly cocktail of chemicals."
+			}
+		]
+	},
+	{
+		"name": "Planetoid",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.5,
+		"occursOn": ["Space"],
+		"uniques": [
+			"Planet",
+			"Rough terrain",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[50]% Chance to be destroyed by nukes",
+			"[+1 Gold] <within [3] tiles of a [Star]>",
+			"[+1 Gold] <within [2] tiles of a [Star]>",
+			//"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
+		"civilopediaText": [
+			{
+				"text": "A small ball of rock, with little to no atmosphere."
 			}
 		]
 	},
@@ -346,6 +379,9 @@
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
 			"Always Fertility [5] for Map Generation",
+			"[+3 Food] <within [3] tiles of a [Star]>",
+			"[+1 Gold] <within [3] tiles of a [Star]>",
+			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
 			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
@@ -374,6 +410,9 @@
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
 			"Always Fertility [5] for Map Generation",
+			"[+3 Food] <within [3] tiles of a [Star]>",
+			"[+1 Gold] <within [3] tiles of a [Star]>",
+			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
 			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
@@ -402,6 +441,9 @@
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
 			"Always Fertility [5] for Map Generation",
+			"[+3 Food] <within [3] tiles of a [Star]>",
+			"[+1 Gold] <within [3] tiles of a [Star]>",
+			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
 			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
@@ -412,4 +454,6 @@
 			}
 		]
 	},
+	
+	//Stars
 ]
