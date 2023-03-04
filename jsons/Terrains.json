@@ -11,7 +11,7 @@
 	Blue Star, White Star, Yellow Star, Red Star, Pulsar, Black Hole, Neutron Star, Brown Dwarf Star
 	
 	Wonders:
-	Artificial Star, Dyson Ruins, Spaceborn Carcass, Solar Tree, Hub Ruins, Shimmering Nebula
+	Artificial Star, Dyson Ruins, Spaceborn Carcass, Solar Tree, Hub Ruins, Shimmering Nebula, Junkyard Planet
 	*/
 	
 	//Base
@@ -569,6 +569,7 @@
 		"RGB": [222,222,222],
 		"uniques": [
 			"Rough terrain",
+			"Rare feature",
 			"Has an elevation of [4] for visibility calculations",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
@@ -592,6 +593,7 @@
 		"RGB": [222,222,222],
 		"uniques": [
 			"Rough terrain",
+			"Rare feature",
 			"Has an elevation of [4] for visibility calculations",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
@@ -615,6 +617,7 @@
 		"RGB": [222,222,222],
 		"uniques": [
 			"Rough terrain",
+			"Rare feature",
 			"Has an elevation of [4] for visibility calculations",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
