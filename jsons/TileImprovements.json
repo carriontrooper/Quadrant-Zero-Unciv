@@ -1,3 +1,23 @@
+/*
+rename city center -> colony center
+ruins -> ancient wreck
+roads -> navbuoy network
+railroads -> hyperlane
+mining stations (space or adjacent to asteroids)
+mining outposts (uninhabitable planets)
+agri-stations
+agricultural outposts
+commerce stations
+commerce outposts
+scientific stations
+scientific outposts
+military stations
+military outposts
+defense platforms
+bastion stations
+citadel stations
+*/
+
 [
 	{
 		"name": "City center",
