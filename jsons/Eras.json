@@ -14,14 +14,14 @@
 		"startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
 		"startingSettlerUnit": "Colonizer",
 		"startingWorkerCount": 0,
-		"startingWorkerUnit": "Worker",
+		"startingWorkerUnit": "Worker", //change this
 		"startingMilitaryUnitCount": 1,
-		"startingMilitaryUnit": "Frontier Militia",
+		"startingMilitaryUnit": "Frontier Militia", //change this
 		"settlerPopulation": 1,
 		"baseUnitBuyCost": 200,
 		"embarkDefense": 3,
 		"startPercent": 0,
-		"citySound": "cityLandfall",
+		"citySound": "cityLandfall", // change this too
 		"iconRGB": [255, 87, 35]
 	},
 	{
@@ -54,7 +54,7 @@
 		"startingGold": 25,
 		"startingCulture": 200,
 		"settlerPopulation": 1,
-		"settlerBuildings": ["Memorial", "Monument"],
+		"settlerBuildings": ["Memorial", "Monument"], //change this
 		/*
 		"startingObsoleteWonders": [
 			"Temple of Artemis",
