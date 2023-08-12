@@ -1,3 +1,32 @@
 [
+/*
+	Unit types (meta):
+	Satellites & Probes (can't gain exp)
+	-Recon Probe
+	-Defense Satellite
+	Ships
+	-Spacecraft (equivalent to land units)
+	-Hypercraft (equivalent to water units)
+	-Strikecraft (equivalent to air units)
 
+	Spacecraft types:
+	-Civilian
+	-Resource Ship (ships that generate resources e.g. mining ships, hydroponic ships, science ships etc)
+	-Lineship (melee)
+	-Artillery (ranged)
+	-Stealth
+	-Carrier
+	-Capital
+
+	Hypercraft types:
+	-Interdictor (melee)
+	-Bombardment (ranged)
+	-Phase
+
+	Strikecraft types:
+	-Skirmisher (fighter)
+	-Payload (bomber)
+	-Point Defence
+	-Mecha
+*/
 ]
