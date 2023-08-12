@@ -1,7 +1,37 @@
 [
 	/*
-	Pioneer Space Colonization
+	Initial tech: Pioneer Spacefaring
 
+	==Weapon techs==
+	Beam
+	Projectile
+	Missile
+	Torpedo
+	Phaser
+
+	==Propulsion techs==
+	Advanced Chemical Engines
+	Ion Engines
+	Fission Engines
+	Fusion Engines
+	Antimatter Engines
+	Quantum Engines
+	Hyperdrives
+
+	==Reactor/energy techs==
+	Fission
+	Fusion
+	Antimatter
+	Zero Point
+
+	==Ship size techs==
+	Frigates
+	Destroyers
+	Cruisers
+	Capitals
+	Strikecraft
+
+	==Orbital construction techs==
 	
 	*/
 ]
