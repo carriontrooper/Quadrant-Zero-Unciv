@@ -1,3 +1,10 @@
 [
+	/*
+	Some promotions are more akin to equipment/ship parts, while others are actual promotions e.g. crew specializations and tactics
 
+	Promotion subtypes (naming example in parentheses):
+	Equipment (Equipment - Fission Reactor)
+	Tactics (Tactics - Wolfpack)
+	Training (Training - Medical)
+	*/
 ]
