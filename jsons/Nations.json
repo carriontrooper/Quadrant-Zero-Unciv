@@ -182,6 +182,67 @@ UU: Vinehunter
 		"innerColor": [222, 116, 55],
 	
 	*/
+
+	{
+		"name": "United Frontiers",
+		"leaderName": "Sandra Macintosh",
+		"adjective": ["UFN"],
+		"startBias": ["Space"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"tradeRequest": ".",
+
+		"outerColor": [85, 85, 85],
+		"innerColor": [126, 192, 253],
+		"favoredReligion": "ReligionName",
+		"uniqueName": "Humanity's Frontier",
+		"uniques": ["Uniques Go Here"],
+		"cities": [
+			"Alpha Solis",
+			"Neo Tokyo",
+			"San Segundo",
+			"Gagarin",
+			"Tianlong",
+			"Valhalla-6",
+			"Mashenga's Claim",
+			"Al-Maghreb",
+			"Garuda Port",
+			"Whitestone",
+			"Vasiliev Post",
+			"Grunder Base",
+			"Orion City",
+			"Jangala",
+			"Magellan Landing",
+			"Yeni Istanbul",
+			"Mahalengka",
+			"Neopolania",
+			"Praxis Colony",
+			"Yairmia"
+		],
+		"spyNames": [
+			"Able",
+			"Baker",
+			"Charlie",
+			"Dora",
+			"Emil",
+			"Fredrik",
+			"Gustav",
+			"Hendrik",
+			"Ines",
+			"Josef"
+		]
+	},
 	
 	// Barbarian - rename to Raider
 	{
