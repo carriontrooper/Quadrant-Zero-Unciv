@@ -1,6 +1,8 @@
 [
 /*
 ideas:
+maybe a (slightly) different tech tree per species type?
+
 United Frontiers (human)
 (Strong small ships, faster cultural expansion)
 UU: Torpedo Frigate
@@ -16,17 +18,17 @@ Zzathak Swarm (insectoid)
 UU: Stinger Fighters
 UU: Hiveship
 
-Karak-Haan Nomads
+Karak-Haan Nomads (humanoid)
 (Can enter Hyperspace earlier, boost on Hyperspace tiles)
 UB: Karwan Bazaar
 UI: Relay Buoy
 
-Slirathine Institute (reptilian)
+Slirathine Institute (aquatic)
 (Receives prototypes of spaceships after researching their prereqs, more science per any specialist)
 UU: Mobile Observatory
 UB: Skunkwork Labs
 
-Valthari Divine Mandate
+Valthari Divine Mandate (avian)
 (Faith for kills, extra belief)
 UU: Heavenly Envoy
 UNW: Pilgrimage Nexus
@@ -36,7 +38,7 @@ Starwind Roiders (human)
 UU: Rockhopper
 UI: Asteroid Base
 
-Tyvergis Corporate Solutions
+Tyvergis Corporate Solutions (humanoid)
 (Extra money on luxuries, can buyout enclaves)
 UB: Crypto-bank
 UB: Enforcer Precinct
@@ -46,17 +48,17 @@ Mekhan Processors (robotic)
 UB: Printer Shipyard
 UU: Coordinator Unit
 
-Jor Remnants
+Jor Remnants (mammalian)
 (Ships fight as if not wounded, bonuses while golden age)
 UU: Ancient Titan
 UI: Hyperspace Pylon
 
-Werraklan Junta
+Werraklan Junta (mammalian)
 (Ships fight harder during a war, bonus strength on star forts)
 UU: Interdictor Cruiser
 UB: Planetary Conscription
 
-Aflorax Roots
+Aflorax Roots (plantoid)
 (ships can heal faster near suns, better city defense on habitable planets)
 UI: Skygrove
 UU: Vinehunter
