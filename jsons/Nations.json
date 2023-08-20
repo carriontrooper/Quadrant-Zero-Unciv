@@ -187,7 +187,7 @@ UU: Vinehunter
 
 	{
 		"name": "United Frontiers",
-		"leaderName": "Sandra Macintosh",
+		"leaderName": "President Sandra Macintosh",
 		"adjective": ["UFN"],
 		"startBias": ["Space"],
 		"preferredVictoryType":"Diplomatic",
@@ -207,9 +207,11 @@ UU: Vinehunter
 
 		"outerColor": [85, 85, 85],
 		"innerColor": [126, 192, 253],
-		"favoredReligion": "ReligionName",
+		"favoredReligion": "Pan-Humanism",
 		"uniqueName": "Humanity's Frontier",
-		"uniques": ["Uniques Go Here"],
+		"uniques": [
+			"Uniques Go Here"
+		],
 		"cities": [
 			"Alpha Solis",
 			"Neo Tokyo",
@@ -243,6 +245,69 @@ UU: Vinehunter
 			"Hendrik",
 			"Ines",
 			"Josef"
+		]
+	},
+
+	{
+		"name": "Rextani Empire",
+		"leaderName": "Emperor Toraksh III",
+		"adjective": ["Rextani"],
+		"startBias": ["Space"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"tradeRequest": ".",
+
+		"outerColor": [85, 85, 85],
+		"innerColor": [126, 192, 253],
+		"favoredReligion": "Saurian Doctrine",
+		"uniqueName": "Cold-Blooded Grasp",
+		"uniques": [
+			"Uniques Go Here"
+		],
+		"cities": [
+			"Rextania",
+			"Toraksh's Glory",
+			"Kabax Claw",
+			"Rathak's Wrath",
+			"Garshak Post",
+			"Kacharis",
+			"Raxhaga",
+			"Turgaksh's Folly",
+			"Chardash",
+			"Torakshia",
+			"Sarksh Claw",
+			"Sauris",
+			"Ranchaxis",
+			"Chaxarin",
+			"Gruksh Claw",
+			"Karchax Post",
+			"Radaksh",
+			"Turaxksha",
+			"Saurexia",
+			"Ragashk Claw"
+		],
+		"spyNames": [
+			"Anole",
+			"Basilisk",
+			"Chameleon",
+			"Draco",
+			"Gecko",
+			"Iguana",
+			"Komodo",
+			"Monitor",
+			"Skink",
+			"Tegu"
 		]
 	},
 	
