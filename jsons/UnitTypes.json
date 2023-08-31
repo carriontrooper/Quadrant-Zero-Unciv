@@ -25,8 +25,70 @@
 
 	Strikecraft types:
 	-Skirmisher (fighter)
-	-Payload (bomber)
+	-Bomber
 	-Point Defence
 	-Mecha
 */
+	{
+		"name": "Civilian",
+		"movementType": "Land"
+	},
+	{
+		"name": "Satellite",
+		"movementType": "Land"
+	},
+
+	// Normal space
+	{
+		"name": "Lineship",
+		"movementType": "Land"
+	},
+	{
+		"name": "Artillery Ship",
+		"movementType": "Land"
+	},
+	{
+		"name": "Stealth Ship",
+		"movementType": "Land"
+	},
+	{
+		"name": "Carrier Ship",
+		"movementType": "Land"
+	},
+	{
+		"name": "Capital Ship",
+		"movementType": "Land"
+	},
+	
+	// Hyperspace
+	{
+		"name": "Intersector Ship",
+		"movementType": "Water"
+	},
+	{
+		"name": "Projector Ship",
+		"movementType": "Water"
+	},
+	{
+		"name": "Phase Ship",
+		"movementType": "Water"
+	},
+
+	// Strikecraft
+	{
+		"name": "Skirmisher",
+		"movementType": "Air"
+	},
+	{
+		"name": "Bomber",
+		"movementType": "Air"
+	},
+	{
+		"name": "Screener",
+		"movementType": "Air"
+	},
+	{
+		"name": "Mecha",
+		"movementType": "Air"
+	},
 ]
