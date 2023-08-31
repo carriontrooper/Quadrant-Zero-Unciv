@@ -1,3 +1,58 @@
 [
-	
+	////////////////////
+	// Player units
+	////////////////////
+
+	// Civvies
+	{
+		"name": "Colonizer",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": [
+			"Founds a new city <by consuming this unit>",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		],
+		"hurryCostModifier": 20,
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Colonizer",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "Unarmed civilian spaceship that contains all the necessary equipment - and population - to establish a starting colony."
+			}
+		]
+	},
+	{
+		"name": "Worker", //rename to Constructor in localization
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Can build [Land] improvements on tiles",
+			"May create improvements on water resources <for [2] movement>", // Don't change this
+			"Can build [Water] improvements on tiles"
+		],
+		"cost": 70,
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Worker",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "Versatile, easy-to-use contruction ship with myriad uses - except being useful in combat. Use these to build your improvements."
+			}
+		]
+	}
 ]
