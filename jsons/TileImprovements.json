@@ -21,7 +21,7 @@ citadel stations
 [
 	{
 		"name": "City center",
-		"terrainsCanBeBuiltOn": ["Planet"],
+		"terrainsCanBeBuiltOn": ["Planet","Space","Asteroid Field","Nebula"],
 		"uniques": [
 			"Unpillagable",
 			"Irremovable",
