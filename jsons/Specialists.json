@@ -1,3 +1,38 @@
 [
-
+	{
+		"name": "Scientist",
+		"science": 2,
+		"greatPersonPoints": { "Great Scientist": 3 },
+		"color": [44, 232, 245]
+	},
+	{
+		"name": "Merchant",
+		"gold": 2,
+		"greatPersonPoints": { "Great Merchant": 3 },
+		"color": [255, 234, 0]
+	},
+	{
+		"name": "Agrotech",
+		"food": 2,
+		"greatPersonPoints": { "Great Agrotech": 3 },
+		"color": [129, 222, 0]
+	},
+	{
+		"name": "Influencer",
+		"culture": 2,
+		"greatPersonPoints": { "Great Influencer": 3 },
+		"color": [239, 61, 255]
+	},
+	{
+		"name": "Ideologue",
+		"faith": 2,
+		"greatPersonPoints": { "Great Visionary": 3 },
+		"color": [255, 239, 199]
+	},
+	{
+		"name": "Engineer",
+		"production": 2,
+		"greatPersonPoints": { "Great Engineer": 3 },
+		"color": [247, 118, 34]
+	}
 ]
