@@ -28,7 +28,7 @@ citadel stations
 			"Unbuildable"
 		],
         "civilopediaText": [
-			{"text":"Marks the center of a city"},
+			{"text":"Marks a colony of the civilization"},
 			{"text":"Appearance changes with the technological era of the owning civilization"}
 		]
 	}
