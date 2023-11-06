@@ -37,6 +37,10 @@
 		"name": "Satellite",
 		"movementType": "Land"
 	},
+	{
+		"name": "Probe",
+		"movementType": "Land"
+	},
 
 	// Normal space
 	{
