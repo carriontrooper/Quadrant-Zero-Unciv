@@ -31,7 +31,7 @@
 		]
 	},
 	{
-		"name": "Worker", //rename to Constructor in localization
+		"name": "Constructor", //rename to Constructor in localization
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": [
