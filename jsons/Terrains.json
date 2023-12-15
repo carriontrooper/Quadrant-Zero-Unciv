@@ -80,13 +80,14 @@
 			"A Region is formed with at least [30]% [Space] tiles, with priority [7]",
 			//"Considered [Desirable] when determining start locations",
 			//"Considered [Food] when determining start locations <in [Jungle] Regions>",
-			//"Becomes [Mycelium] when adjacent to [Uttershroom]",
-			//"Becomes [Desert] when adjacent to [Megaxenoform Graveyard]",
+			"Becomes [Gravity Well] when adjacent to [Star]",
+			"Becomes [Gravity Well] when adjacent to [Planet]",
+			"Becomes [Gravity Well] when adjacent to [Gas Giant]",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
 			{
-				"text": "These fertile lands are already colonized by small, hardy vegetation that is the foundation of the local ecosystem."
+				"text": "Space, the final frontier."
 			}
 		]
 	},
@@ -99,6 +100,7 @@
 		"RGB": [222,222,222],
 		"uniques": [
 			"Rough terrain",
+			"Neighboring tiles except [Space] will convert to [Space]"
 			"Has an elevation of [4] for visibility calculations",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
@@ -113,6 +115,29 @@
 			}
 		]
 	},
+	
+	{
+		"name": "Gravity Well",
+		"type": "Land",
+		//"food": 2,
+		"movementCost": 1,
+		"RGB": [70,70,70],
+		"uniques": [
+			"Space",
+			"[+3] to Fertility for Map Generation",
+			//"Considered [Desirable] when determining start locations",
+			//"Considered [Food] when determining start locations <in [Jungle] Regions>",
+			//"Becomes [Mycelium] when adjacent to [Uttershroom]",
+			//"Becomes [Desert] when adjacent to [Megaxenoform Graveyard]",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
+		"civilopediaText": [
+			{
+				"text": "A region of space that is close enough to a stellar object to be subject to their gravity."
+			}
+		]
+	},
+	
 	
 	//Feature
 	{
