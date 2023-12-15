@@ -25,7 +25,7 @@ citadel stations
 		"turnsToBuild": 4,
 		"terrainsCanBeBuiltOn": ["Asteroid Field"],
 		"techRequired": "Placeholder",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X",
 		"civilopediaText": [
 			{
@@ -38,7 +38,7 @@ citadel stations
 		"turnsToBuild": 2,
 		"terrainsCanBeBuiltOn": ["Fallout"],
 		// Has no tile improvements as it can always be built
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
 	
@@ -46,16 +46,16 @@ citadel stations
 	{
 		"name": "Remove Road", //rename to Navbuoy Network in translations
 		"turnsToBuild": 2,
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
 	},
 	{
 		"name": "Remove Railroad", //rename to Hyperlane in translations
 		"turnsToBuild": 2,
-		"uniques": ["Can be built outside your borders"]
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
 	},
 	{
 		"name": "Cancel improvement order",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "."
 	},
 	
@@ -64,10 +64,11 @@ citadel stations
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 2,
 		"shortcutKey": "E",
-		"uniques": ["Unbuildable"],
+		"uniques": ["Unbuildable", "Excluded from map editor"],
 		"civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
     	},
-	
+
+	//Misc essentials
 	{
 		//"name": "Ancient ruins",
 		"name": "Ancient wreck",
