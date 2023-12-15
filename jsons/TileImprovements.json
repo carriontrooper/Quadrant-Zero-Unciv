@@ -19,8 +19,94 @@ citadel stations
 */
 
 [
+	// Removals
 	{
-		"name": "City center",
+		"name": "Remove Asteroid Field",
+		"turnsToBuild": 4,
+		"terrainsCanBeBuiltOn": ["Asteroid Field"],
+		"techRequired": "Placeholder",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X",
+		"civilopediaText": [
+			{
+				"text": "Provides a one-time Production bonus depending on distance to the closest city once finished"
+			}
+		]
+	},
+	{
+		"name": "Remove Fallout",
+		"turnsToBuild": 2,
+		"terrainsCanBeBuiltOn": ["Fallout"],
+		// Has no tile improvements as it can always be built
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+	
+	// These are unique and have unique in-game checks related to them
+	{
+		"name": "Remove Road", //rename to Navbuoy Network in translations
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Railroad", //rename to Hyperlane in translations
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "."
+	},
+	
+	{
+		"name": "Repair",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 2,
+		"shortcutKey": "E",
+		"uniques": ["Unbuildable"],
+		"civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]
+    	},
+	
+	{
+		//"name": "Ancient ruins",
+		"name": "Ancient wreck",
+		"terrainsCanBeBuiltOn": ["Land","Water"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered","Unbuildable"],
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Crash site",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "The mostly-intact remains of an earlier spacefarer. Who knows how long has it wandered between the stars?"
+			}
+		]
+	},
+	{
+		"name": "City ruins", //rename city ruins -> colony ruins
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable","Unbuildable","Will be replaced by automated workers"],
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/City ruins",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{ "text": "A bleak reminder of the cost of waging war" }
+		]
+	},
+	{
+		"name": "City center", //rename city center -> colony center
 		"terrainsCanBeBuiltOn": ["Planet","Space","Asteroid Field","Nebula"],
 		"uniques": [
 			"Unpillagable",
@@ -30,6 +116,25 @@ citadel stations
         "civilopediaText": [
 			{"text":"Marks a colony of the civilization"},
 			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
+	{
+		"name": "Barbarian encampment", //rename Barbarian encampment -> raider base
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable","Unbuildable"],
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Barbarian encampment",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "Home to savage Xenos, will spawn a hostile xeno from time to time"
+			}
 		]
 	}
 ]
