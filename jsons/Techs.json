@@ -12,10 +12,10 @@
 	Singularity Era
 
 	==Weapon techs==
-	Beam
-	Projectile
-	Missile
-	Torpedo
+	Beam (Laser, Polarized, Graviton)
+	Projectile (Standard, Hypervelocity, Shrapnel, Particle, Plasma)
+	Missile (Standard, Swarm, Cruise, Plasma)
+	Torpedo (Nuclear, Plasma, Proton, Antimatter, Graviton)
 	Phaser
 
 	==Propulsion techs==
@@ -26,12 +26,22 @@
 	Antimatter Engines
 	Quantum Engines
 	Hyperdrives
+	Hyperspace Projector
 
 	==Reactor/energy techs==
 	Fission
 	Fusion
+	Ulframite
 	Antimatter
 	Zero Point
+
+	==Computing techs==
+	ECM
+	ECCM
+
+	==Armor techs==
+
+	==Shield techs==
 
 	==Ship size techs==
 	Frigates
@@ -41,13 +51,101 @@
 	Strikecraft
 
 	==Orbital construction techs==
+	Simple Orbital Habitats
+
+	==Planetary techs==
 	
 	*/
 
 	//Starting tech
-
+	{
+		"columnNumber": 0,
+		"era": "Nascency era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 180,
+		"techs": [
+			{
+				"name": "Pioneer Spacefaring",
+				"row": 8,
+				"quote": "'.' - ",
+				"uniques": ["Starting tech"],
+				"civilopediaText": [
+					{
+						"text": ""
+					}
+				]
+			}
+			//add alternative starts here
+			/*
+			organic tech
+			crystalline tech
+			psionic tech
+			*/
+		]
+	},
+	
 	//Nascency Era
-
+	{
+		"columnNumber": 1,
+		"era": "Landfall era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 180,
+		"techs": [
+			{
+				"name": "Xenobiology",
+				"row": 3,
+				"quote": "'.' - ",
+				"prerequisites": ["Pioneer Spacefaring"]
+			},
+			{
+				"name": "Xenogeology",
+				"row": 5,
+				"quote": "'.' - ",
+				"prerequisites": ["Pioneer Spacefaring"]
+			},
+			{
+				"name": "Habitation",
+				"row": 7,
+				"quote": "'.' - ",
+				"prerequisites": ["Pioneer Spacefaring"]
+			},
+			{
+				"name": "Electronic Computing",
+				"row": 8,
+				"quote": "'.' - ",
+				"prerequisites": ["Pioneer Spacefaring"],
+				//"uniques": ["Enables conversion of city production to [Science]"]
+			},
+			{
+				"name": "Fission",
+				"row": 10,
+				"quote": "'.' - ",
+				"prerequisites": ["Pioneer Spacefaring"]
+			},
+			{
+				"name": "3D Printing",
+				"row": 11,
+				"quote": "'.' - ",
+				"prerequisites": ["Pioneer Spacefaring"],
+				//"uniques": ["Roads connect tiles across rivers"]
+			},
+			{
+				"name": "Metallurgy",
+				"row": 12,
+				"quote": "'.' - ",
+				"prerequisites": ["Pioneer Spacefaring"]
+			},
+			{
+				"name": "Ballistics",
+				"row": 14,
+				"quote": "'.' - ",
+				"prerequisites": ["Pioneer Spacefaring"]
+			}
+		]
+	},
+	
 	//Exploration Era
 
 	//Fusion Era
