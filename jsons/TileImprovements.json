@@ -21,7 +21,7 @@ citadel stations
 [
 	// Removals
 	{
-		"name": "Remove Asteroid Field",
+		"name": "Remove Asteroid Field", //rename to Harvest Asteroid Field
 		"turnsToBuild": 4,
 		"terrainsCanBeBuiltOn": ["Asteroid Field"],
 		"techRequired": "Placeholder",
