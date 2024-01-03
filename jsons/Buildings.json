@@ -1,5 +1,10 @@
 [
 	/*
-	planetary buildings
+	colony buildings
+	
+	different things for different colony terrains:
+	habitat/station stuff if built on space
+	asteroid base stuff if built on asteroids
+	planetary stuff if built on planets
 	*/
 ]
