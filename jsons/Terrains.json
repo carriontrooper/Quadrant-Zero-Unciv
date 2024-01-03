@@ -80,7 +80,8 @@
 			"A Region is formed with at least [30]% [Space] tiles, with priority [7]",
 			//"Considered [Desirable] when determining start locations",
 			//"Considered [Food] when determining start locations <in [Jungle] Regions>",
-			"Becomes [Gravity Well] when adjacent to [Star]",
+			"Becomes [Star Gravity Well] when adjacent to [Star]",
+			"Becomes [Gravity Well] when adjacent to [Star Gravity Well]",
 			"Becomes [Gravity Well] when adjacent to [Planet]",
 			"Becomes [Gravity Well] when adjacent to [Gas Giant]",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
@@ -100,7 +101,7 @@
 		"RGB": [222,222,222],
 		"uniques": [
 			"Rough terrain",
-			"Neighboring tiles except [Space] will convert to [Space]"
+			"Neighboring tiles except [Space] will convert to [Star Gravity Well]",
 			"Has an elevation of [4] for visibility calculations",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
@@ -124,6 +125,28 @@
 		"RGB": [70,70,70],
 		"uniques": [
 			"Space",
+			"[+3] to Fertility for Map Generation",
+			//"Considered [Desirable] when determining start locations",
+			//"Considered [Food] when determining start locations <in [Jungle] Regions>",
+			//"Becomes [Mycelium] when adjacent to [Uttershroom]",
+			//"Becomes [Desert] when adjacent to [Megaxenoform Graveyard]",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
+		"civilopediaText": [
+			{
+				"text": "A region of space that is close enough to a stellar object to be subject to their gravity."
+			}
+		]
+	},
+	{
+		"name": "Star Gravity Well",
+		"type": "Land",
+		//"food": 2,
+		"movementCost": 1,
+		"RGB": [70,70,70],
+		"uniques": [
+			"Space",
+			"Gravity Well",
 			"[+3] to Fertility for Map Generation",
 			//"Considered [Desirable] when determining start locations",
 			//"Considered [Food] when determining start locations <in [Jungle] Regions>",
@@ -285,7 +308,7 @@
 		"unbuildable": true,
 		"defenceBonus": 0.5,
 		"RGB": [255, 194, 120],
-		"occursOn": ["Space"],
+		"occursOn": ["Gravity Well"],
 		"uniques": [
 			"Rough terrain",
 			//"Vegetation",
@@ -314,7 +337,7 @@
 		"unbuildable": true,
 		"defenceBonus": 0.5,
 		"RGB": [158, 128, 77],
-		"occursOn": ["Space"],
+		"occursOn": ["Gravity Well"],
 		"uniques": [
 			"Planet",
 			"Hazardous planet",
@@ -341,7 +364,7 @@
 		"unbuildable": true,
 		"defenceBonus": 0.5,
 		"RGB": [93, 134, 148],
-		"occursOn": ["Space"],
+		"occursOn": ["Gravity Well"],
 		"uniques": [
 			"Planet",
 			"Hazardous planet",
@@ -352,6 +375,7 @@
 			"[+1 Gold] <within [3] tiles of a [Star]>",
 			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Production] when determining start locations",
+			"Becomes [Molten Planet] when adjacent to [Star]",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -369,7 +393,7 @@
 		"unbuildable": true,
 		"defenceBonus": 0.5,
 		"RGB": [145, 101, 93],
-		"occursOn": ["Space"],
+		"occursOn": ["Gravity Well"],
 		"uniques": [
 			"Planet",
 			"Hazardous planet",
@@ -397,7 +421,7 @@
 		"unbuildable": true,
 		"defenceBonus": 0.5,
 		"RGB": [130, 145, 93],
-		"occursOn": ["Space"],
+		"occursOn": ["Gravity Well"],
 		"uniques": [
 			"Planet",
 			"Hazardous planet",
@@ -455,7 +479,7 @@
 		"unbuildable": true,
 		"defenceBonus": 0.5,
 		"RGB": [61, 168, 54],
-		"occursOn": ["Space"],
+		"occursOn": ["Gravity Well"],
 		"uniques": [
 			"Planet",
 			"Habitable planet",
@@ -487,7 +511,7 @@
 		"unbuildable": true,
 		"defenceBonus": 0.5,
 		"RGB": [96, 196, 166],
-		"occursOn": ["Space"],
+		"occursOn": ["Gravity Well"],
 		"uniques": [
 			"Planet",
 			"Habitable planet",
@@ -501,6 +525,7 @@
 			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
+			"Becomes [Habitable Dry Planet] when adjacent to [Star]",
 			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -520,7 +545,7 @@
 		"unbuildable": true,
 		"defenceBonus": 0.5,
 		"RGB": [194, 174, 85],
-		"occursOn": ["Space"],
+		"occursOn": ["Gravity Well"],
 		"uniques": [
 			"Planet",
 			"Habitable planet",
