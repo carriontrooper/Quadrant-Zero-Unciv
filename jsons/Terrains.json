@@ -11,7 +11,7 @@
 	Blue Star, White Star, Yellow Star, Red Star, Pulsar, Black Hole, Neutron Star, Brown Dwarf Star
 	
 	Wonders:
-	Artificial Star, Dyson Ruins, Spaceborn Carcass, Solar Tree, Hub Ruins, Shimmering Nebula, Junkyard Planet
+	Artificial Star, Dyson Ruins, Spaceborn Carcass, Solar Tree, Hub Ruins, Shimmering Nebula, Junkyard Planet, Subspace Anomaly
 	*/
 	
 	//Base
@@ -101,13 +101,14 @@
 		"RGB": [222,222,222],
 		"uniques": [
 			"Rough terrain",
-			"Neighboring tiles except [Space] will convert to [Star Gravity Well]",
+			"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
 			"Has an elevation of [4] for visibility calculations",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
 			"Never receives any resources",
 			"Tile provides yield without assigned population",
+			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
 			"Considered [Undesirable] when determining start locations"
 		],
 		"civilopediaText": [
@@ -320,6 +321,7 @@
 			//"Considered [Desirable] when determining start locations",
 			//"Considered [Production] when determining start locations",
 			//"Considered [Production] when determining start locations <in [Nebula] Regions>",
+			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -347,6 +349,7 @@
 			"[+1 Gold] <within [3] tiles of a [Star]>",
 			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Production] when determining start locations",
+			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -376,6 +379,7 @@
 			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Production] when determining start locations",
 			"Becomes [Molten Planet] when adjacent to [Star]",
+			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -404,6 +408,7 @@
 			"[+1 Gold] <within [3] tiles of a [Star]>",
 			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Production] when determining start locations",
+			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -431,6 +436,7 @@
 			"[+1 Gold] <within [3] tiles of a [Star]>",
 			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Production] when determining start locations",
+			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -458,6 +464,7 @@
 			"[+1 Gold] <within [2] tiles of a [Star]>",
 			//"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
+			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -492,6 +499,7 @@
 			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
+			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
 			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -526,6 +534,7 @@
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
 			"Becomes [Habitable Dry Planet] when adjacent to [Star]",
+			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
 			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -559,6 +568,7 @@
 			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
+			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
 			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -703,7 +713,7 @@
 			"Rare feature",
 			"Has an elevation of [4] for visibility calculations",
 			//"Occurs in chains at high elevations",
-			"Units ending their turn on this terrain take [50] damage",
+			"Units ending their turn on this terrain take [100] damage",
 			"Always Fertility [-2] for Map Generation",
 			"Never receives any resources",
 			"Tile provides yield without assigned population",
@@ -752,7 +762,7 @@
 			"Rough terrain",
 			"Has an elevation of [4] for visibility calculations",
 			//"Occurs in chains at high elevations",
-			"Units ending their turn on this terrain take [50] damage",
+			//"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
 			"Never receives any resources",
 			"Tile provides yield without assigned population",
@@ -763,5 +773,6 @@
 				"text": "Not-so-hot ball of atomic fusion."
 			}
 		]
-	},
+	}
+	// Wonders
 ]
