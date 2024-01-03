@@ -286,7 +286,7 @@
     },
 
 	{
-		"name": "Fallout",
+		"name": "Fallout", //rename to Antiparticle Storm
 		"type": "TerrainFeature",
 		"movementCost": 2,
 		"unbuildable": true,
@@ -294,7 +294,12 @@
 		// For map editor only - the generator won't place it without code or enabling uniques
 		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
 		"occursOn": ["Space","Nebula","Asteroid Field","Planet"],
-		"defenceBonus": -0.15
+		"defenceBonus": -0.15,
+		"civilopediaText": [
+			{
+				"text": "An area contaminated with excited anti-particles, which disrupts ship systems immensely."
+			}
+		]
 	},
 	
 	//Planets
