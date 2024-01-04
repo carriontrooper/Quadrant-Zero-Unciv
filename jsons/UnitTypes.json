@@ -53,7 +53,10 @@
 	},
 	{
 		"name": "Stealth Ship",
-		"movementType": "Land"
+		"movementType": "Land",
+		"uniques": [
+			"Invisible to non-adjacent units"
+		]
 	},
 	{
 		"name": "Carrier Ship",
@@ -75,24 +78,37 @@
 	},
 	{
 		"name": "Phase Ship",
-		"movementType": "Water"
+		"movementType": "Water",
+		"uniques": [
+			"Invisible to non-adjacent units"
+		]
 	},
 
 	// Strikecraft
 	{
 		"name": "Skirmisher",
-		"movementType": "Air"
+		"movementType": "Air",
+		"uniques": ["Strikecraft", "[+3] Sight", "Can perform Air Sweep", "Cannot intercept [Missile] units"]
 	},
 	{
 		"name": "Bomber",
-		"movementType": "Air"
+		"movementType": "Air",
+		"uniques": ["Strikecraft", "[+3] Sight"]
 	},
 	{
 		"name": "Screener",
-		"movementType": "Air"
+		"movementType": "Air",
+		"uniques": ["Strikecraft", "[+3] Sight", "Can perform Air Sweep"]
 	},
 	{
 		"name": "Mecha",
-		"movementType": "Air"
+		"movementType": "Air",
+		"uniques": ["Strikecraft", "[+4] Sight", "Can perform Air Sweep"]
+	},
+	
+	{
+		"name": "Missile",
+		"movementType": "Air",
+		"uniques": ["Self-destructs when attacking", "Ranged attacks may be performed over obstacles"]
 	},
 ]
