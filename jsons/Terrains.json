@@ -593,6 +593,7 @@
 		"RGB": [222,222,252],
 		"occursOn": ["Star"],
 		"uniques": [
+			"Common Star",
 			"Rough terrain",
 			"Has an elevation of [4] for visibility calculations",
 			//"Occurs in chains at high elevations",
@@ -617,6 +618,7 @@
 		"RGB": [222,222,222],
 		"occursOn": ["Star"],
 		"uniques": [
+			"Common Star",
 			"Rough terrain",
 			"Has an elevation of [4] for visibility calculations",
 			//"Occurs in chains at high elevations",
@@ -641,6 +643,7 @@
 		"RGB": [252,252,222],
 		"occursOn": ["Star"],
 		"uniques": [
+			"Common Star",
 			"Rough terrain",
 			"Has an elevation of [4] for visibility calculations",
 			//"Occurs in chains at high elevations",
@@ -665,6 +668,7 @@
 		"RGB": [252,222,222],
 		"occursOn": ["Star"],
 		"uniques": [
+			"Common Star",
 			"Rough terrain",
 			"Has an elevation of [4] for visibility calculations",
 			//"Occurs in chains at high elevations",
@@ -689,6 +693,7 @@
 		"RGB": [232,222,232],
 		"occursOn": ["Star"],
 		"uniques": [
+			"Uncommon Star",
 			"Rough terrain",
 			"Rare feature",
 			"Has an elevation of [4] for visibility calculations",
@@ -714,6 +719,7 @@
 		"RGB": [0,0,0],
 		"occursOn": ["Star"],
 		"uniques": [
+			"Uncommon Star",
 			"Rough terrain",
 			"Rare feature",
 			"Has an elevation of [4] for visibility calculations",
@@ -739,6 +745,7 @@
 		"RGB": [222,222,232],
 		"occursOn": ["Star"],
 		"uniques": [
+			"Uncommon Star",
 			"Rough terrain",
 			"Rare feature",
 			"Has an elevation of [4] for visibility calculations",
