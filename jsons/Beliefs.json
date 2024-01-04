@@ -1,5 +1,51 @@
 [
 	//PANTHEON
+	{
+		"name": "Solar Worship",
+		"type": "Pantheon",
+		"uniques": [
+			"[+3 Faith] from [Common Star] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Black Hole Worship",
+		"type": "Pantheon",
+		"uniques": [
+			"[+3 Faith] from [Black Hole] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Nebula Mysticism",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from [Nebula] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Roiders' Superstitions",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from [Asteroid] tiles [in this city]"
+		]
+	},
+
+	{
+		"name": "Solar Power",
+		"type": "Pantheon",
+		"uniques": [
+			"[+3 Gold] from [Common Star] tiles [in this city]"
+		]
+	},
+
+	{
+		"name": "Solar Study",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Science] from [Common Star] tiles [in this city]",
+			"[+2 Science] from [Brown Dwarf Star] tiles [in this city]",
+			"[+5 Science] from [Uncommon Star] tiles [in this city]"
+		]
+	},
 
 	//FOUNDER
 
