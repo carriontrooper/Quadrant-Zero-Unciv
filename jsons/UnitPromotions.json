@@ -15,4 +15,24 @@
 		"row": 0,
 		"column": 0
 	},
+
+	// Training *****
+	// General
+	{
+		"name": "Drill I",
+		"uniques": [
+			//""
+		],
+		"unitTypes": ["Lineship","Artillery Ship","Stealth Ship","Carrier Ship","Capital Ship","Intersector Ship","Projector Ship","Phase Ship","Skirmisher","Bomber","Screener","Mecha"],
+		"row": 1,
+		"column": 0
+	},
+
+	// Tactics *****
+	// General
+
+	// Outfit *****
+	// General
+
+	// Unique
 ]
