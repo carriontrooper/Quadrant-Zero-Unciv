@@ -6,5 +6,8 @@
 	habitat/station stuff if built on space
 	asteroid base stuff if built on asteroids
 	planetary stuff if built on planets
+
+	'buildings' that indicate terrain of a colony it's built in - which could be affected by uniques
+	e.g. asteroid colony could have more defensive strength, etc
 	*/
 ]
