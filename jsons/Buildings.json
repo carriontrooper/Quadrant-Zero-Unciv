@@ -9,5 +9,7 @@
 
 	'buildings' that indicate terrain of a colony it's built in - which could be affected by uniques
 	e.g. asteroid colony could have more defensive strength, etc
+	using "Automatically built in all cities where it is buildable" for the building
+	idea: could even check for different terrains in a city's territory with this
 	*/
 ]
