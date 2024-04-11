@@ -23,6 +23,7 @@
 		"movementCost": 1,
 		"RGB": [60, 70, 80],
 		"uniques": [
+			"Hyperspace Tile"
 			//"Becomes [Coast] when adjacent to [Harborship Wreck]",
 			//"Becomes [Coast] when adjacent to [Great Neuroreef]"
 		],
@@ -41,6 +42,7 @@
 		"movementCost": 1,
 		"RGB": [75, 90, 100],
 		"uniques": [
+			"Hyperspace Tile"
 			//"[+2] to Fertility for Map Generation",
 			"Considered [Desirable] when determining start locations <on water maps>",
 			//"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."
@@ -58,7 +60,8 @@
 		//"gold": 1, //get money after getting tech to siphon hyperspace particles
 		"RGB": [90, 100, 125],
 		"uniques": [
-			"Fresh water",
+			"Hyperspace Tile"
+			//"Fresh water",
 			//"Considered [Food] when determining start locations",
 			"Considered [Desirable] when determining start locations"
 		],
@@ -127,6 +130,7 @@
 		"uniques": [
 			"Space",
 			"[+3] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Gravity Well] tiles, with priority [7]",
 			//"Considered [Desirable] when determining start locations",
 			//"Considered [Food] when determining start locations <in [Jungle] Regions>",
 			//"Becomes [Mycelium] when adjacent to [Uttershroom]",
@@ -241,6 +245,7 @@
 		"RGB": [72, 181, 189],
 		"occursOn": ["Shallow Hyperspace","Hyperspace","Deep Hyperspace"],
 		"uniques": [
+			"Hyperspace Tile"
 			"Rough terrain",
 			"Blocks line-of-sight from tiles at same elevation",
 			//"[50]% Chance to be destroyed by nukes",
@@ -263,6 +268,7 @@
         "gold": 1,
         "movementCost": 0,  // So Civilopedia won't display a cost of 1
         "uniques": [
+		//"Hyperspace Tile"
 		"Doesn't generate naturally",
 		"Excluded from map editor"
 	],
@@ -290,14 +296,17 @@
 		"type": "TerrainFeature",
 		"movementCost": 2,
 		"unbuildable": true,
-		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally"],
+		"uniques": [
+			"Nullifies all other stats this tile provides",
+			"Units ending their turn on this terrain take [25] damage",
+			"Doesn't generate naturally"],
 		// For map editor only - the generator won't place it without code or enabling uniques
 		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
 		"occursOn": ["Space","Nebula","Asteroid Field","Planet"],
 		"defenceBonus": -0.15,
 		"civilopediaText": [
 			{
-				"text": "An area contaminated with excited anti-particles, which disrupts ship systems immensely."
+				"text": "An area contaminated with excited anti-particles, which disrupts ship systems immensely. Will damage ships over time."
 			}
 		]
 	},
@@ -723,6 +732,7 @@
 			"Rough terrain",
 			"Rare feature",
 			"Has an elevation of [4] for visibility calculations",
+			"Neighboring tiles except [Star Gravity Well] will convert to [Star Gravity Well]",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [100] damage",
 			"Always Fertility [-2] for Map Generation",
