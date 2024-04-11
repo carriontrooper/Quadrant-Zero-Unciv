@@ -12,4 +12,24 @@
 	using "Automatically built in all cities where it is buildable" for the building
 	idea: could even check for different terrains in a city's territory with this
 	*/
+	{
+		"name": "Colony Capital",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": [
+			//"Provides [1] [Digital Storage Space]",
+			//"Provides [1] [Digital Storage Space] <after discovering [Info Networks]>",
+			"Indicates the capital city"
+		],
+		"civilopediaText": [
+			{
+				"text": "The beating heart of your space empire."
+			}
+		]
+	}
 ]
