@@ -17,11 +17,13 @@
 	},
 
 	// Training *****
-	// General
+	// Basically what is the crew trained for
+	// ÷ General
 	{
 		"name": "Drill I",
 		"uniques": [
-			//""
+			"Training",
+			"[+10]% Strength <when fighting in [Rough terrain] tiles>"
 		],
 		"unitTypes": ["Lineship","Artillery Ship","Stealth Ship","Carrier Ship","Capital Ship","Intersector Ship","Projector Ship","Phase Ship","Skirmisher","Bomber","Screener","Mecha"],
 		"row": 1,
@@ -29,10 +31,41 @@
 	},
 
 	// Tactics *****
-	// General
+	// ÷ General
 
 	// Outfit *****
-	// General
+	// ÷ General
+	// ## Protection: Armor, Shields, Point Defense
+	// All raise str while def, but with additional bonus or malus if the enemy has certain types of offensive promotions
+	// Shields are good vs energy, weak to missile and melee
+	// Armor is good vs ballistics, weak to energy
+	// Point Defense is good vs missile and does extra damage to strikecraft, weak to energy and ballistics
+	
+	// # Armor
+	// # Shields
+	// # Point Defense
+	
+	// ## Offensive: Weapons and such
+	// Ballistic is straightforward
+	// Energy has crit chances
+	// Missile has no defending terrain penalty
+	
+	// # Ballistic
+	// # Energy
+	// # Missile
+	
+	// ## Propulsion: Engines, thrusters and such
+	// Engines = movement
+	// Thrusters = chance to dodge, ignore zone
+	
+	// ## Reactors: power source, some types of equipment promos need these (basically unlocker promotions)
+	
+	// ## Others: Misc equipments
+	/*
+	stuff like:
+	Sensors (long-range, stealth detecting, +sight, etc)
+	Salvager stuff (gain stuff when defeating/hitting units etc)
+	*/
 
-	// Unique
+	// ÷ Unique
 ]
