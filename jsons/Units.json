@@ -1,4 +1,12 @@
 [
+	/*
+	Non-strikecraft ship sizes, smaller to bigger:
+	Frigate/Corvette
+	Destroyer
+	Cruiser
+	Capital
+	*/
+	
 	////////////////////
 	// Player units
 	////////////////////
@@ -55,4 +63,16 @@
 			}
 		]
 	}
+
+	// Resource civvies
+
+	// Religious
+
+	// Great People
+	
+	// Military
+
+	////////////////////
+	// Unique units
+	////////////////////
 ]
