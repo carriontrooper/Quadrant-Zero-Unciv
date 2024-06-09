@@ -167,7 +167,7 @@
 		"aiUnitMaintenanceModifier": 0.75,
 		"aiUnitSupplyModifier": 0.3,
 		"aiFreeTechs": ["Xenobiology", "Habitation"],
-		"aiMajorCivBonusStartingUnits": ["Era Starting Unit", "Rover Explorer"],
+		"aiMajorCivBonusStartingUnits": ["Era Starting Unit"], //add explorer unit
 		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 0.85,
 		"aisExchangeTechs": true,
@@ -233,7 +233,7 @@
 			"Xenobiology",
 			"Habitation",
 			"Xenogeology",
-			"Engineering"
+			//"Engineering"
 		],
 		"aiMajorCivBonusStartingUnits": [
 			"Colonizer",
