@@ -2,7 +2,7 @@
 	/*
 	Terrains:
 	Base: 
-	Space (Land), Star (Mountain), Shallow Hyperspace (Lake), Hyperspace (Coast), Deep Hyperspace (Ocean), Hyperstream (River, rename+retex only)
+	Space (Land), Star (Mountain), Shallow Hyperspace (Lake), Near Hyperspace (Coast), Deep Hyperspace (Ocean), Hyperstream (River, rename+retex only)
 	
 	Features: 
 	Nebula, Asteroid Field, Hyperstorm
@@ -35,7 +35,7 @@
 		]
 	},
 	{
-		"name": "Coast", //rename to Hyperspace
+		"name": "Coast", //rename to Near Hyperspace
 		"type": "Water",
 		//"food": 1,
 		//"gold": 1, //get money after getting tech to siphon hyperspace particles
@@ -54,7 +54,7 @@
 		]
 	},
 	{
-		"name": "Lakes", //rename to Hyperspace Pocket
+		"name": "Lakes", //rename to Shallow Hyperspace
 		"type": "Water",
 		//"food": 2,
 		//"gold": 1, //get money after getting tech to siphon hyperspace particles
@@ -243,7 +243,7 @@
 		"unbuildable": true,
 		"defenceBonus": -0.25,
 		"RGB": [72, 181, 189],
-		"occursOn": ["Shallow Hyperspace","Hyperspace","Deep Hyperspace"],
+		"occursOn": ["Lakes","Coast","Ocean"],
 		"uniques": [
 			"Hyperspace Tile"
 			"Rough terrain",
@@ -302,7 +302,7 @@
 			"Doesn't generate naturally"],
 		// For map editor only - the generator won't place it without code or enabling uniques
 		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
-		"occursOn": ["Space","Nebula","Asteroid Field","Planet"],
+		"occursOn": ["Space","Nebula","Asteroid Field"],
 		"defenceBonus": -0.15,
 		"civilopediaText": [
 			{
