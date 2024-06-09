@@ -24,7 +24,7 @@ citadel stations
 		"name": "Remove Asteroid Field", //rename to Harvest Asteroid Field
 		"turnsToBuild": 4,
 		"terrainsCanBeBuiltOn": ["Asteroid Field"],
-		"techRequired": "Placeholder",
+		//"techRequired": "Placeholder",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X",
 		"civilopediaText": [
@@ -108,7 +108,7 @@ citadel stations
 	},
 	{
 		"name": "City center", //rename city center -> colony center
-		"terrainsCanBeBuiltOn": ["Planet","Space","Asteroid Field","Nebula"],
+		"terrainsCanBeBuiltOn": ["Space","Gravity Well","Star Gravity Well","Asteroid Field","Nebula"],
 		"uniques": [
 			"Unpillagable",
 			"Irremovable",
