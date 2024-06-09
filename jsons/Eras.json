@@ -14,9 +14,9 @@
 		"startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
 		"startingSettlerUnit": "Colonizer",
 		"startingWorkerCount": 0,
-		"startingWorkerUnit": "Worker", //change this
+		"startingWorkerUnit": "Constructor", //change this
 		"startingMilitaryUnitCount": 1,
-		"startingMilitaryUnit": "Frontier Militia", //change this
+		//"startingMilitaryUnit": "Frontier Militia", change this
 		"settlerPopulation": 1,
 		"baseUnitBuyCost": 200,
 		"embarkDefense": 3,
@@ -30,9 +30,9 @@
 		"startingSettlerCount": 1,
 		"startingSettlerUnit": "Colonizer",
 		"startingWorkerCount": 0,
-		"startingWorkerUnit": "Worker",
+		"startingWorkerUnit": "Constructor",
 		"startingMilitaryUnitCount": 2,
-		"startingMilitaryUnit": "Frontier Militia",
+		//"startingMilitaryUnit": "Frontier Militia",
 		"startingGold": 10,
 		"startingCulture": 100,
 		"settlerPopulation": 1,
@@ -48,13 +48,13 @@
 		"startingSettlerCount": 2,
 		"startingSettlerUnit": "Colonizer",
 		"startingWorkerCount": 1,
-		"startingWorkerUnit": "Worker",
+		"startingWorkerUnit": "Constructor",
 		"startingMilitaryUnitCount": 3,
-		"startingMilitaryUnit": "Colony Rifleman",
+		//"startingMilitaryUnit": "Colony Rifleman",
 		"startingGold": 25,
 		"startingCulture": 200,
 		"settlerPopulation": 1,
-		"settlerBuildings": ["Memorial", "Monument"], //change this
+		//"settlerBuildings": ["Memorial", "Monument"], change this
 		/*
 		"startingObsoleteWonders": [
 			"Temple of Artemis",
@@ -78,18 +78,20 @@
 		"startingSettlerCount": 2,
 		"startingSettlerUnit": "Colonizer",
 		"startingWorkerCount": 1,
-		"startingWorkerUnit": "Worker",
+		"startingWorkerUnit": "Constructor",
 		"startingMilitaryUnitCount": 3,
-		"startingMilitaryUnit": "Exoframe Soldier",
+		//"startingMilitaryUnit": "Exoframe Soldier",
 		"startingGold": 50,
 		"startingCulture": 300,
 		"settlerPopulation": 2,
+		/*
 		"settlerBuildings": [
 			"Memorial",
 			"Monument",
 			"Greenhouse",
 			"Survey Buoy"
 		],
+		*/
 		/*
 		"startingObsoleteWonders": [
 			"Temple of Artemis",
@@ -120,12 +122,13 @@
 		"startingSettlerCount": 3,
 		"startingSettlerUnit": "Colonizer",
 		"startingWorkerCount": 2,
-		"startingWorkerUnit": "Worker",
+		"startingWorkerUnit": "Constructor",
 		"startingMilitaryUnitCount": 5,
-		"startingMilitaryUnit": "Drop Trooper",
+		//"startingMilitaryUnit": "Drop Trooper",
 		"startingGold": 100,
 		"startingCulture": 400,
 		"settlerPopulation": 3,
+		/*
 		"settlerBuildings": [
 			"Memorial",
 			"Monument",
@@ -138,6 +141,7 @@
 			"Field Lab",
 			"Air Scrubber"
 		],
+		*/
 		/*
 		"startingObsoleteWonders": [
 			"Temple of Artemis",
@@ -168,7 +172,7 @@
 		"iconRGB": [63, 81, 182],
 		"uniques": [
 			"May not generate great prophet equivalents naturally",
-			"May buy [Great Visionary] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])"
+			//"May buy [Great Visionary] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
 			"Every major Civilization gains a spy once a civilization enters this era"
 		]
 	},
@@ -178,12 +182,13 @@
 		"startingSettlerCount": 3,
 		"startingSettlerUnit": "Colonizer",
 		"startingWorkerCount": 2,
-		"startingWorkerUnit": "Worker",
+		"startingWorkerUnit": "Constructor",
 		"startingMilitaryUnitCount": 5,
-		"startingMilitaryUnit": "Drop Trooper",
+		//"startingMilitaryUnit": "Drop Trooper",
 		"startingGold": 200,
 		"startingCulture": 500,
 		"settlerPopulation": 3,
+		/*
 		"settlerBuildings": [
 			"Memorial",
 			"Monument",
@@ -196,6 +201,7 @@
 			"Field Lab",
 			"Air Scrubber"
 		],
+		*/
 		/*
 		"startingObsoleteWonders": [
 			"Temple of Artemis",
@@ -233,7 +239,7 @@
 		"iconRGB": [33, 150, 243],
 		"uniques": [
 			"May not generate great prophet equivalents naturally",
-			"May buy [Great Visionary] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])"
+			//"May buy [Great Visionary] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
 			"Every major Civilization gains a spy once a civilization enters this era"
 		]
 	},
@@ -243,12 +249,13 @@
 		"startingSettlerCount": 3,
 		"startingSettlerUnit": "Colonizer",
 		"startingWorkerCount": 3,
-		"startingWorkerUnit": "Worker",
+		"startingWorkerUnit": "Constructor",
 		"startingMilitaryUnitCount": 5,
-		"startingMilitaryUnit": "Drop Trooper",
+		//"startingMilitaryUnit": "Drop Trooper",
 		"startingGold": 400,
 		"startingCulture": 600,
 		"settlerPopulation": 5,
+		/*
 		"settlerBuildings": [
 			"Memorial",
 			"Monument",
@@ -263,6 +270,7 @@
 			"Rec Area",
 			"Resource Market"
 		],
+		*/
 		/*
 		"startingObsoleteWonders": [
 			"Temple of Artemis",
@@ -307,7 +315,7 @@
 		"iconRGB": [76, 176, 81],
 		"uniques": [
 			"May not generate great prophet equivalents naturally",
-			"May buy [Great Visionary] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
+			//"May buy [Great Visionary] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
 			"Every major Civilization gains a spy once a civilization enters this era"
 		]
 	}
