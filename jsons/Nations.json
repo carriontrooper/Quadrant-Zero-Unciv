@@ -59,9 +59,19 @@ UU: Interdictor Cruiser
 UB: Planetary Conscription
 
 Aflorax Roots (plantoid)
-(ships can heal faster near suns, better city defense on habitable planets)
+(Ships can heal faster near suns, better city defense on habitable planets)
 UI: Skygrove
-UU: Vinehunter
+UU: Vinehunter Corvette
+
+Ssathaki Shadow Cult (reptilian)
+(Spies are more effective, stealth units have more sight)
+UU: Skulker-class Frigate
+UB: Clandestine Serapeum
+
+Crastocan Depths (aquatic)
+(More city defense, more ship defense the bigger they get)
+UI: Bulwark Farms
+UB: Aquaponics
 
 */
 
