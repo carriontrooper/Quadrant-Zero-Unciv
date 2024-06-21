@@ -4,46 +4,112 @@
 		"name": "Solar Worship",
 		"type": "Pantheon",
 		"uniques": [
-			"[+3 Faith] from [Common Star] tiles [in this city]"
+			"[+3 Faith] from [Common Star] tiles [in cities following this religion]"
 		]
 	},
 	{
 		"name": "Black Hole Worship",
 		"type": "Pantheon",
 		"uniques": [
-			"[+3 Faith] from [Black Hole] tiles [in this city]"
+			"[+6 Faith] from [Black Hole] tiles [in cities following this religion]"
 		]
 	},
 	{
 		"name": "Nebula Mysticism",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Faith] from [Nebula] tiles [in this city]"
+			"[+1 Faith, +1 Culture] from [Nebula] tiles [in cities following this religion]"
 		]
 	},
 	{
 		"name": "Roiders' Superstitions",
 		"type": "Pantheon",
 		"uniques": [
-			"[+1 Faith] from [Asteroid Field] tiles [in this city]"
+			"[+1 Faith, +1 Culture] from [Asteroid Field] tiles [in cities following this religion]"
 		]
 	},
-
+	{
+		"name": "Star-Touched",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Culture] from [Common Star] tiles [in cities following this religion]"
+		]
+	},
 	{
 		"name": "Solar Power",
 		"type": "Pantheon",
 		"uniques": [
-			"[+3 Gold] from [Common Star] tiles [in this city]"
+			"[+3 Gold] from [Common Star] tiles [in cities following this religion]"
 		]
 	},
-
 	{
 		"name": "Solar Study",
 		"type": "Pantheon",
 		"uniques": [
-			"[+2 Science] from [Common Star] tiles [in this city]",
-			"[+2 Science] from [Brown Dwarf Star] tiles [in this city]",
-			"[+5 Science] from [Uncommon Star] tiles [in this city]"
+			"[+2 Science] from [Common Star] tiles [in cities following this religion]",
+			"[+2 Science] from [Brown Dwarf Star] tiles [in cities following this religion]",
+			"[+5 Science] from [Uncommon Star] tiles [in cities following this religion]"
+		]
+	},
+	{
+		"name": "Planetary Spirits",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from [Planet] tiles [in cities following this religion]"
+		]
+	},
+	{
+		"name": "Sacred Planetary Life",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Faith] from [Habitable Planet] tiles [in cities following this religion]"
+		]
+	},
+	{
+		"name": "Unity from Adversity",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Culture] from [Hazardous Planet] tiles [in cities following this religion]"
+		]
+	},
+	{
+		"name": "Cold Meditation",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Faith] from [Cold Planet] tiles [in cities following this religion]"
+		]
+	},
+	{
+		"name": "Heated Spirits",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Faith] from [Hot Planet] tiles [in cities following this religion]"
+		]
+	},
+	{
+		"name": "Planetary Study",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Science] from [Planet] tiles [in cities following this religion]"
+		]
+	},
+	{
+		"name": "Central Locus",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Faith, +1 Science, +1 Culture] from every [Colony Capital]"
+		]
+	},
+	{
+		"name": "Remember the Fallen",
+		"type": "Pantheon",
+		"uniques": ["[+3 Faith] from every [City ruins]"]
+	},
+	{
+		"name": "Manifest Destiny",
+		"type": "Pantheon",
+		"uniques": [
+			"[-15]% Culture cost of natural border growth [in cities following this religion]"
 		]
 	},
 
