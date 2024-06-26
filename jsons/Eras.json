@@ -16,12 +16,12 @@
 		"startingWorkerCount": 0,
 		"startingWorkerUnit": "Constructor", //change this
 		"startingMilitaryUnitCount": 1,
-		//"startingMilitaryUnit": "Frontier Militia", change this
+		"startingMilitaryUnit": "Recon Probe",
 		"settlerPopulation": 1,
 		"baseUnitBuyCost": 200,
 		"embarkDefense": 3,
 		"startPercent": 0,
-		"citySound": "cityLandfall", // change this too
+		//"citySound": "cityLandfall",
 		"iconRGB": [255, 87, 35]
 	},
 	{
@@ -32,14 +32,14 @@
 		"startingWorkerCount": 0,
 		"startingWorkerUnit": "Constructor",
 		"startingMilitaryUnitCount": 2,
-		//"startingMilitaryUnit": "Frontier Militia",
+		"startingMilitaryUnit": "Basic Frigate",
 		"startingGold": 10,
 		"startingCulture": 100,
 		"settlerPopulation": 1,
 		"baseUnitBuyCost": 200,
 		"embarkDefense": 4,
 		"startPercent": 10,
-		"citySound": "cityExploration",
+		//"citySound": "cityExploration",
 		"iconRGB": [233, 31, 99]
 	},
 	{
@@ -50,7 +50,7 @@
 		"startingWorkerCount": 1,
 		"startingWorkerUnit": "Constructor",
 		"startingMilitaryUnitCount": 3,
-		//"startingMilitaryUnit": "Colony Rifleman",
+		"startingMilitaryUnit": "Basic Frigate",
 		"startingGold": 25,
 		"startingCulture": 200,
 		"settlerPopulation": 1,
@@ -68,7 +68,7 @@
 		"baseUnitBuyCost": 200,
 		"embarkDefense": 8,
 		"startPercent": 25,
-		"citySound": "cityColonization",
+		//"citySound": "cityColonization",
 		"uniques": ["Every major Civilization gains a spy once a civilization enters this era"],
 		"iconRGB": [157, 39, 176]
 	},
@@ -80,7 +80,7 @@
 		"startingWorkerCount": 1,
 		"startingWorkerUnit": "Constructor",
 		"startingMilitaryUnitCount": 3,
-		//"startingMilitaryUnit": "Exoframe Soldier",
+		"startingMilitaryUnit": "Basic Frigate",
 		"startingGold": 50,
 		"startingCulture": 300,
 		"settlerPopulation": 2,
@@ -112,7 +112,7 @@
 		"baseUnitBuyCost": 300,
 		"embarkDefense": 8,
 		"startPercent": 37,
-		"citySound": "cityHalcyon",
+		//"citySound": "cityHalcyon",
 		"uniques": ["Every major Civilization gains a spy once a civilization enters this era"],
 		"iconRGB": [104, 58, 183]
 	},
@@ -124,7 +124,7 @@
 		"startingWorkerCount": 2,
 		"startingWorkerUnit": "Constructor",
 		"startingMilitaryUnitCount": 5,
-		//"startingMilitaryUnit": "Drop Trooper",
+		"startingMilitaryUnit": "Basic Frigate",
 		"startingGold": 100,
 		"startingCulture": 400,
 		"settlerPopulation": 3,
@@ -168,7 +168,7 @@
 		"baseUnitBuyCost": 400,
 		"embarkDefense": 10,
 		"startPercent": 50,
-		"citySound": "cityRealization",
+		//"citySound": "cityRealization",
 		"iconRGB": [63, 81, 182],
 		"uniques": [
 			"May not generate great prophet equivalents naturally",
@@ -184,7 +184,7 @@
 		"startingWorkerCount": 2,
 		"startingWorkerUnit": "Constructor",
 		"startingMilitaryUnitCount": 5,
-		//"startingMilitaryUnit": "Drop Trooper",
+		"startingMilitaryUnit": "Basic Frigate",
 		"startingGold": 200,
 		"startingCulture": 500,
 		"settlerPopulation": 3,
@@ -235,7 +235,7 @@
 		"baseUnitBuyCost": 600,
 		"embarkDefense": 13,
 		"startPercent": 65,
-		"citySound": "cityTranscendental",
+		//"citySound": "cityTranscendental",
 		"iconRGB": [33, 150, 243],
 		"uniques": [
 			"May not generate great prophet equivalents naturally",
@@ -251,7 +251,7 @@
 		"startingWorkerCount": 3,
 		"startingWorkerUnit": "Constructor",
 		"startingMilitaryUnitCount": 5,
-		//"startingMilitaryUnit": "Drop Trooper",
+		"startingMilitaryUnit": "Basic Frigate",
 		"startingGold": 400,
 		"startingCulture": 600,
 		"settlerPopulation": 5,
@@ -311,7 +311,7 @@
 		"baseUnitBuyCost": 1000,
 		"embarkDefense": 25,
 		"startPercent": 80,
-		"citySound": "citySingularity",
+		//"citySound": "citySingularity",
 		"iconRGB": [76, 176, 81],
 		"uniques": [
 			"May not generate great prophet equivalents naturally",
