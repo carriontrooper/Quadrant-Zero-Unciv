@@ -68,7 +68,12 @@
 		"cost": 10,
 		//"obsoleteTech": "Scientific Theory",
 		"uniques": [
-			//"May upgrade to [Archer] through ruins-like effects", 
+			//"May upgrade to [Archer] through ruins-like effects",
+			"Can only heal by pillaging <hidden from users>",
+			"Unable to pillage tiles <hidden from users>",
+			"Unable to attack cities",
+			"This unit takes [5] damage <upon ending a turn in a [Open terrain] tile>",
+			"This unit takes [10] damage <upon ending a turn in a [Rough terrain] tile>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -80,7 +85,7 @@
 				"Separator": true
 			},
 			{
-				"text": "Cheap, disposable probes with the barest minimum of a self-defense system. Use these to explore in early game."
+				"text": "Cheap, disposable and limited in its lifetime, these probes are equipped with the barest minimum of a self-defense system. Use these to explore in early game."
 			}
 	},
 
