@@ -24,12 +24,6 @@
 		],
 		"hurryCostModifier": 20,
 		"civilopediaText": [
-			/*
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Colonizer",
-				"imageSize": 64
-			},
-			*/
 			{
 				"Separator": true
 			},
@@ -49,12 +43,6 @@
 		],
 		"cost": 70,
 		"civilopediaText": [
-			/*
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Worker",
-				"imageSize": 64
-			},
-			*/
 			{
 				"Separator": true
 			},
@@ -62,7 +50,7 @@
 				"text": "Versatile, easy-to-use contruction ship with myriad uses - except being useful in combat. Use these to build your improvements."
 			}
 		]
-	}
+	},
 
 	// Religious
 
@@ -72,6 +60,29 @@
 	// Resource civvies
 
 	// Military
+	{
+		"name": "Scout Probe",
+		"unitType": "Probe",
+		"movement": 2,
+		"strength": 1,
+		"cost": 10,
+		//"obsoleteTech": "Scientific Theory",
+		"uniques": [
+			//"May upgrade to [Archer] through ruins-like effects", 
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Ignore terrain cost"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "Cheap, disposable probes with the barest minimum of a self-defense system. Use these to explore in early game."
+			}
+	},
 
 	// ÷÷ Exploration Era
 
