@@ -35,10 +35,14 @@
 	},
 	{
 		"name": "Satellite",
-		"movementType": "Land"
+		"movementType": "Air"
 	},
 	{
 		"name": "Probe",
+		"movementType": "Land"
+	},
+	{
+		"name": "Defense Platform",
 		"movementType": "Land"
 	},
 
