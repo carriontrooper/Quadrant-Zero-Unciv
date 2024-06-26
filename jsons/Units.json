@@ -61,7 +61,7 @@
 
 	// Military
 	{
-		"name": "Scout Probe",
+		"name": "Recon Probe",
 		"unitType": "Probe",
 		"movement": 2,
 		"strength": 1,
@@ -87,6 +87,36 @@
 			{
 				"text": "Cheap, disposable and limited in its lifetime, these probes are equipped with the barest minimum of a self-defense system. Use these to explore in early game."
 			}
+	},
+	{
+		"name": "Basic Frigate",
+		"unitType": "Lineship",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		//"obsoleteTech": "Metal Casting",
+		//"upgradesTo": "Swordsman",
+		
+		"uniques" : [
+			"Frigate",
+			"Standard Ship",
+			//"May upgrade to [Spearman] through ruins-like effects"
+		],
+		
+		/*
+		"promotions": [
+			
+		]
+		*/
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"Separator": true
+			},
+			{
+				"text": "A rudimentary military ship by virtue of having armaments on it."
+			}
+		]
 	},
 
 	// ÷÷ Exploration Era
