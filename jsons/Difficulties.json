@@ -198,7 +198,7 @@
 		"aiFreeTechs": ["Xenobiology", "Habitation", "Xenogeology"],
 		"aiMajorCivBonusStartingUnits": [
 			"Constructor",
-			//"Rover Explorer",
+			"Recon Probe",
 			"Era Starting Unit",
 			"Era Starting Unit"
 		],
@@ -238,7 +238,7 @@
 		"aiMajorCivBonusStartingUnits": [
 			"Colonizer",
 			"Constructor",
-			//"Rover Explorer",
+			"Recon Probe",
 			"Era Starting Unit",
 			"Era Starting Unit",
 			"Era Starting Unit"
