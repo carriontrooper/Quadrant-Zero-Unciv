@@ -62,28 +62,28 @@
 		"name": "Sacred Planetary Life",
 		"type": "Pantheon",
 		"uniques": [
-			"[+2 Faith] from [Habitable Planet] tiles [in cities following this religion]"
+			"[+2 Faith] from [Habitable planet] tiles [in cities following this religion]"
 		]
 	},
 	{
 		"name": "Unity from Adversity",
 		"type": "Pantheon",
 		"uniques": [
-			"[+2 Culture] from [Hazardous Planet] tiles [in cities following this religion]"
+			"[+2 Culture] from [Hazardous planet] tiles [in cities following this religion]"
 		]
 	},
 	{
 		"name": "Cold Meditation",
 		"type": "Pantheon",
 		"uniques": [
-			"[+2 Faith] from [Cold Planet] tiles [in cities following this religion]"
+			"[+2 Faith] from [Cold planet] tiles [in cities following this religion]"
 		]
 	},
 	{
 		"name": "Heated Spirits",
 		"type": "Pantheon",
 		"uniques": [
-			"[+2 Faith] from [Hot Planet] tiles [in cities following this religion]"
+			"[+2 Faith] from [Hot planet] tiles [in cities following this religion]"
 		]
 	},
 	{
