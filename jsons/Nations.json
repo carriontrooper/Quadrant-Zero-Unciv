@@ -59,7 +59,7 @@ UU: Interdictor Cruiser
 UB: Planetary Conscription
 
 Aflorax Roots (plantoid)
-(Ships can heal faster near suns, better city defense on habitable planets)
+(Ships can heal faster near suns, better culture on habitable planets)
 UI: Skygrove
 UU: Vinehunter Corvette
 
@@ -71,7 +71,7 @@ UB: Clandestine Serapeum
 Crastocan Depths (aquatic)
 (More city defense, more ship defense the bigger they get)
 UI: Bulwark Farms
-UB: Aquaponics
+UB: Dense Aquaponics
 
 */
 
@@ -220,7 +220,7 @@ UB: Aquaponics
 		"favoredReligion": "Pan-Humanism",
 		"uniqueName": "Humanity's Frontier",
 		"uniques": [
-			"Uniques Go Here"
+			"[-10]% Culture cost of natural border growth [in all cities]"
 		],
 		"cities": [
 			"Alpha Solis",
@@ -234,7 +234,7 @@ UB: Aquaponics
 			"Garuda Port",
 			"Whitestone",
 			"Vasiliev Post",
-			"Grunder Base",
+			"Toutatis",
 			"Orion City",
 			"Jangala",
 			"Magellan Landing",
@@ -278,12 +278,12 @@ UB: Aquaponics
 
 		"tradeRequest": ".",
 
-		"outerColor": [85, 85, 85],
-		"innerColor": [126, 192, 253],
+		"outerColor": [77, 40, 0],
+		"innerColor": [201, 60, 28],
 		"favoredReligion": "Saurian Doctrine",
 		"uniqueName": "Cold-Blooded Grasp",
 		"uniques": [
-			"Uniques Go Here"
+			"[+30]% Strength <vs [City-states]>"
 		],
 		"cities": [
 			"Rextania",
@@ -324,7 +324,7 @@ UB: Aquaponics
 	// Barbarian - rename to Raider
 	{
 		"name": "Barbarians",
-		"style": "raider",
+		//"style": "raider",
 		"outerColor": [0, 0, 0],
 		"innerColor": [198, 243, 102],
 		"uniques": ["Can only heal by pillaging"]
