@@ -90,7 +90,7 @@
 	},
 	{
 		"name": "experienced a religious epiphany",
-		"notification": "Our ship's crew had a religious epiphany while searching the crash site! (+[faithAmount] Faith)",
+		"notification": "Our ship's crew had a religious epiphany while searching the wreck! (+[faithAmount] Faith)",
 		"uniques": [
 			"Hidden when religion is disabled",
 			"Gain enough Faith for [33]% of a Great Prophet",
