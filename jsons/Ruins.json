@@ -1,3 +1,103 @@
 [
-	
+	{
+		"name": "discovered cultural artifacts",
+		"notification": "We have discovered cultural artifacts in the wreck! (+20 culture)",
+		"uniques": ["Gain [20] [Culture]"],
+		"color": "#cf8ff7"
+	},
+	{
+		"name": "the wreck is easily refurbished into a Constructor",
+		"notification": "We have salvaged a working [Constructor]!",
+		"uniques": ["Free [Constructor] found in the ruins"],
+		"excludedDifficulties": [
+			"Prince",
+			"King",
+			"Emperor",
+			"Immortal",
+			"Deity"
+		]
+	},
+	{
+		"name": "the wreck is easily refurbished into a Colonizer",
+		"notification": "We have salvaged a working [Colonizer]!",
+		"uniques": ["Free [Colonizer] found in the ruins"],
+		"excludedDifficulties": [
+			"Warlord",
+			"Prince",
+			"King",
+			"Emperor",
+			"Immortal",
+			"Deity"
+		]
+	},
+	{
+		"name": "your exploration ship receives training",
+		"notification": "Our ship's crew has gained experience from a working ancient battle simulator!",
+		"uniques": [
+			"This Unit gains [10] XP"
+			//"Only available after [10] turns"
+		]
+	},
+	{
+		"name": "survivors (adds population to a city)",
+		"notification": "We have found the regressed remnants of the crew - population added to [cityName].",
+		"uniques": ["[+1] population in a random city"], // This can't be easily added to cityFilter, as it is non-deterministic
+		"color": "#81c784"
+	},
+	{
+		"name": "a credit account",
+		"notification": "We have found an intact credit account in the wreck and recovered [goldAmount] credits!",
+		"uniques": ["Gain [50]-[100] [Gold]"],
+		"color": "#ffeb7f"
+	},
+	{
+		"name": "discover a lost technology",
+		"notification": "We discovered a complete data schematic of [techName] in the wreck!",
+		"uniques": [
+			"[1] free random researchable Tech(s) from the [Landfall era]"
+		],
+		"color": "#7f7fff"
+	},
+	{
+		"name": "advanced weaponry for your exploration ship",
+		"notification": "Our ship finds intact modular ship equipment in the wreck!",
+		"uniques": ["This Unit upgrades for free including special upgrades"]
+	},
+	{
+		"name": "reveal nearby Pirate Lairs",
+		"notification": "Our ship's crew found a powered sensor suite that tracks the whereabouts of local pirates. Nearby Pirate Lairs are revealed!",
+		"uniques": [
+			"Reveal up to [All] [Barbarian encampment] within a [10] tile radius"
+		]
+	},
+	{
+		"name": "found partial survey data",
+		"notification": "We have found partial survey data from the wreck!",
+		"uniques": [
+			"From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [4] tiles away with [80]% chance"
+		]
+	},
+	{
+		"name": "experienced mystical event",
+		"notification": "Our ship's crew had a mystical experience while searching the wreck! (+[faithAmount] Faith)",
+		"uniques": [
+			"Hidden when religion is disabled",
+			"Gain enough Faith for a Pantheon",
+			"Only available <before founding a Pantheon>",
+			"Only available <after [20] turns>"
+		],
+		"color": "#CDDDF4"
+	},
+	{
+		"name": "experienced a religious epiphany",
+		"notification": "Our ship's crew had a religious epiphany while searching the crash site! (+[faithAmount] Faith)",
+		"uniques": [
+			"Hidden when religion is disabled",
+			"Gain enough Faith for [33]% of a Great Prophet",
+			"Unavailable <after generating a Great Prophet>",
+			"Only available <before founding a Pantheon>",
+			"Only available <after [20] turns>"
+		],
+		"color": "#CDDDF4"
+	}
 ]
