@@ -71,7 +71,7 @@ citadel stations
 	//Misc essentials
 	{
 		//"name": "Ancient ruins",
-		"name": "Ancient wreck",
+		"name": "Ancient ruins", //rename to Ancient wreck
 		"terrainsCanBeBuiltOn": ["Land","Water"],
 		"uniques": ["Unpillagable", "Provides a random bonus when entered","Unbuildable"],
 		"civilopediaText": [
