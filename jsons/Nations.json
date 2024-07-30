@@ -200,7 +200,8 @@ UB: Dense Aquaponics
 		"leaderName": "President Sandra Macintosh",
 		"adjective": ["UFN"],
 		"startBias": ["Space"],
-		"preferredVictoryType":"Diplomatic",
+		//"preferredVictoryType":"Diplomatic",
+		"preferredVictoryType":"Domination", //only for testing
 
 		"startIntroPart1": ".",
 		"startIntroPart2": ". Can you build a colony that stands the test of time?",
