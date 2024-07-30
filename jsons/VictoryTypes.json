@@ -5,6 +5,7 @@ scientific
 religious
 utopian
 */
+/*
 [
 	{
         "name": "Scientific",
@@ -26,20 +27,11 @@ utopian
         "victoryString": "You have achieved victory through the awesome power of your Culture. Your civilization's greatness - the magnificence of its monuments and the power of its artists - have astounded the entire sector! Poets will honor you as long as beauty brings gladness to a weary heart.",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
-	/*
     {
         "name": "Terraforming",
         "victoryScreenHeader": "Construct the necessary terraforming buildings and\nbuild the Global Terraforming Project to win!",
         "milestones": ["Build [Atmospheric Generator]", "Build [Atmospheric Generator]", "Build [Atmospheric Generator]", "Build [Tectonic Stabilizer]", "Build [Tectonic Stabilizer]", "Build [Tectonic Stabilizer]", "Build [Soil Revitalizer]", "Build [Soil Revitalizer]", "Build [Soil Revitalizer]", "Build [Oceanic Purifier]", "Build [Oceanic Purifier]", "Build [Oceanic Purifier]", "Build [Global Terraforming Project]"],
         "victoryString": "You have wrestled and shaped the planet under your control. Your efforts here will surely be replicated on old Earth! Humanity owes you a second chance in restoring Earth's ecological balance.",
-        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
-    },
-	*/
-    {
-        "name": "Domination",
-        "victoryScreenHeader": "Destroy all enemies\nto win!",
-        "milestones": ["Destroy all players"],
-        "victoryString": "The sector has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {
@@ -70,6 +62,14 @@ utopian
         "victoryString": "You have led your people into an exodus beyond space and time! You are the first to make a foothold into another universe. Your triumph will be remembered as long as the stars burn in the night sky!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
+	*/
+	{
+		"name": "Domination",
+        "victoryScreenHeader": "Destroy all enemies\nto win!",
+        "milestones": ["Destroy all players"],
+        "victoryString": "The sector has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
     {
         "name": "Time",
         "hiddenInVictoryScreen": true,
@@ -77,5 +77,4 @@ utopian
         "victoryString": "The sector has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     }
-	
 ]
