@@ -181,7 +181,7 @@
 		],
 		"uniques": [
 			"Rough terrain",
-			//"Vegetation",
+			"Vegetation",
 			"Provides a one-time Production bonus to the closest city when cut down",
 			"[+5] Strength for cities built on this terrain",
 			//"Has an elevation of [2] for visibility calculations",
