@@ -106,7 +106,7 @@
 			"Rough terrain",
 			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
 			"Has an elevation of [4] for visibility calculations",
-			"Occurs in chains at high elevations",
+			//"Occurs in chains at high elevations",
 			"Occurs in groups of [1] to [1] tiles",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
