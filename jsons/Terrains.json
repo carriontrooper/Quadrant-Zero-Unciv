@@ -104,14 +104,15 @@
 		"RGB": [222,222,222],
 		"uniques": [
 			"Rough terrain",
-			"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
+			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in chains at high elevations",
+			"Occurs in groups of [1] to [1] tiles",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
 			"Never receives any resources",
 			"Tile provides yield without assigned population",
-			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
+			//"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
 			"Considered [Undesirable] when determining start locations"
 		],
 		"civilopediaText": [
@@ -177,7 +178,9 @@
 		"defenceBonus": 0.25,
 		"RGB": [125, 105, 72],
 		"occursOn": [
-			"Space"
+			"Space",
+			"Gravity Well",
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Rough terrain",
@@ -621,7 +624,8 @@
 			"Always Fertility [-2] for Map Generation",
 			"Never receives any resources",
 			"Tile provides yield without assigned population",
-			"Considered [Undesirable] when determining start locations"
+			"Considered [Undesirable] when determining start locations",
+			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
 			{
@@ -647,7 +651,8 @@
 			"Always Fertility [-2] for Map Generation",
 			"Never receives any resources",
 			"Tile provides yield without assigned population",
-			"Considered [Undesirable] when determining start locations"
+			"Considered [Undesirable] when determining start locations",
+			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
 			{
@@ -673,7 +678,8 @@
 			"Always Fertility [-2] for Map Generation",
 			"Never receives any resources",
 			"Tile provides yield without assigned population",
-			"Considered [Undesirable] when determining start locations"
+			"Considered [Undesirable] when determining start locations",
+			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
 			{
@@ -699,7 +705,8 @@
 			"Always Fertility [-2] for Map Generation",
 			"Never receives any resources",
 			"Tile provides yield without assigned population",
-			"Considered [Undesirable] when determining start locations"
+			"Considered [Undesirable] when determining start locations",
+			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
 			{
@@ -726,7 +733,8 @@
 			"Always Fertility [-2] for Map Generation",
 			"Never receives any resources",
 			"Tile provides yield without assigned population",
-			"Considered [Undesirable] when determining start locations"
+			"Considered [Undesirable] when determining start locations",
+			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
 			{
@@ -781,7 +789,8 @@
 			"Always Fertility [-2] for Map Generation",
 			"Never receives any resources",
 			"Tile provides yield without assigned population",
-			"Considered [Undesirable] when determining start locations"
+			"Considered [Undesirable] when determining start locations",
+			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
 			{
@@ -806,7 +815,8 @@
 			"Always Fertility [-2] for Map Generation",
 			"Never receives any resources",
 			"Tile provides yield without assigned population",
-			"Considered [Undesirable] when determining start locations"
+			"Considered [Undesirable] when determining start locations",
+			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
 			{
