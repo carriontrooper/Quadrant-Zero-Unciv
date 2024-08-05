@@ -107,6 +107,7 @@
 			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
 			"Has an elevation of [4] for visibility calculations",
 			//"Occurs in chains at high elevations",
+			"Occurs in groups at high elevations",
 			"Occurs in groups of [1] to [1] tiles",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
@@ -184,13 +185,13 @@
 		],
 		"uniques": [
 			"Rough terrain",
-			"Vegetation",
+			//"Vegetation",
 			"Provides a one-time Production bonus to the closest city when cut down",
 			"[+5] Strength for cities built on this terrain",
 			//"Has an elevation of [2] for visibility calculations",
 			"Blocks line-of-sight from tiles at same elevation",
-			//"Occurs in groups around high elevations",
-			"Occurs in chains at high elevations",
+			"Occurs in groups around high elevations",
+			//"Occurs in chains at high elevations",
 			"[+1] to Fertility for Map Generation",
 			"A Region is formed with at least [40]% [Asteroid Field] tiles, with priority [5]",
 			"Base Terrain on this tile is not counted for Region determination",
@@ -248,7 +249,7 @@
 		"RGB": [72, 181, 189],
 		"occursOn": ["Lakes","Coast","Ocean"],
 		"uniques": [
-			"Hyperspace Tile"
+			"Hyperspace Tile",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Blocks line-of-sight from tiles at same elevation",
