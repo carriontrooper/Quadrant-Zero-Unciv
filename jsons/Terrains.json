@@ -95,6 +95,7 @@
 			}
 		]
 	},
+	/*
 	{
 		"name": "Star",
 		"type": "Land",
@@ -122,7 +123,7 @@
 			}
 		]
 	},
-	
+	*/
 	{
 		"name": "Gravity Well",
 		"type": "Land",
@@ -669,6 +670,7 @@
 			"Space"
 		],
 		"uniques": [
+			"Star"
 			"Common Star",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
@@ -676,7 +678,7 @@
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
-			"Never receives any resources",
+			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
 			"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
@@ -701,6 +703,7 @@
 			"Space"
 		],
 		"uniques": [
+			"Star"
 			"Common Star",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
@@ -708,7 +711,7 @@
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
-			"Never receives any resources",
+			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
 			"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
@@ -733,6 +736,7 @@
 			"Space"
 		],
 		"uniques": [
+			"Star"
 			"Common Star",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
@@ -740,7 +744,7 @@
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
-			"Never receives any resources",
+			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
 			"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
@@ -765,6 +769,7 @@
 			"Space"
 		],
 		"uniques": [
+			"Star"
 			"Common Star",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
@@ -772,7 +777,7 @@
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
-			"Never receives any resources",
+			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
 			"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
@@ -797,6 +802,7 @@
 			"Space"
 		],
 		"uniques": [
+			"Star"
 			"Uncommon Star",
 			"Rough terrain",
 			"Rare feature",
@@ -805,7 +811,7 @@
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
-			"Never receives any resources",
+			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
 			"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
@@ -830,6 +836,7 @@
 			"Space"
 		],
 		"uniques": [
+			"Star"
 			"Uncommon Star",
 			"Rough terrain",
 			"Rare feature",
@@ -839,7 +846,7 @@
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [100] damage",
 			"Always Fertility [-2] for Map Generation",
-			"Never receives any resources",
+			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
 			"Neighboring tiles except [Star] will convert to [Star Gravity Well]"
@@ -863,6 +870,7 @@
 			"Space"
 		],
 		"uniques": [
+			"Star"
 			"Uncommon Star",
 			"Rough terrain",
 			"Rare feature",
@@ -871,7 +879,7 @@
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
-			"Never receives any resources",
+			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
 			"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
@@ -896,13 +904,14 @@
 			"Space"
 		],
 		"uniques": [
+			"Star"
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
 			//"Occurs in chains at high elevations",
 			//"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
-			"Never receives any resources",
+			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
 			"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
