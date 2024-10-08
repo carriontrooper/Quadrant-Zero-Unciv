@@ -664,9 +664,7 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [222,222,252],
-		//"occursOn": ["Star"],
 		"occursOn": [
-			"Star",
 			"Space"
 		],
 		"uniques": [
@@ -675,8 +673,9 @@
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
+			"Occurs in groups of [1] to [1] tiles",
 			//"Occurs in chains at high elevations",
-			"Units ending their turn on this terrain take [50] damage",
+			"Units ending their turn on this terrain take [50] damage", //except those equipped with sundiver promotion
 			"Always Fertility [-2] for Map Generation",
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
@@ -697,9 +696,7 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [222,222,222],
-		//"occursOn": ["Star"],
 		"occursOn": [
-			"Star",
 			"Space"
 		],
 		"uniques": [
@@ -708,6 +705,7 @@
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
+			"Occurs in groups of [1] to [1] tiles",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
@@ -730,9 +728,7 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [252,252,222],
-		//"occursOn": ["Star"],
 		"occursOn": [
-			"Star",
 			"Space"
 		],
 		"uniques": [
@@ -741,6 +737,7 @@
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
+			"Occurs in groups of [1] to [1] tiles",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
@@ -763,9 +760,7 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [252,222,222],
-		//"occursOn": ["Star"],
 		"occursOn": [
-			"Star",
 			"Space"
 		],
 		"uniques": [
@@ -774,6 +769,7 @@
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
+			"Occurs in groups of [1] to [1] tiles",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
@@ -796,9 +792,7 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [232,222,232],
-		//"occursOn": ["Star"],
 		"occursOn": [
-			"Star",
 			"Space"
 		],
 		"uniques": [
@@ -808,7 +802,7 @@
 			"Rare feature",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
-			//"Occurs in chains at high elevations",
+			"Occurs in groups of [1] to [1] tiles",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
 			//"Never receives any resources",
@@ -830,9 +824,7 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [0,0,0],
-		//"occursOn": ["Star"],
 		"occursOn": [
-			"Star",
 			"Space"
 		],
 		"uniques": [
@@ -842,14 +834,13 @@
 			"Rare feature",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
-			"Neighboring tiles except [Star Gravity Well] will convert to [Star Gravity Well]",
-			//"Occurs in chains at high elevations",
+			"Occurs in groups of [1] to [1] tiles",
 			"Units ending their turn on this terrain take [100] damage",
 			"Always Fertility [-2] for Map Generation",
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
-			"Neighboring tiles except [Star] will convert to [Star Gravity Well]"
+			"Neighboring tiles except [Star Gravity Well] will convert to [Star Gravity Well]"
 		],
 		"civilopediaText": [
 			{
@@ -864,9 +855,7 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [222,222,232],
-		//"occursOn": ["Star"],
 		"occursOn": [
-			"Star",
 			"Space"
 		],
 		"uniques": [
@@ -876,7 +865,7 @@
 			"Rare feature",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
-			//"Occurs in chains at high elevations",
+			"Occurs in groups of [1] to [1] tiles",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
 			//"Never receives any resources",
@@ -898,9 +887,7 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [222, 192, 142],
-		//"occursOn": ["Star"],
 		"occursOn": [
-			"Star",
 			"Space"
 		],
 		"uniques": [
@@ -908,7 +895,7 @@
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
-			//"Occurs in chains at high elevations",
+			"Occurs in groups of [1] to [1] tiles",
 			//"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [-2] for Map Generation",
 			//"Never receives any resources",
