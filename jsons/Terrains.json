@@ -669,7 +669,8 @@
 		"defenceBonus": 0.25,
 		"RGB": [222,222,252],
 		"occursOn": [
-			"Space"
+			"Space",
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Star",
@@ -701,7 +702,8 @@
 		"defenceBonus": 0.25,
 		"RGB": [222,222,222],
 		"occursOn": [
-			"Space"
+			"Space",
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Star",
@@ -733,7 +735,8 @@
 		"defenceBonus": 0.25,
 		"RGB": [252,252,222],
 		"occursOn": [
-			"Space"
+			"Space",
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Star",
@@ -765,7 +768,8 @@
 		"defenceBonus": 0.25,
 		"RGB": [252,222,222],
 		"occursOn": [
-			"Space"
+			"Space",
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Star",
@@ -797,7 +801,8 @@
 		"defenceBonus": 0.25,
 		"RGB": [232,222,232],
 		"occursOn": [
-			"Space"
+			"Space",
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Star",
@@ -829,7 +834,8 @@
 		"defenceBonus": 0.25,
 		"RGB": [0,0,0],
 		"occursOn": [
-			"Space"
+			"Space",
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Star",
@@ -860,7 +866,8 @@
 		"defenceBonus": 0.25,
 		"RGB": [222,222,232],
 		"occursOn": [
-			"Space"
+			"Space",
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Star",
@@ -892,7 +899,8 @@
 		"defenceBonus": 0.25,
 		"RGB": [222, 192, 142],
 		"occursOn": [
-			"Space"
+			"Space",
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Star",
