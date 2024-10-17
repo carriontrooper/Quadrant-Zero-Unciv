@@ -132,9 +132,10 @@
 		"RGB": [70,70,70],
 		"uniques": [
 			"Space",
+			"Gravity Well Tile",
 			"[+3] to Fertility for Map Generation",
 			"A Region is formed with at least [30]% [Gravity Well] tiles, with priority [7]",
-			//"Considered [Desirable] when determining start locations",
+			"Considered [Desirable] when determining start locations",
 			//"Considered [Food] when determining start locations <in [Jungle] Regions>",
 			//"Becomes [Mycelium] when adjacent to [Uttershroom]",
 			//"Becomes [Desert] when adjacent to [Megaxenoform Graveyard]",
@@ -154,9 +155,9 @@
 		"RGB": [70,70,70],
 		"uniques": [
 			"Space",
-			"Gravity Well",
+			"Gravity Well Tile",
 			"[+3] to Fertility for Map Generation",
-			//"Considered [Desirable] when determining start locations",
+			"Considered [Desirable] when determining start locations",
 			//"Considered [Food] when determining start locations <in [Jungle] Regions>",
 			//"Becomes [Mycelium] when adjacent to [Uttershroom]",
 			//"Becomes [Desert] when adjacent to [Megaxenoform Graveyard]",
@@ -668,7 +669,7 @@
 			"Space"
 		],
 		"uniques": [
-			"Star"
+			"Star",
 			"Common Star",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
@@ -676,7 +677,7 @@
 			"Occurs in groups of [1] to [1] tiles",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage", //except those equipped with sundiver promotion
-			"Always Fertility [-2] for Map Generation",
+			"Always Fertility [3] for Map Generation",
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
@@ -700,7 +701,7 @@
 			"Space"
 		],
 		"uniques": [
-			"Star"
+			"Star",
 			"Common Star",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
@@ -708,7 +709,7 @@
 			"Occurs in groups of [1] to [1] tiles",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
-			"Always Fertility [-2] for Map Generation",
+			"Always Fertility [3] for Map Generation",
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
@@ -732,7 +733,7 @@
 			"Space"
 		],
 		"uniques": [
-			"Star"
+			"Star",
 			"Common Star",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
@@ -740,7 +741,7 @@
 			"Occurs in groups of [1] to [1] tiles",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
-			"Always Fertility [-2] for Map Generation",
+			"Always Fertility [3] for Map Generation",
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
@@ -764,7 +765,7 @@
 			"Space"
 		],
 		"uniques": [
-			"Star"
+			"Star",
 			"Common Star",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
@@ -772,7 +773,7 @@
 			"Occurs in groups of [1] to [1] tiles",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
-			"Always Fertility [-2] for Map Generation",
+			"Always Fertility [3] for Map Generation",
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
@@ -796,7 +797,7 @@
 			"Space"
 		],
 		"uniques": [
-			"Star"
+			"Star",
 			"Uncommon Star",
 			"Rough terrain",
 			"Rare feature",
@@ -804,7 +805,7 @@
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in groups of [1] to [1] tiles",
 			"Units ending their turn on this terrain take [50] damage",
-			"Always Fertility [-2] for Map Generation",
+			"Always Fertility [3] for Map Generation",
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
@@ -828,7 +829,7 @@
 			"Space"
 		],
 		"uniques": [
-			"Star"
+			"Star",
 			"Uncommon Star",
 			"Rough terrain",
 			"Rare feature",
@@ -836,7 +837,7 @@
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in groups of [1] to [1] tiles",
 			"Units ending their turn on this terrain take [100] damage",
-			"Always Fertility [-2] for Map Generation",
+			"Always Fertility [1] for Map Generation",
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
@@ -859,7 +860,7 @@
 			"Space"
 		],
 		"uniques": [
-			"Star"
+			"Star",
 			"Uncommon Star",
 			"Rough terrain",
 			"Rare feature",
@@ -867,7 +868,7 @@
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in groups of [1] to [1] tiles",
 			"Units ending their turn on this terrain take [50] damage",
-			"Always Fertility [-2] for Map Generation",
+			"Always Fertility [1] for Map Generation",
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
@@ -891,13 +892,13 @@
 			"Space"
 		],
 		"uniques": [
-			"Star"
+			"Star",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in groups of [1] to [1] tiles",
 			//"Units ending their turn on this terrain take [50] damage",
-			"Always Fertility [-2] for Map Generation",
+			"Always Fertility [1] for Map Generation",
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
