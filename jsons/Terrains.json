@@ -345,6 +345,7 @@
 			"Star Gravity Well"
 		],
 		"uniques": [
+			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			//"Vegetation",
@@ -383,6 +384,7 @@
 		"uniques": [
 			"Planet",
 			"Hazardous planet",
+			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Blocks line-of-sight from tiles at same elevation",
@@ -418,6 +420,7 @@
 			"Planet",
 			"Hazardous planet",
 			"Cold planet",
+			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Blocks line-of-sight from tiles at same elevation",
@@ -454,6 +457,7 @@
 			"Planet",
 			"Hazardous planet",
 			"Hot planet",
+			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Blocks line-of-sight from tiles at same elevation",
@@ -488,6 +492,7 @@
 		"uniques": [
 			"Planet",
 			"Hazardous planet",
+			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Blocks line-of-sight from tiles at same elevation",
@@ -520,6 +525,7 @@
 		],
 		"uniques": [
 			"Planet",
+			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Blocks line-of-sight from tiles at same elevation",
@@ -558,6 +564,7 @@
 		"uniques": [
 			"Planet",
 			"Habitable planet",
+			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Blocks line-of-sight from tiles at same elevation",
@@ -598,6 +605,7 @@
 			"Planet",
 			"Habitable planet",
 			"Cold planet",
+			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Blocks line-of-sight from tiles at same elevation",
@@ -639,6 +647,7 @@
 			"Planet",
 			"Habitable planet",
 			"Hot planet",
+			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Blocks line-of-sight from tiles at same elevation",
@@ -675,6 +684,7 @@
 		"uniques": [
 			"Star",
 			"Common Star",
+			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
@@ -708,6 +718,7 @@
 		"uniques": [
 			"Star",
 			"Common Star",
+			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
@@ -741,6 +752,7 @@
 		"uniques": [
 			"Star",
 			"Common Star",
+			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
@@ -774,6 +786,7 @@
 		"uniques": [
 			"Star",
 			"Common Star",
+			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
@@ -904,6 +917,7 @@
 		],
 		"uniques": [
 			"Star",
+			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
