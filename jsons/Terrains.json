@@ -84,6 +84,7 @@
 			//"Considered [Desirable] when determining start locations",
 			//"Considered [Food] when determining start locations <in [Jungle] Regions>",
 			"Becomes [Star Gravity Well] when adjacent to [Star]",
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
 			//"Becomes [Gravity Well] when adjacent to [Star Gravity Well]",
 			"Becomes [Gravity Well] when adjacent to [Planet]",
 			"Becomes [Gravity Well] when adjacent to [Gas Giant]",
