@@ -616,6 +616,7 @@
 			"[+1 Gold] <within [3] tiles of a [Star]>",
 			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Desirable] when determining start locations",
+			"Considered [Food] when determining start locations",
 			"Considered [Production] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
@@ -658,6 +659,7 @@
 			"[+1 Gold] <within [3] tiles of a [Star]>",
 			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Desirable] when determining start locations",
+			"Considered [Food] when determining start locations",
 			"Considered [Production] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
 			"Becomes [Habitable Dry Planet] when adjacent to [Star]",
@@ -702,6 +704,7 @@
 			"[+1 Gold] <within [3] tiles of a [Star]>",
 			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Desirable] when determining start locations",
+			"Considered [Food] when determining start locations",
 			"Considered [Production] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
@@ -887,13 +890,13 @@
 	{
 		"name": "Black Hole",
 		"type": "TerrainFeature",
-		"gold": 2,
+		"science": 2,
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [0,0,0],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well"
+			"Black Hole Gravity Well"
 		],
 		"uniques": [
 			//"Star",
@@ -908,7 +911,7 @@
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
-			"Neighboring tiles except [Star Gravity Well] will convert to [Star Gravity Well]"
+			//"Neighboring tiles except [Star Gravity Well] will convert to [Star Gravity Well]"
 		],
 		"civilopediaText": [
 			{
