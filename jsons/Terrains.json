@@ -107,7 +107,7 @@
 			"Rough terrain",
 			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
 			"Has an elevation of [4] for visibility calculations",
-			"Occurs in chains at high elevations",
+			//"Occurs in chains at high elevations",
 			"Occurs in groups at high elevations",
 			"Occurs in groups of [1] to [1] tiles",
 			"Units ending their turn on this terrain take [50] damage",
@@ -342,7 +342,7 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
-			"Gravity Well"
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Rough terrain",
@@ -378,7 +378,7 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
-			"Gravity Well"
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -411,8 +411,8 @@
 		"RGB": [93, 134, 148],
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
-			"Space",
-			"Gravity Well"
+			"Space"
+			//"Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -448,7 +448,7 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
-			"Gravity Well"
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -483,7 +483,7 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
-			"Gravity Well"
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -514,7 +514,10 @@
 		"unbuildable": true,
 		"defenceBonus": 0.5,
 		"RGB": [158, 148, 131],
-		"occursOn": ["Space"],
+		"occursOn": [
+			"Space",
+			"Gravity Well"
+		],
 		"uniques": [
 			"Planet",
 			"Rough terrain",
@@ -550,7 +553,7 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
-			"Gravity Well"
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -588,8 +591,8 @@
 		"RGB": [96, 196, 166],
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
-			"Space",
-			"Gravity Well"
+			"Space"
+			//"Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -630,7 +633,7 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
-			"Gravity Well"
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Planet",
