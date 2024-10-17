@@ -84,7 +84,7 @@
 			//"Considered [Desirable] when determining start locations",
 			//"Considered [Food] when determining start locations <in [Jungle] Regions>",
 			"Becomes [Star Gravity Well] when adjacent to [Star]",
-			"Becomes [Gravity Well] when adjacent to [Star Gravity Well]",
+			//"Becomes [Gravity Well] when adjacent to [Star Gravity Well]",
 			"Becomes [Gravity Well] when adjacent to [Planet]",
 			"Becomes [Gravity Well] when adjacent to [Gas Giant]",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
@@ -680,7 +680,7 @@
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
-			"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
+			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
@@ -712,7 +712,7 @@
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
-			"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
+			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
@@ -744,7 +744,7 @@
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
-			"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
+			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
@@ -776,7 +776,7 @@
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
-			"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
+			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
@@ -808,7 +808,7 @@
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
-			"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
+			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
@@ -871,7 +871,7 @@
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
-			"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
+			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
@@ -901,7 +901,7 @@
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
-			"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
+			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
