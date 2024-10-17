@@ -152,7 +152,7 @@
 		"type": "Land",
 		//"food": 2,
 		"movementCost": 1,
-		"RGB": [70,70,70],
+		"RGB": [80,80,80],
 		"uniques": [
 			"Space",
 			"Gravity Well Tile",
@@ -166,6 +166,29 @@
 		"civilopediaText": [
 			{
 				"text": "A region of space that is close enough to a stellar object to be subject to their gravity."
+			}
+		]
+	},
+	{
+		"name": "Black Hole Gravity Well",
+		"type": "Land",
+		//"food": 2,
+		"movementCost": 1,
+		"RGB": [10,10,10],
+		"uniques": [
+			"Space",
+			"Gravity Well Tile",
+			"[-3] to Fertility for Map Generation",
+			//"A Region is formed with at least [30]% [Gravity Well] tiles, with priority [7]",
+			"Considered [Undesirable] when determining start locations",
+			//"Considered [Food] when determining start locations <in [Jungle] Regions>",
+			//"Becomes [Mycelium] when adjacent to [Uttershroom]",
+			//"Becomes [Desert] when adjacent to [Megaxenoform Graveyard]",
+			//"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+		],
+		"civilopediaText": [
+			{
+				"text": "A region of space that is close enough to a black hole to be subject to their gravity."
 			}
 		]
 	},
@@ -342,12 +365,14 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
+			"Gravity Well",
 			"Star Gravity Well"
 		],
 		"uniques": [
 			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			"Occurs in groups of [1] to [2] tiles",
 			//"Vegetation",
 			//"Provides a one-time Production bonus to the closest city when cut down",
 			"Blocks line-of-sight from tiles at same elevation",
@@ -357,7 +382,7 @@
 			//"Considered [Desirable] when determining start locations",
 			//"Considered [Production] when determining start locations",
 			//"Considered [Production] when determining start locations <in [Nebula] Regions>",
-			"Neighboring tiles except [Star] will convert to [Gravity Well]",
+			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
@@ -379,6 +404,7 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
+			"Gravity Well",
 			"Star Gravity Well"
 		],
 		"uniques": [
@@ -387,12 +413,13 @@
 			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			"Occurs in groups of [1] to [3] tiles",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
 			"[+1 Gold] <within [3] tiles of a [Star]>",
 			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Production] when determining start locations",
-			"Neighboring tiles except [Star] will convert to [Gravity Well]",
+			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
@@ -413,8 +440,8 @@
 		"RGB": [93, 134, 148],
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
-			"Space"
-			//"Gravity Well"
+			"Space",
+			"Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -423,12 +450,13 @@
 			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			"Occurs in groups of [1] to [2] tiles",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
 			"[+1 Gold] <within [3] tiles of a [Star]>",
 			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Production] when determining start locations",
-			"Neighboring tiles except [Star] will convert to [Gravity Well]",
+			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
 			"Becomes [Molten Planet] when adjacent to [Star]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
@@ -451,6 +479,7 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
+			"Gravity Well",
 			"Star Gravity Well"
 		],
 		"uniques": [
@@ -460,12 +489,13 @@
 			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			"Occurs in groups of [1] to [2] tiles",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
 			"[+1 Gold] <within [3] tiles of a [Star]>",
 			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Production] when determining start locations",
-			"Neighboring tiles except [Star] will convert to [Gravity Well]",
+			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
@@ -487,6 +517,7 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
+			"Gravity Well",
 			"Star Gravity Well"
 		],
 		"uniques": [
@@ -495,12 +526,13 @@
 			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			"Occurs in groups of [1] to [2] tiles",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
 			"[+1 Gold] <within [3] tiles of a [Star]>",
 			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Production] when determining start locations",
-			"Neighboring tiles except [Star] will convert to [Gravity Well]",
+			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
@@ -528,6 +560,7 @@
 			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			"Occurs in groups of [1] to [2] tiles",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
 			"[+1 Gold] <within [3] tiles of a [Star]>",
@@ -559,6 +592,7 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
+			"Gravity Well",
 			"Star Gravity Well"
 		],
 		"uniques": [
@@ -567,6 +601,7 @@
 			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			"Occurs in groups of [1] to [1] tiles",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
 			"Always Fertility [5] for Map Generation",
@@ -598,8 +633,8 @@
 		"RGB": [96, 196, 166],
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
-			"Space"
-			//"Gravity Well"
+			"Space",
+			"Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -608,6 +643,7 @@
 			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			"Occurs in groups of [1] to [1] tiles",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
 			"Always Fertility [5] for Map Generation",
@@ -641,6 +677,7 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
+			"Gravity Well",
 			"Star Gravity Well"
 		],
 		"uniques": [
@@ -650,6 +687,7 @@
 			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			"Occurs in groups of [1] to [1] tiles",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
 			"Always Fertility [5] for Map Generation",
@@ -826,7 +864,7 @@
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in groups of [1] to [1] tiles",
 			"Units ending their turn on this terrain take [50] damage",
-			"Always Fertility [3] for Map Generation",
+			"Always Fertility [0] for Map Generation",
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
@@ -859,7 +897,7 @@
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in groups of [1] to [1] tiles",
 			"Units ending their turn on this terrain take [100] damage",
-			"Always Fertility [1] for Map Generation",
+			"Always Fertility [-1] for Map Generation",
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
@@ -891,7 +929,7 @@
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in groups of [1] to [1] tiles",
 			"Units ending their turn on this terrain take [50] damage",
-			"Always Fertility [1] for Map Generation",
+			"Always Fertility [0] for Map Generation",
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
