@@ -23,7 +23,9 @@
 		"movementCost": 1,
 		"RGB": [60, 70, 80],
 		"uniques": [
-			"Hyperspace Tile"
+			"Hyperspace Tile",
+			"Becomes [Star Gravity Well] when adjacent to [Star]",
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
 			//"Becomes [Coast] when adjacent to [Harborship Wreck]",
 			//"Becomes [Coast] when adjacent to [Great Neuroreef]"
 		],
@@ -42,10 +44,12 @@
 		"movementCost": 1,
 		"RGB": [75, 90, 100],
 		"uniques": [
-			"Hyperspace Tile"
+			"Hyperspace Tile",
 			//"[+2] to Fertility for Map Generation",
-			"Considered [Desirable] when determining start locations <on water maps>",
-			//"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."
+			//"Considered [Desirable] when determining start locations <on water maps>",
+			//"Every [60] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Becomes [Star Gravity Well] when adjacent to [Star]",
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
 		],
 		"civilopediaText": [
 			{
@@ -63,7 +67,9 @@
 			"Hyperspace Tile"
 			//"Fresh water",
 			//"Considered [Food] when determining start locations",
-			"Considered [Desirable] when determining start locations"
+			"Becomes [Star Gravity Well] when adjacent to [Star]",
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
+			//"Considered [Desirable] when determining start locations"
 		],
 		"civilopediaText": [
 			{
