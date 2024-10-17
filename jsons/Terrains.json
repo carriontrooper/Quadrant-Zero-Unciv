@@ -611,7 +611,7 @@
 			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
-			"Neighboring tiles except [Star] will convert to [Gravity Well]",
+			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
 			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
@@ -653,7 +653,7 @@
 			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
-			"Neighboring tiles except [Star] will convert to [Gravity Well]",
+			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
 			"Becomes [Habitable Dry Planet] when adjacent to [Star]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
 			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
@@ -697,7 +697,7 @@
 			"[+1 Gold] <within [2] tiles of a [Star]>",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
-			"Neighboring tiles except [Star] will convert to [Gravity Well]",
+			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
 			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
@@ -890,7 +890,7 @@
 			"Star Gravity Well"
 		],
 		"uniques": [
-			"Star",
+			//"Star",
 			"Uncommon Star",
 			"Rough terrain",
 			"Rare feature",
