@@ -386,8 +386,9 @@
 			"[50]% Chance to be destroyed by nukes",
 			"[+1 Gold] <within [3] tiles of a [Star]>",
 			"[+1 Gold] <within [2] tiles of a [Star]>",
+			"[+1] to Fertility for Map Generation",
 			//"Considered [Desirable] when determining start locations",
-			//"Considered [Production] when determining start locations",
+			"Considered [Production] when determining start locations",
 			//"Considered [Production] when determining start locations <in [Nebula] Regions>",
 			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
@@ -425,6 +426,7 @@
 			"[50]% Chance to be destroyed by nukes",
 			"[+1 Gold] <within [3] tiles of a [Star]>",
 			"[+1 Gold] <within [2] tiles of a [Star]>",
+			"[+1] to Fertility for Map Generation",
 			"Considered [Production] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
@@ -462,6 +464,7 @@
 			"[50]% Chance to be destroyed by nukes",
 			"[+1 Gold] <within [3] tiles of a [Star]>",
 			"[+1 Gold] <within [2] tiles of a [Star]>",
+			"[+1] to Fertility for Map Generation",
 			"Considered [Production] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
 			"Becomes [Molten Planet] when adjacent to [Star]",
@@ -501,6 +504,7 @@
 			"[50]% Chance to be destroyed by nukes",
 			"[+1 Gold] <within [3] tiles of a [Star]>",
 			"[+1 Gold] <within [2] tiles of a [Star]>",
+			"[+1] to Fertility for Map Generation",
 			"Considered [Production] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
@@ -538,6 +542,7 @@
 			"[50]% Chance to be destroyed by nukes",
 			"[+1 Gold] <within [3] tiles of a [Star]>",
 			"[+1 Gold] <within [2] tiles of a [Star]>",
+			"[+1] to Fertility for Map Generation",
 			"Considered [Production] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
@@ -572,6 +577,7 @@
 			"[50]% Chance to be destroyed by nukes",
 			"[+1 Gold] <within [3] tiles of a [Star]>",
 			"[+1 Gold] <within [2] tiles of a [Star]>",
+			"[+1] to Fertility for Map Generation",
 			//"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
 			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
@@ -727,7 +733,9 @@
 		"RGB": [222,222,252],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Ocean",
+			"Coast"
 		],
 		"uniques": [
 			"Star",
@@ -761,7 +769,9 @@
 		"RGB": [222,222,222],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Ocean",
+			"Coast"
 		],
 		"uniques": [
 			"Star",
@@ -795,7 +805,9 @@
 		"RGB": [252,252,222],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Ocean",
+			"Coast"
 		],
 		"uniques": [
 			"Star",
@@ -829,7 +841,9 @@
 		"RGB": [252,222,222],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Ocean",
+			"Coast"
 		],
 		"uniques": [
 			"Star",
@@ -863,7 +877,9 @@
 		"RGB": [232,222,232],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Ocean",
+			"Coast"
 		],
 		"uniques": [
 			"Star",
@@ -896,7 +912,9 @@
 		"RGB": [0,0,0],
 		"occursOn": [
 			"Space",
-			"Black Hole Gravity Well"
+			"Black Hole Gravity Well",
+			"Ocean",
+			"Coast"
 		],
 		"uniques": [
 			//"Star",
@@ -928,7 +946,9 @@
 		"RGB": [222,222,232],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Ocean",
+			"Coast"
 		],
 		"uniques": [
 			"Star",
@@ -961,7 +981,9 @@
 		"RGB": [222, 192, 142],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Ocean",
+			"Coast"
 		],
 		"uniques": [
 			"Star",
