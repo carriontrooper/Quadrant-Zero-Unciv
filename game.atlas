@@ -1,69 +1,104 @@
 
 game.png
-size: 512, 64
+size: 128, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+TileSets/FantasyHex/Tiles/Black Hole Gravity Well
+  rotate: false
+  xy: 4, 192
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Blue Star
+  rotate: false
+  xy: 4, 152
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Coast
   rotate: false
-  xy: 4, 4
+  xy: 44, 192
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Gravity Well
   rotate: false
-  xy: 44, 4
+  xy: 4, 116
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Gravity Well2
   rotate: false
-  xy: 84, 4
+  xy: 44, 156
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Lake
+TileSets/FantasyHex/Tiles/Lakes
   rotate: false
-  xy: 124, 4
+  xy: 84, 192
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ocean
   rotate: false
-  xy: 164, 4
+  xy: 4, 80
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Red Star
+  rotate: false
+  xy: 44, 116
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Space
   rotate: false
-  xy: 204, 4
+  xy: 84, 156
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Space2
   rotate: false
-  xy: 244, 4
+  xy: 4, 44
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Star Gravity Well
   rotate: false
-  xy: 284, 4
+  xy: 44, 80
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Star Gravity Well2
   rotate: false
-  xy: 324, 4
+  xy: 84, 120
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/White Star
+  rotate: false
+  xy: 4, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Yellow Star
+  rotate: false
+  xy: 44, 40
+  size: 32, 32
+  orig: 32, 32
   offset: 0, 0
   index: -1
