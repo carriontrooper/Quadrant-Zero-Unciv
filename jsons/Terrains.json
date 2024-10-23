@@ -26,6 +26,7 @@
 			"Hyperspace Tile",
 			"Becomes [Star Gravity Well] when adjacent to [Star]",
 			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
+			"Becomes [Coast] when adjacent to [Land]",
 			//"Becomes [Coast] when adjacent to [Harborship Wreck]",
 			//"Becomes [Coast] when adjacent to [Great Neuroreef]"
 		],
@@ -738,7 +739,8 @@
 	{
 		"name": "Protostar",
 		"type": "TerrainFeature",
-		"gold": 2,
+		"gold": 1,
+		"production": 1,
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [222,222,252],
@@ -775,7 +777,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "Hot ball of atomic fusion."
+				"text": "Young, hot ball of atomic fusion."
 			}
 		]
 	},
@@ -797,7 +799,7 @@
 			"Rough terrain",
 			//"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
-			//"Occurs in groups of [1] to [1] tiles",
+			"Occurs in groups of [1] to [1] tiles",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage", //except those equipped with sundiver promotion
 			"Always Fertility [3] for Map Generation",
@@ -831,7 +833,7 @@
 			"Rough terrain",
 			//"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
-			//"Occurs in groups of [1] to [1] tiles",
+			"Occurs in groups of [1] to [1] tiles",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [3] for Map Generation",
@@ -865,7 +867,7 @@
 			"Rough terrain",
 			//"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
-			//"Occurs in groups of [1] to [1] tiles",
+			"Occurs in groups of [1] to [1] tiles",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [3] for Map Generation",
@@ -899,7 +901,7 @@
 			"Rough terrain",
 			//"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
-			//"Occurs in groups of [1] to [1] tiles",
+			"Occurs in groups of [1] to [1] tiles",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [3] for Map Generation",
@@ -920,7 +922,7 @@
 		"type": "TerrainFeature",
 		"gold": 2,
 		"impassable": true,
-		"defenceBonus": 0.25,
+		"defenceBonus": -0.25,
 		"RGB": [232,222,232],
 		"occursOn": [
 			"Space",
@@ -930,10 +932,10 @@
 			"Star",
 			"Uncommon Star",
 			"Rough terrain",
-			//"Rare feature",
+			"Rare feature",
 			//"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
-			//"Occurs in groups of [1] to [1] tiles",
+			"Occurs in groups of [1] to [1] tiles",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [0] for Map Generation",
 			//"Never receives any resources",
@@ -953,7 +955,7 @@
 		"type": "TerrainFeature",
 		"science": 2,
 		"impassable": true,
-		"defenceBonus": 0.25,
+		"defenceBonus": -0.25,
 		"RGB": [0,0,0],
 		"occursOn": [
 			"Space",
@@ -995,10 +997,10 @@
 			"Star",
 			"Uncommon Star",
 			"Rough terrain",
-			//"Rare feature",
+			"Rare feature",
 			//"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
-			//"Occurs in groups of [1] to [1] tiles",
+			"Occurs in groups of [1] to [1] tiles",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [0] for Map Generation",
 			//"Never receives any resources",
@@ -1026,11 +1028,11 @@
 		],
 		"uniques": [
 			"Star",
-			//"Rare feature",
+			"Rare feature",
 			"Rough terrain",
 			//"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
-			//"Occurs in groups of [1] to [1] tiles",
+			"Occurs in groups of [1] to [1] tiles",
 			//"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [1] for Map Generation",
 			//"Never receives any resources",
