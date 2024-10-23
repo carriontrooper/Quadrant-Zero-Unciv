@@ -121,7 +121,7 @@
 			"Always Fertility [-2] for Map Generation",
 			"Never receives any resources",
 			"Tile provides yield without assigned population",
-			//"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
+			//"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
 			"Considered [Undesirable] when determining start locations"
 		],
 		"civilopediaText": [
@@ -220,7 +220,7 @@
 			//"Vegetation",
 			"Provides a one-time Production bonus to the closest city when cut down",
 			"[+5] Strength for cities built on this terrain",
-			//"Has an elevation of [2] for visibility calculations",
+			"Has an elevation of [2] for visibility calculations",
 			"Blocks line-of-sight from tiles at same elevation",
 			"Occurs in groups around high elevations",
 			//"Occurs in chains at high elevations",
@@ -230,7 +230,16 @@
 			//"Starts in regions of this type receive an extra [Chitin]",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
-			"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [22] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Becomes [Planetoid] when adjacent to [Asteroid Field] <with [20]% chance>",
+			"Becomes [Barren Planet] when adjacent to [Gravity Well Tile] <with [15]% chance>",
+			"Becomes [Frozen Planet] when adjacent to [Gravity Well Tile] <with [15]% chance>",
+			"Becomes [Molten Planet] when adjacent to [Star] <with [15]% chance>",
+			"Becomes [Toxic Planet] when adjacent to [Nebula] <with [15]% chance>",
+			"Becomes [Gas Giant] when adjacent to [Nebula] <with [15]% chance>",
+			"Becomes [Habitable Wet Planet] when adjacent to [Gravity Well Tile] <with [10]% chance>",
+			"Becomes [Habitable Cold Planet] when adjacent to [Gravity Well Tile] <with [10]% chance>",
+			"Becomes [Habitable Dry Planet] when adjacent to [Star] <with [10]% chance>"
 		],
 		"civilopediaText": [
 			{
@@ -256,6 +265,8 @@
 			"Rough terrain",
 			"Vegetation",
 			"Provides a one-time Production bonus to the closest city when cut down",
+			"[+5] Strength for cities built on this terrain",
+			"Has an elevation of [2] for visibility calculations",
 			"Blocks line-of-sight from tiles at same elevation",
 			"[50]% Chance to be destroyed by nukes",
 			"A Region is formed with at least [30]% [Nebula] tiles, with priority [3]",
@@ -391,7 +402,7 @@
 			"Considered [Production] when determining start locations",
 			//"Considered [Production] when determining start locations <in [Nebula] Regions>",
 			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
-			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -429,7 +440,7 @@
 			"[+1] to Fertility for Map Generation",
 			"Considered [Production] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
-			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -468,7 +479,7 @@
 			"Considered [Production] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
 			"Becomes [Molten Planet] when adjacent to [Star]",
-			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -507,7 +518,7 @@
 			"[+1] to Fertility for Map Generation",
 			"Considered [Production] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
-			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -545,7 +556,7 @@
 			"[+1] to Fertility for Map Generation",
 			"Considered [Production] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
-			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -580,7 +591,7 @@
 			"[+1] to Fertility for Map Generation",
 			//"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
-			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -625,7 +636,7 @@
 			"Considered [Food] when determining start locations",
 			"Considered [Production] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
-			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
 			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -669,7 +680,7 @@
 			"Considered [Production] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
 			"Becomes [Habitable Dry Planet] when adjacent to [Star]",
-			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
 			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -713,7 +724,7 @@
 			"Considered [Food] when determining start locations",
 			"Considered [Production] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Gravity Well]",
-			"Becomes [Star Gravity Well] when adjacent to [Black Hole]",
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
 			"Every [3] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -725,7 +736,7 @@
 	
 	//Stars
 	{
-		"name": "Blue Star",
+		"name": "Protostar",
 		"type": "TerrainFeature",
 		"gold": 2,
 		"impassable": true,
@@ -752,7 +763,53 @@
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
-			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
+			"Becomes [Blue Star] when adjacent to [Land] <with [20]% chance>",
+			"Becomes [White Star] when adjacent to [Land] <with [20]% chance>",
+			"Becomes [Yellow Star] when adjacent to [Land] <with [20]% chance>",
+			"Becomes [Red Star] when adjacent to [Land] <with [20]% chance>",
+			"Becomes [Pulsar] when adjacent to [Land] <with [5]% chance>",
+			"Becomes [Black Hole] when adjacent to [Land] <with [5]% chance>",
+			"Becomes [Neutron Star] when adjacent to [Land] <with [5]% chance>",
+			"Becomes [Brown Dwarf] when adjacent to [Land] <with [5]% chance>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Hot ball of atomic fusion."
+			}
+		]
+	},
+	{
+		"name": "Blue Star",
+		"type": "TerrainFeature",
+		"gold": 2,
+		"impassable": true,
+		"defenceBonus": 0.25,
+		"RGB": [222,222,252],
+		/*
+		"occursOn": [
+			"Space",
+			"Star Gravity Well",
+			"Ocean",
+			"Coast"
+		],
+		*/
+		"uniques": [
+			"Star",
+			"Common Star",
+			//"Rare feature",
+			"Rough terrain",
+			//"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			"Has an elevation of [4] for visibility calculations",
+			//"Occurs in groups of [1] to [1] tiles",
+			//"Occurs in chains at high elevations",
+			"Units ending their turn on this terrain take [50] damage", //except those equipped with sundiver promotion
+			"Always Fertility [3] for Map Generation",
+			//"Never receives any resources",
+			"Tile provides yield without assigned population",
+			"Considered [Undesirable] when determining start locations",
+			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
 			{
@@ -767,20 +824,22 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [222,222,222],
+		/*
 		"occursOn": [
 			"Space",
 			"Star Gravity Well",
 			"Ocean",
 			"Coast"
 		],
+		*/
 		"uniques": [
 			"Star",
 			"Common Star",
-			"Rare feature",
+			//"Rare feature",
 			"Rough terrain",
-			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			//"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
-			"Occurs in groups of [1] to [1] tiles",
+			//"Occurs in groups of [1] to [1] tiles",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [3] for Map Generation",
@@ -788,7 +847,7 @@
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
-			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
 			{
@@ -803,20 +862,22 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [252,252,222],
+		/*
 		"occursOn": [
 			"Space",
 			"Star Gravity Well",
 			"Ocean",
 			"Coast"
 		],
+		*/
 		"uniques": [
 			"Star",
 			"Common Star",
-			"Rare feature",
+			//"Rare feature",
 			"Rough terrain",
-			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			//"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
-			"Occurs in groups of [1] to [1] tiles",
+			//"Occurs in groups of [1] to [1] tiles",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [3] for Map Generation",
@@ -824,7 +885,7 @@
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
-			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
 			{
@@ -839,20 +900,22 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [252,222,222],
+		/*
 		"occursOn": [
 			"Space",
 			"Star Gravity Well",
 			"Ocean",
 			"Coast"
 		],
+		*/
 		"uniques": [
 			"Star",
 			"Common Star",
-			"Rare feature",
+			//"Rare feature",
 			"Rough terrain",
-			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			//"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
-			"Occurs in groups of [1] to [1] tiles",
+			//"Occurs in groups of [1] to [1] tiles",
 			//"Occurs in chains at high elevations",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [3] for Map Generation",
@@ -860,7 +923,7 @@
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
-			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
 			{
@@ -875,27 +938,29 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [232,222,232],
+		/*
 		"occursOn": [
 			"Space",
 			"Star Gravity Well",
 			"Ocean",
 			"Coast"
 		],
+		*/
 		"uniques": [
 			"Star",
 			"Uncommon Star",
 			"Rough terrain",
-			"Rare feature",
-			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			//"Rare feature",
+			//"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
-			"Occurs in groups of [1] to [1] tiles",
+			//"Occurs in groups of [1] to [1] tiles",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [0] for Map Generation",
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
-			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
 			{
@@ -910,20 +975,22 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [0,0,0],
+		/*
 		"occursOn": [
 			"Space",
 			"Black Hole Gravity Well",
 			"Ocean",
 			"Coast"
 		],
+		*/
 		"uniques": [
 			//"Star",
 			"Uncommon Star",
 			"Rough terrain",
-			"Rare feature",
-			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			//"Rare feature",
+			//"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
-			"Occurs in groups of [1] to [1] tiles",
+			//"Occurs in groups of [1] to [1] tiles",
 			"Units ending their turn on this terrain take [100] damage",
 			"Always Fertility [-1] for Map Generation",
 			//"Never receives any resources",
@@ -944,27 +1011,29 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [222,222,232],
+		/*
 		"occursOn": [
 			"Space",
 			"Star Gravity Well",
 			"Ocean",
 			"Coast"
 		],
+		*/
 		"uniques": [
 			"Star",
 			"Uncommon Star",
 			"Rough terrain",
-			"Rare feature",
-			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			//"Rare feature",
+			//"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
-			"Occurs in groups of [1] to [1] tiles",
+			//"Occurs in groups of [1] to [1] tiles",
 			"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [0] for Map Generation",
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
-			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
 			{
@@ -979,26 +1048,28 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [222, 192, 142],
+		/*
 		"occursOn": [
 			"Space",
 			"Star Gravity Well",
 			"Ocean",
 			"Coast"
 		],
+		*/
 		"uniques": [
 			"Star",
-			"Rare feature",
+			//"Rare feature",
 			"Rough terrain",
-			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			//"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
-			"Occurs in groups of [1] to [1] tiles",
+			//"Occurs in groups of [1] to [1] tiles",
 			//"Units ending their turn on this terrain take [50] damage",
 			"Always Fertility [1] for Map Generation",
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
-			"Becomes [Star Gravity Well] when adjacent to [Black Hole]"
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
 			{
