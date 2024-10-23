@@ -26,7 +26,7 @@
 			"Hyperspace Tile",
 			"Becomes [Star Gravity Well] when adjacent to [Star]",
 			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
-			"Becomes [Coast] when adjacent to [Land]",
+			//"Becomes [Coast] when adjacent to [Land]",
 			//"Becomes [Coast] when adjacent to [Harborship Wreck]",
 			//"Becomes [Coast] when adjacent to [Great Neuroreef]"
 		],
@@ -147,7 +147,8 @@
 			//"Considered [Food] when determining start locations <in [Jungle] Regions>",
 			//"Becomes [Mycelium] when adjacent to [Uttershroom]",
 			//"Becomes [Desert] when adjacent to [Megaxenoform Graveyard]",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
 			{
@@ -169,7 +170,8 @@
 			//"Considered [Food] when determining start locations <in [Jungle] Regions>",
 			//"Becomes [Mycelium] when adjacent to [Uttershroom]",
 			//"Becomes [Desert] when adjacent to [Megaxenoform Graveyard]",
-			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]"
 		],
 		"civilopediaText": [
 			{
@@ -747,7 +749,7 @@
 		"occursOn": [
 			"Space",
 			"Star Gravity Well",
-			"Ocean",
+			//"Ocean",
 			"Coast"
 		],
 		"uniques": [
@@ -790,7 +792,8 @@
 		"RGB": [222,222,252],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Coast"
 		],
 		"uniques": [
 			"Star",
@@ -824,7 +827,8 @@
 		"RGB": [222,222,222],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Coast"
 		],
 		"uniques": [
 			"Star",
@@ -858,7 +862,8 @@
 		"RGB": [252,252,222],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Coast"
 		],
 		"uniques": [
 			"Star",
@@ -892,7 +897,8 @@
 		"RGB": [252,222,222],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Coast"
 		],
 		"uniques": [
 			"Star",
@@ -926,7 +932,8 @@
 		"RGB": [232,222,232],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Coast"
 		],
 		"uniques": [
 			"Star",
@@ -959,7 +966,8 @@
 		"RGB": [0,0,0],
 		"occursOn": [
 			"Space",
-			"Black Hole Gravity Well"
+			"Black Hole Gravity Well",
+			"Coast"
 		],
 		"uniques": [
 			//"Star",
@@ -991,7 +999,8 @@
 		"RGB": [222,222,232],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Coast"
 		],
 		"uniques": [
 			"Star",
@@ -1024,7 +1033,8 @@
 		"RGB": [222, 192, 142],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Coast"
 		],
 		"uniques": [
 			"Star",
