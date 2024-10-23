@@ -387,7 +387,8 @@
 		"occursOn": [
 			"Space",
 			"Gravity Well",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Coast"
 		],
 		"uniques": [
 			"Rare feature",
@@ -427,7 +428,8 @@
 		"occursOn": [
 			"Space",
 			"Gravity Well",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Coast"
 		],
 		"uniques": [
 			"Planet",
@@ -464,7 +466,8 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
-			"Gravity Well"
+			"Gravity Well",
+			"Coast"
 		],
 		"uniques": [
 			"Planet",
@@ -504,7 +507,8 @@
 		"occursOn": [
 			"Space",
 			"Gravity Well",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Coast"
 		],
 		"uniques": [
 			"Planet",
@@ -543,7 +547,8 @@
 		"occursOn": [
 			"Space",
 			"Gravity Well",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Coast"
 		],
 		"uniques": [
 			"Planet",
@@ -579,10 +584,11 @@
 		"RGB": [158, 148, 131],
 		"occursOn": [
 			"Space",
-			"Gravity Well"
+			"Gravity Well",
+			"Coast"
 		],
 		"uniques": [
-			"Planet",
+			//"Planet",
 			"Rare feature",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
@@ -620,7 +626,8 @@
 		"occursOn": [
 			"Space",
 			"Gravity Well",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Coast"
 		],
 		"uniques": [
 			"Planet",
@@ -662,7 +669,8 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
-			"Gravity Well"
+			"Gravity Well",
+			"Coast"
 		],
 		"uniques": [
 			"Planet",
@@ -707,7 +715,8 @@
 		"occursOn": [
 			"Space",
 			"Gravity Well",
-			"Star Gravity Well"
+			"Star Gravity Well",
+			"Coast"
 		],
 		"uniques": [
 			"Planet",
