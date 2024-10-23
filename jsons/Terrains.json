@@ -771,7 +771,7 @@
 			"Becomes [Pulsar] when adjacent to [Land] <with [5]% chance>",
 			"Becomes [Black Hole] when adjacent to [Land] <with [5]% chance>",
 			"Becomes [Neutron Star] when adjacent to [Land] <with [5]% chance>",
-			"Becomes [Brown Dwarf] when adjacent to [Land] <with [5]% chance>"
+			"Becomes [Brown Dwarf Star] when adjacent to [Land] <with [5]% chance>"
 		],
 		"civilopediaText": [
 			{
