@@ -305,8 +305,8 @@
 			"Hyperspace Tile",
 			"Rough terrain",
 			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
-			"Must be adjacent to [1] to [6] [Coast] tiles",
-			"Must be adjacent to [6] [Water] tiles",
+			//"Must be adjacent to [1] to [6] [Water] tiles",
+			//"Must be adjacent to [6] [Water] tiles",
 			"Blocks line-of-sight from tiles at same elevation",
 			//"[50]% Chance to be destroyed by nukes",
 			"Units ending their turn on this terrain take [25] damage",
@@ -329,6 +329,7 @@
         "movementCost": 0,  // So Civilopedia won't display a cost of 1
         "uniques": [
 		//"Hyperspace Tile"
+		"[+3] to Fertility for Map Generation",
 		"Doesn't generate naturally",
 		"Excluded from map editor"
 	],
@@ -387,8 +388,7 @@
 		"occursOn": [
 			"Space",
 			"Gravity Well",
-			"Star Gravity Well",
-			"Coast"
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Rare feature",
@@ -428,8 +428,7 @@
 		"occursOn": [
 			"Space",
 			"Gravity Well",
-			"Star Gravity Well",
-			"Coast"
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -466,8 +465,7 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
-			"Gravity Well",
-			"Coast"
+			"Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -507,8 +505,7 @@
 		"occursOn": [
 			"Space",
 			"Gravity Well",
-			"Star Gravity Well",
-			"Coast"
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -547,8 +544,7 @@
 		"occursOn": [
 			"Space",
 			"Gravity Well",
-			"Star Gravity Well",
-			"Coast"
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -584,8 +580,7 @@
 		"RGB": [158, 148, 131],
 		"occursOn": [
 			"Space",
-			"Gravity Well",
-			"Coast"
+			"Gravity Well"
 		],
 		"uniques": [
 			//"Planet",
@@ -626,8 +621,7 @@
 		"occursOn": [
 			"Space",
 			"Gravity Well",
-			"Star Gravity Well",
-			"Coast"
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -669,8 +663,7 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
-			"Gravity Well",
-			"Coast"
+			"Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -715,8 +708,7 @@
 		"occursOn": [
 			"Space",
 			"Gravity Well",
-			"Star Gravity Well",
-			"Coast"
+			"Star Gravity Well"
 		],
 		"uniques": [
 			"Planet",
