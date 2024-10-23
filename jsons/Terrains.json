@@ -764,14 +764,14 @@
 			"Considered [Undesirable] when determining start locations",
 			//"Neighboring tiles except [Star] will convert to [Star Gravity Well]",
 			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
-			"Becomes [Blue Star] when adjacent to [Land] <with [20]% chance>",
-			"Becomes [White Star] when adjacent to [Land] <with [20]% chance>",
-			"Becomes [Yellow Star] when adjacent to [Land] <with [20]% chance>",
-			"Becomes [Red Star] when adjacent to [Land] <with [20]% chance>",
-			"Becomes [Pulsar] when adjacent to [Land] <with [5]% chance>",
-			"Becomes [Black Hole] when adjacent to [Land] <with [5]% chance>",
-			"Becomes [Neutron Star] when adjacent to [Land] <with [5]% chance>",
-			"Becomes [Brown Dwarf Star] when adjacent to [Land] <with [5]% chance>"
+			"Becomes [Blue Star] when adjacent to [Land] <with [40]% chance>",
+			"Becomes [White Star] when adjacent to [Land] <with [40]% chance>",
+			"Becomes [Yellow Star] when adjacent to [Land] <with [40]% chance>",
+			"Becomes [Red Star] when adjacent to [Land] <with [40]% chance>",
+			"Becomes [Pulsar] when adjacent to [Land] <with [10]% chance>",
+			//"Becomes [Black Hole] when adjacent to [Land] <with [10]% chance>",
+			"Becomes [Neutron Star] when adjacent to [Land] <with [10]% chance>",
+			"Becomes [Brown Dwarf Star] when adjacent to [Land] <with [10]% chance>"
 		],
 		"civilopediaText": [
 			{
@@ -786,14 +786,10 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [222,222,252],
-		/*
 		"occursOn": [
 			"Space",
-			"Star Gravity Well",
-			"Ocean",
-			"Coast"
+			"Star Gravity Well"
 		],
-		*/
 		"uniques": [
 			"Star",
 			"Common Star",
@@ -824,14 +820,10 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [222,222,222],
-		/*
 		"occursOn": [
 			"Space",
-			"Star Gravity Well",
-			"Ocean",
-			"Coast"
+			"Star Gravity Well"
 		],
-		*/
 		"uniques": [
 			"Star",
 			"Common Star",
@@ -862,14 +854,10 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [252,252,222],
-		/*
 		"occursOn": [
 			"Space",
-			"Star Gravity Well",
-			"Ocean",
-			"Coast"
+			"Star Gravity Well"
 		],
-		*/
 		"uniques": [
 			"Star",
 			"Common Star",
@@ -900,14 +888,10 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [252,222,222],
-		/*
 		"occursOn": [
 			"Space",
-			"Star Gravity Well",
-			"Ocean",
-			"Coast"
+			"Star Gravity Well"
 		],
-		*/
 		"uniques": [
 			"Star",
 			"Common Star",
@@ -938,14 +922,10 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [232,222,232],
-		/*
 		"occursOn": [
 			"Space",
-			"Star Gravity Well",
-			"Ocean",
-			"Coast"
+			"Star Gravity Well"
 		],
-		*/
 		"uniques": [
 			"Star",
 			"Uncommon Star",
@@ -975,22 +955,18 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [0,0,0],
-		/*
 		"occursOn": [
 			"Space",
-			"Black Hole Gravity Well",
-			"Ocean",
-			"Coast"
+			"Black Hole Gravity Well"
 		],
-		*/
 		"uniques": [
 			//"Star",
 			"Uncommon Star",
 			"Rough terrain",
-			//"Rare feature",
-			//"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			"Rare feature",
+			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
 			"Has an elevation of [4] for visibility calculations",
-			//"Occurs in groups of [1] to [1] tiles",
+			"Occurs in groups of [1] to [1] tiles",
 			"Units ending their turn on this terrain take [100] damage",
 			"Always Fertility [-1] for Map Generation",
 			//"Never receives any resources",
@@ -1011,14 +987,10 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [222,222,232],
-		/*
 		"occursOn": [
 			"Space",
-			"Star Gravity Well",
-			"Ocean",
-			"Coast"
+			"Star Gravity Well"
 		],
-		*/
 		"uniques": [
 			"Star",
 			"Uncommon Star",
@@ -1048,14 +1020,10 @@
 		"impassable": true,
 		"defenceBonus": 0.25,
 		"RGB": [222, 192, 142],
-		/*
 		"occursOn": [
 			"Space",
-			"Star Gravity Well",
-			"Ocean",
-			"Coast"
+			"Star Gravity Well"
 		],
-		*/
 		"uniques": [
 			"Star",
 			//"Rare feature",
