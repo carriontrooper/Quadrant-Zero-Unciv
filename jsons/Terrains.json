@@ -234,15 +234,15 @@
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
 			"Every [22] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Becomes [Planetoid] when adjacent to [Asteroid Field] <with [20]% chance>",
-			"Becomes [Barren Planet] when adjacent to [Gravity Well Tile] <with [15]% chance>",
-			"Becomes [Frozen Planet] when adjacent to [Gravity Well Tile] <with [15]% chance>",
-			"Becomes [Molten Planet] when adjacent to [Star] <with [15]% chance>",
-			"Becomes [Toxic Planet] when adjacent to [Nebula] <with [15]% chance>",
-			"Becomes [Gas Giant] when adjacent to [Nebula] <with [15]% chance>",
-			"Becomes [Habitable Wet Planet] when adjacent to [Gravity Well Tile] <with [10]% chance>",
-			"Becomes [Habitable Cold Planet] when adjacent to [Gravity Well Tile] <with [10]% chance>",
-			"Becomes [Habitable Dry Planet] when adjacent to [Star] <with [10]% chance>"
+			"Becomes [Planetoid] when adjacent to [Asteroid Field] <with [40]% chance>",
+			"Becomes [Barren Planet] when adjacent to [Gravity Well Tile] <with [30]% chance>",
+			"Becomes [Frozen Planet] when adjacent to [Gravity Well Tile] <with [30]% chance>",
+			"Becomes [Molten Planet] when adjacent to [Star] <with [30]% chance>",
+			"Becomes [Toxic Planet] when adjacent to [Nebula] <with [30]% chance>",
+			"Becomes [Gas Giant] when adjacent to [Nebula] <with [30]% chance>",
+			"Becomes [Habitable Wet Planet] when adjacent to [Gravity Well Tile] <with [20]% chance>",
+			"Becomes [Habitable Cold Planet] when adjacent to [Gravity Well Tile] <with [20]% chance>",
+			"Becomes [Habitable Dry Planet] when adjacent to [Star] <with [20]% chance>"
 		],
 		"civilopediaText": [
 			{
