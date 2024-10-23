@@ -757,7 +757,7 @@
 			"Common Star",
 			"Rare feature",
 			"Rough terrain",
-			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1] <with [80]% chance>",
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in groups of [1] to [1] tiles",
 			//"Occurs in chains at high elevations",
