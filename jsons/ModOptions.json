@@ -1,4 +1,13 @@
 {
 	isBaseRuleset:true,
-	constants: { maxXPfromBarbarians:150 }
+	uniques: {
+		"Can convert gold to science with sliders"
+	}
+	constants: {
+		maxXPfromBarbarians:150,
+		minimalCityDistance:2,
+		minRiverLength:1,
+		maxRiverLength:5,
+		unitSupplyPerPopulation:1
+	}
 }
