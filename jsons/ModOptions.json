@@ -6,8 +6,8 @@
 	constants: {
 		"maxXPfromBarbarians":150,
 		"minimalCityDistance":2,
-		"minRiverLength":1,
-		"maxRiverLength":5,
+		"minRiverLength":2,
+		"maxRiverLength":6,
 		"unitSupplyPerPopulation":1
 	}
 }
