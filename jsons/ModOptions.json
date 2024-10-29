@@ -7,7 +7,7 @@
 		"maxXPfromBarbarians":150,
 		"minimalCityDistance":2,
 		//"minRiverLength":2,
-		"maxRiverLength":7,
+		"maxRiverLength":8,
 		"unitSupplyPerPopulation":1
 	}
 }
