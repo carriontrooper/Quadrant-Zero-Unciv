@@ -130,86 +130,93 @@ TileSets/FantasyHex/Tiles/Habitable Wet Planet
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Hyperstorm
+  rotate: false
+  xy: 124, 128
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Lakes
   rotate: false
-  xy: 124, 132
+  xy: 164, 172
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Molten Planet
   rotate: false
-  xy: 164, 168
+  xy: 204, 204
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Nebula
   rotate: false
-  xy: 204, 204
+  xy: 44, 12
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Nebula2
   rotate: false
-  xy: 44, 12
+  xy: 84, 44
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Neutron Star
   rotate: false
-  xy: 84, 44
+  xy: 124, 88
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ocean
   rotate: false
-  xy: 124, 96
+  xy: 164, 136
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Planetoid
   rotate: false
-  xy: 164, 128
+  xy: 204, 164
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Protostar
   rotate: false
-  xy: 204, 164
+  xy: 124, 48
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Pulsar
   rotate: false
-  xy: 124, 56
+  xy: 164, 96
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Red Star
   rotate: false
-  xy: 164, 88
+  xy: 204, 124
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Space
   rotate: false
-  xy: 204, 128
+  xy: 164, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Space2
   rotate: false
-  xy: 204, 92
+  xy: 204, 88
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -223,28 +230,28 @@ TileSets/FantasyHex/Tiles/Star Gravity Well
   index: -1
 TileSets/FantasyHex/Tiles/Star Gravity Well2
   rotate: false
-  xy: 124, 20
+  xy: 124, 12
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Toxic Planet
   rotate: false
-  xy: 164, 48
+  xy: 164, 20
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/White Star
   rotate: false
-  xy: 204, 52
+  xy: 204, 48
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Yellow Star
   rotate: false
-  xy: 164, 8
+  xy: 204, 8
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
