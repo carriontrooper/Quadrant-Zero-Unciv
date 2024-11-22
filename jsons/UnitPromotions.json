@@ -23,7 +23,8 @@
 		"name": "Drill I",
 		"uniques": [
 			"Training",
-			"[+10]% Strength <when fighting in [Rough terrain] tiles>"
+			"[+10]% Strength <vs [Military] units>"
+			//"[+10]% Strength <when fighting in [Rough terrain] tiles>"
 		],
 		"unitTypes": ["Lineship","Artillery Ship","Stealth Ship","Carrier Ship","Capital Ship","Intersector Ship","Projector Ship","Phase Ship","Skirmisher","Bomber","Screener","Mecha"],
 		"row": 1,
