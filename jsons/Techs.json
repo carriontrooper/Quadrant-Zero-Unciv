@@ -40,8 +40,13 @@
 	ECCM
 
 	==Armor techs==
+	Metallurgy
+	Composite Armor
 
 	==Shield techs==
+	Deflectors
+	Shields
+	Polarization
 
 	==Ship size techs==
 	Frigates
@@ -82,6 +87,47 @@
 			crystalline tech
 			psionic tech
 			*/
+			/*
+			{
+				"name": "Organic Technology",
+				"row": 18,
+				"quote": "'.' - ",
+				"uniques": [
+					"Only available <for [Organic Tech] Civilizations>"
+				],
+				"civilopediaText": [
+					{
+						"text": ""
+					}
+				]
+			},
+			{
+				"name": "Crystalline Technology",
+				"row": 20,
+				"quote": "'.' - ",
+				"uniques": [
+					"Only available <for [Crystal Tech] Civilizations>"
+				],
+				"civilopediaText": [
+					{
+						"text": ""
+					}
+				]
+			},
+			{
+				"name": "Psionic Affinity",
+				"row": 22,
+				"quote": "'.' - ",
+				"uniques": [
+					"Only available <for [Psychic] Civilizations>"
+				],
+				"civilopediaText": [
+					{
+						"text": ""
+					}
+				]
+			},
+			*/
 		]
 	},
 	
@@ -94,54 +140,112 @@
 		"wonderCost": 180,
 		"techs": [
 			{
-				"name": "Xenobiology",
+				"name": "Xenobiology", // resource/economy branch
 				"row": 3,
 				"quote": "'.' - ",
 				"prerequisites": ["Pioneer Spacefaring"]
 			},
 			{
-				"name": "Xenogeology",
+				"name": "Xenogeology", // resource/economy branch
 				"row": 5,
 				"quote": "'.' - ",
 				"prerequisites": ["Pioneer Spacefaring"]
 			},
 			{
-				"name": "Habitation",
+				"name": "Habitation", // domestic branch
 				"row": 7,
 				"quote": "'.' - ",
 				"prerequisites": ["Pioneer Spacefaring"]
 			},
 			{
-				"name": "Electronic Computing",
+				"name": "Electronics", // science branch
 				"row": 8,
 				"quote": "'.' - ",
-				"prerequisites": ["Pioneer Spacefaring"],
+				"prerequisites": ["Pioneer Spacefaring"]
 				//"uniques": ["Enables conversion of city production to [Science]"]
 			},
 			{
-				"name": "Fission",
+				"name": "Fission", // energy branch
 				"row": 10,
 				"quote": "'.' - ",
 				"prerequisites": ["Pioneer Spacefaring"]
 			},
 			{
-				"name": "3D Printing",
+				"name": "3D Printing", // construction branch
 				"row": 11,
 				"quote": "'.' - ",
-				"prerequisites": ["Pioneer Spacefaring"],
+				"prerequisites": ["Pioneer Spacefaring"]
 				//"uniques": ["Roads connect tiles across rivers"]
 			},
 			{
-				"name": "Metallurgy",
+				"name": "Metallurgy", // defense branch
 				"row": 12,
 				"quote": "'.' - ",
 				"prerequisites": ["Pioneer Spacefaring"]
 			},
 			{
-				"name": "Ballistics",
+				"name": "Ballistics", // weaponry branch
 				"row": 14,
 				"quote": "'.' - ",
 				"prerequisites": ["Pioneer Spacefaring"]
+			}
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Nascency era",
+		"techCost": 55,
+		"buildingCost": 100,
+		"wonderCost": 200,
+		"techs": [
+			{
+				"name": "Electronic Countermeasures",
+				"row": 8,
+				"quote": "'.' - ",
+				"prerequisites": ["Electronics"]
+			},
+			{
+				"name": "Electronic Computing",
+				"row": 9,
+				"quote": "'.' - ",
+				"prerequisites": ["Electronics"]
+			},
+			{
+				"name": "Space Construction", // construction branch
+				"row": 11,
+				"quote": "'.' - ",
+				"prerequisites": ["3D Printing"]
+				//"uniques": ["Roads connect tiles across rivers"]
+			},
+			{
+				"name": "Composite Armor", // defense branch
+				"row": 12,
+				"quote": "'.' - ",
+				"prerequisites": ["Metallurgy"]
+			},
+			{
+				"name": "Deflectors", // defense branch
+				"row": 13,
+				"quote": "'.' - ",
+				"prerequisites": ["Metallurgy", "Fission"]
+			},
+			{
+				"name": "Lasers", // weaponry branch
+				"row": 14,
+				"quote": "'.' - ",
+				"prerequisites": ["Ballistics", "Fission"]
+			},
+			{
+				"name": "Guidance Systems", // weaponry branch
+				"row": 15,
+				"quote": "'.' - ",
+				"prerequisites": ["Ballistics", "Electronic Computing"]
+			},
+			{
+				"name": "Advanced Chemical Propulsion", // engine branch
+				"row": 16,
+				"quote": "'.' - ",
+				"prerequisites": ["Ballistics"]
 			}
 		]
 	},
