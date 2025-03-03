@@ -12,6 +12,8 @@
 	
 	Wonders:
 	Artificial Star, Dyson Ruins, Spaceborn Carcass, Solar Tree, Hub Ruins, Shimmering Nebula, Junkyard Planet, Subspace Anomaly
+
+	Maybe turn Gravity Wells into interaction only things, except for black hole grav well?
 	*/
 	
 	//Base
@@ -24,7 +26,7 @@
 		"RGB": [60, 70, 80],
 		"uniques": [
 			"Hyperspace Tile",
-			"Becomes [Star Gravity Well] when adjacent to [Star]",
+			//"Becomes [Star Gravity Well] when adjacent to [Star]",
 			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
 			//"Becomes [Coast] when adjacent to [Land]",
 			//"Becomes [Coast] when adjacent to [Harborship Wreck]",
@@ -49,7 +51,7 @@
 			//"[+2] to Fertility for Map Generation",
 			//"Considered [Desirable] when determining start locations <on water maps>",
 			//"Every [60] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Becomes [Star Gravity Well] when adjacent to [Star]",
+			//"Becomes [Star Gravity Well] when adjacent to [Star]",
 			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
 		],
 		"civilopediaText": [
@@ -68,7 +70,7 @@
 			"Hyperspace Tile"
 			//"Fresh water",
 			//"Considered [Food] when determining start locations",
-			"Becomes [Star Gravity Well] when adjacent to [Star]",
+			//"Becomes [Star Gravity Well] when adjacent to [Star]",
 			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
 			//"Considered [Desirable] when determining start locations"
 		],
@@ -90,11 +92,11 @@
 			"A Region is formed with at least [30]% [Space] tiles, with priority [7]",
 			//"Considered [Desirable] when determining start locations",
 			//"Considered [Food] when determining start locations <in [Jungle] Regions>",
-			"Becomes [Star Gravity Well] when adjacent to [Star]",
+			//"Becomes [Star Gravity Well] when adjacent to [Star]",
 			"Becomes [Black Hole Gravity Well] when adjacent to [Black Hole]",
 			//"Becomes [Gravity Well] when adjacent to [Star Gravity Well]",
-			"Becomes [Gravity Well] when adjacent to [Planet]",
-			"Becomes [Gravity Well] when adjacent to [Gas Giant]",
+			//"Becomes [Gravity Well] when adjacent to [Planet]",
+			//"Becomes [Gravity Well] when adjacent to [Gas Giant]",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
@@ -132,6 +134,7 @@
 		]
 	},
 	*/
+	/*
 	{
 		"name": "Gravity Well",
 		"type": "Land",
@@ -181,6 +184,7 @@
 			}
 		]
 	},
+	*/
 	{
 		"name": "Black Hole Gravity Well",
 		"type": "Land",
@@ -217,8 +221,8 @@
 		"RGB": [125, 105, 72],
 		"occursOn": [
 			"Space",
-			"Gravity Well",
-			"Star Gravity Well"
+			//"Gravity Well",
+			//"Star Gravity Well"
 		],
 		"uniques": [
 			"Rough terrain",
@@ -268,7 +272,7 @@
 		"RGB": [145, 26, 189],
 		"occursOn": [
 			"Space",
-			"Gravity Well"
+			//"Gravity Well"
 		],
 		"uniques": [
 			"Rough terrain",
@@ -397,8 +401,8 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
-			"Gravity Well",
-			"Star Gravity Well"
+			//"Gravity Well",
+			//"Star Gravity Well"
 		],
 		"uniques": [
 			"Rare feature",
@@ -437,8 +441,8 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
-			"Gravity Well",
-			"Star Gravity Well"
+			//"Gravity Well",
+			//"Star Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -475,7 +479,7 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
-			"Gravity Well"
+			//"Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -514,8 +518,8 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
-			"Gravity Well",
-			"Star Gravity Well"
+			//"Gravity Well",
+			//"Star Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -553,8 +557,8 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
-			"Gravity Well",
-			"Star Gravity Well"
+			//"Gravity Well",
+			//"Star Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -590,7 +594,7 @@
 		"RGB": [158, 148, 131],
 		"occursOn": [
 			"Space",
-			"Gravity Well"
+			//"Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -630,8 +634,8 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
-			"Gravity Well",
-			"Star Gravity Well"
+			//"Gravity Well",
+			//"Star Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -674,7 +678,7 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
-			"Gravity Well"
+			//"Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -719,8 +723,8 @@
 		//"occursOn": ["Gravity Well"],
 		"occursOn": [
 			"Space",
-			"Gravity Well",
-			"Star Gravity Well"
+			//"Gravity Well",
+			//"Star Gravity Well"
 		],
 		"uniques": [
 			"Planet",
@@ -762,7 +766,7 @@
 		"RGB": [222,222,252],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well",
+			//"Star Gravity Well",
 			//"Ocean",
 			"Coast"
 		],
@@ -806,7 +810,7 @@
 		"RGB": [222,222,252],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well",
+			//"Star Gravity Well",
 			"Coast"
 		],
 		"uniques": [
@@ -841,7 +845,7 @@
 		"RGB": [222,222,222],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well",
+			//"Star Gravity Well",
 			"Coast"
 		],
 		"uniques": [
@@ -876,7 +880,7 @@
 		"RGB": [252,252,222],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well",
+			//"Star Gravity Well",
 			"Coast"
 		],
 		"uniques": [
@@ -911,7 +915,7 @@
 		"RGB": [252,222,222],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well",
+			//"Star Gravity Well",
 			"Coast"
 		],
 		"uniques": [
@@ -946,7 +950,7 @@
 		"RGB": [232,222,232],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well",
+			//"Star Gravity Well",
 			"Coast"
 		],
 		"uniques": [
@@ -996,7 +1000,7 @@
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
-			//"Neighboring tiles except [Star Gravity Well] will convert to [Star Gravity Well]"
+			"Neighboring tiles except [Black Hole Gravity Well] will convert to [Black Hole Gravity Well]"
 		],
 		"civilopediaText": [
 			{
@@ -1013,7 +1017,7 @@
 		"RGB": [222,222,232],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well",
+			//"Star Gravity Well",
 			"Coast"
 		],
 		"uniques": [
@@ -1047,7 +1051,7 @@
 		"RGB": [222, 192, 142],
 		"occursOn": [
 			"Space",
-			"Star Gravity Well",
+			//"Star Gravity Well",
 			"Coast"
 		],
 		"uniques": [
