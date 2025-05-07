@@ -9,7 +9,7 @@
 	*/
 
 	{
-		"name": "Instant Repair",
+		"name": "Emergency Repairs",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Lineship","Artillery Ship","Stealth Ship","Carrier Ship","Capital Ship","Intersector Ship","Projector Ship","Phase Ship","Skirmisher","Bomber","Screener","Mecha"],
 		"row": 0,
@@ -20,7 +20,7 @@
 	// Basically what is the crew trained for
 	// ÷ General
 	{
-		"name": "Drill I",
+		"name": "Trn - Drill I",
 		"uniques": [
 			"Training",
 			"[+10]% Strength <vs [Military] units>"
@@ -33,6 +33,13 @@
 
 	// Tactics *****
 	// ÷ General
+	// Wolfpack
+	// Hammer-Anvil
+	// Flanker
+	// Hunter-Killer
+	// Shock-Awe
+	
+	// ÷ Unique
 
 	// Outfit *****
 	// ÷ General
