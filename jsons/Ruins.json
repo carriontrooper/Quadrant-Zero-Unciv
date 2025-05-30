@@ -34,7 +34,7 @@
 		"name": "your exploration ship receives training",
 		"notification": "Our ship's crew has gained experience from a working ancient battle simulator!",
 		"uniques": [
-			"This Unit gains [10] XP"
+			"[This Unit] gains [10] XP"
 			//"Only available after [10] turns"
 		]
 	},
@@ -61,7 +61,7 @@
 	{
 		"name": "advanced weaponry for your exploration ship",
 		"notification": "Our ship finds intact modular ship equipment in the wreck!",
-		"uniques": ["This Unit upgrades for free including special upgrades"]
+		"uniques": ["[This Unit] upgrades for free including special upgrades"]
 	},
 	{
 		"name": "reveal nearby Pirate Lairs",
