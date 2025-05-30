@@ -10,7 +10,7 @@
 
 	{
 		"name": "Emergency Repairs",
-		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Lineship","Artillery Ship","Stealth Ship","Carrier Ship","Capital Ship","Intersector Ship","Projector Ship","Phase Ship","Skirmisher","Bomber","Screener","Mecha"],
 		"row": 0,
 		"column": 0
