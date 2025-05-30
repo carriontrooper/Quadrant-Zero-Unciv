@@ -108,7 +108,12 @@ citadel stations
 	},
 	{
 		"name": "City center", //rename city center -> colony center
-		"terrainsCanBeBuiltOn": ["Space","Gravity Well","Star Gravity Well","Asteroid Field","Nebula"],
+		"terrainsCanBeBuiltOn": [
+			"Space",
+			//"Gravity Well",
+			//"Star Gravity Well",
+			"Asteroid Field",
+			"Nebula"],
 		"uniques": [
 			"Unpillagable",
 			"Irremovable",
