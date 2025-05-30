@@ -54,7 +54,7 @@
 		"name": "discover a lost technology",
 		"notification": "We discovered a complete data schematic of [techName] in the wreck!",
 		"uniques": [
-			"[1] free random researchable Tech(s) from the [Landfall era]"
+			"[1] free random researchable Tech(s) from the [Nascency era]"
 		],
 		"color": "#7f7fff"
 	},
