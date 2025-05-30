@@ -72,8 +72,8 @@
 			"Can only heal by pillaging <hidden from users>",
 			"Unable to pillage tiles <hidden from users>",
 			"Unable to capture cities",
-			"This Unit takes [5] damage <upon ending a turn in a [Open terrain] tile>",
-			"This Unit takes [10] damage <upon ending a turn in a [Rough terrain] tile>",
+			"[This Unit] takes [5] damage <upon ending a turn in a [Open terrain] tile>",
+			"[This Unit] takes [10] damage <upon ending a turn in a [Rough terrain] tile>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
