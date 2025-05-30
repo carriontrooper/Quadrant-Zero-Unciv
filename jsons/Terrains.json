@@ -1014,7 +1014,7 @@
 			//"Never receives any resources",
 			"Tile provides yield without assigned population",
 			"Considered [Undesirable] when determining start locations",
-			"Neighboring tiles except [Black Hole Gravity Well] will convert to [Black Hole Gravity Well]"
+			"Neighboring tiles will convert to [Black Hole Gravity Well] <in tiles without [Black Hole Gravity Well]>"
 		],
 		"civilopediaText": [
 			{
