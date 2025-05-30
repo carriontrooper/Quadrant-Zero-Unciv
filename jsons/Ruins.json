@@ -81,10 +81,10 @@
 		"name": "experienced mystical event",
 		"notification": "Our ship's crew had a mystical experience while searching the wreck! (+[faithAmount] Faith)",
 		"uniques": [
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Gain enough Faith for a Pantheon",
 			"Only available <before founding a Pantheon>",
-			"Only available <after [20] turns>"
+			"Only available <after turn number [20]>"
 		],
 		"color": "#CDDDF4"
 	},
@@ -92,11 +92,11 @@
 		"name": "experienced a religious epiphany",
 		"notification": "Our ship's crew had a religious epiphany while searching the wreck! (+[faithAmount] Faith)",
 		"uniques": [
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"Gain enough Faith for [33]% of a Great Prophet",
 			"Unavailable <after generating a Great Prophet>",
 			"Only available <before founding a Pantheon>",
-			"Only available <after [20] turns>"
+			"Only available <after turn number [20]>"
 		],
 		"color": "#CDDDF4"
 	}
