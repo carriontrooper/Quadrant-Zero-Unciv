@@ -16,5 +16,183 @@
 	
 	
 	*/
-	
+	//Bonus
+	{
+		"name": "Redstone",
+		"resourceType": "Bonus",
+		//"revealedBy": "Offworld Industries", //change this later
+		"terrainsCanBeFoundOn": [
+			"Asteroid Field",
+			"Barren Planet",
+			"Frozen Planet",
+			"Molten Planet",
+			"Toxic Planet",
+			"Habitable Wet Planet",
+			"Habitable Cold Planet",
+			"Habitable Dry Planet",
+			"Planetoid",
+		],
+		//"production": 1,
+		"improvedBy": [
+			"Mining Outpost",
+			"Mining Station"
+		],
+		"improvementStats": { "production": 1 },
+		"uniques": [
+			"Mineral",
+			"Metallic",
+			"Generated with weight [15] <in [Planet] tiles>",
+			"Generated with weight [39] <in [Asteroid Field] tiles>"
+		],
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Redstone",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
+			{
+				"text": "These reddish metal ore possess above average conductivity when processed into wires. Scientists suspect they come from another reality."
+			}
+		]
+	},
+	{
+		"name": "Spatial Anomalies",
+		"resourceType": "Bonus",
+		//"revealedBy": "Deep Resource Scanning", //change this later
+		"terrainsCanBeFoundOn": ["Land", "Water"],
+		"science": 3,
+		"improvedBy": [
+			"Scientific Outpost",
+			"Scientific Station"
+		],
+		"improvementStats": { "science": 2 },
+		"uniques": [
+			"Generated on every [32] tiles <in [Land] tiles>",
+			"Generated on every [38] tiles <in [Water] tiles>"
+		],
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Ice-10",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Offshore Platform Ice-10",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
+			{
+				"text": "An anomalous region of space or hyperspace where something out of the ordinary is happening, something researchers would love to study."
+			}
+		]
+	},
+	{
+		"name": "Ice-10",
+		"resourceType": "Bonus",
+		//"revealedBy": "Deep Resource Scanning", //change this later
+		"terrainsCanBeFoundOn": ["Asteroid Field", "Frozen Planet"],
+		"science": 3,
+		"improvedBy": [
+			"Scientific Outpost",
+			"Scientific Station"
+		],
+		"improvementStats": { "science": 1, "production": 1 },
+		"uniques": [
+			"Generated on every [23] tiles <in [Cold planet] tiles>",
+			"Generated on every [15] tiles <in [Asteroid Field] tiles>",
+			"Generated on every [10] tiles <in [Asteroid Field] tiles> <with [1] to [6] neighboring [Frozen Planet] tiles>"
+		],
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Ice-10",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Offshore Platform Ice-10",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
+			{
+				"text": "A kind of hypersaline ice caused by polar currents, microbial agents and cosmic radiation, they possess unique physical attributes that researchers love to study."
+			}
+		]
+	},
+	{
+		"name": "Recyclables",
+		"resourceType": "Bonus",
+		//"revealedBy": "Deep Resource Scanning", //change this later
+		"terrainsCanBeFoundOn": ["Asteroid Field"],
+		"production": 2,
+		"improvedBy": [
+			"Mining Outpost",
+			"Mining Station"
+		],
+		"improvementStats": { "gold": 1, "production": 1 },
+		"uniques": [
+			"Generated on every [10] tiles <in [Asteroid Field] tiles> <with [1] to [6] neighboring [Planet] tiles>"
+		],
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Ice-10",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Offshore Platform Ice-10",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
+			{
+				"text": "Ancient space junk that had accreted together into faux-asteroids. Some of them can be recycled."
+			}
+		]
+	},
+	{
+		"name": "Minovich Particles",
+		"resourceType": "Bonus",
+		//"revealedBy": "Deep Resource Scanning", //change this later
+		"terrainsCanBeFoundOn": ["Space", "Nebula", "Water"],
+		"science": 3,
+		"improvedBy": [
+			"Scientific Outpost",
+			"Scientific Station"
+		],
+		"improvementStats": { "science": 2 },
+		"uniques": [
+			"Generated on every [32] tiles <in [Land] tiles>",
+			"Generated on every [15] tiles <in [Water] tiles>"
+		],
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Ice-10",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Offshore Platform Ice-10",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
+			{
+				"text": "A form of subatomic particle that can cause electronic jamming when concentrated, sometimes occurs naturally in certain areas of space and hyperspace. "
+			}
+		]
+	}
 ]
