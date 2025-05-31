@@ -344,8 +344,8 @@ UB: Dense Aquaponics
 		"denounced": ".",
 		"tradeRequest": ".",
 
-		"outerColor": [85, 85, 85],
-		"innerColor": [126, 192, 253],
+		"outerColor": [150, 204, 0],
+		"innerColor": [19, 97, 0],
 		"favoredReligion": "Hivethought",
 		"uniqueName": "Star-Blotting Myriad",
 		"uniques": [
@@ -407,8 +407,8 @@ UB: Dense Aquaponics
 		"denounced": ".",
 		"tradeRequest": ".",
 
-		"outerColor": [85, 85, 85],
-		"innerColor": [126, 192, 253],
+		"outerColor": [65, 51, 87],
+		"innerColor": [144, 209, 192],
 		"favoredReligion": "The Journey Eternal",
 		"uniqueName": "Restless Fleet",
 		"uniques": [
@@ -470,8 +470,8 @@ UB: Dense Aquaponics
 		"denounced": ".",
 		"tradeRequest": ".",
 
-		"outerColor": [85, 85, 85],
-		"innerColor": [126, 192, 253],
+		"outerColor": [140, 182, 230],
+		"innerColor": [78, 157, 217],
 		"favoredReligion": "Slirathionalism",
 		"uniqueName": "Rapid Prototyping",
 		"uniques": [
