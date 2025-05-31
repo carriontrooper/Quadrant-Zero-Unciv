@@ -19,6 +19,63 @@ citadel stations
 */
 
 [
+	// Stations (space or asteroid)
+
+	// Outposts (planet)
+
+	// Defense sites
+
+	// Road and Rail
+	{
+		"name": "Road", //rename to Navbuoy Network in translations
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		//"techRequired": "Pioneer Administration", //change this later
+		// "Costs [1] gold per turn when in your territory" does nothing and is only to inform the user... but now it's a real unique
+		"uniques": [
+			"Transport Network",
+			"Can be built outside your borders",
+			"Costs [1] [Gold] per turn when in your territory"
+		],
+		"shortcutKey": "R",
+		"civilopediaText": [
+			{
+				"text": "A basic string of autonomous space buoys that enable ships to navigate better, thus reducing travel time"
+			},
+			{
+				"text": "Reduces movement cost to ½ if the other tile also has a Navbuoy Network or Hyperlane"
+			},
+			{
+				"text": "Reduces movement cost to ⅓ with Satellite Networks",
+				"link": "Technology/Satellite Networks"
+			},
+			{
+				"text": "Requires Engineering to bridge rivers",
+				"link": "Technology/Engineering"
+			}
+		]
+	},
+	{
+		"name": "Railroad", //rename to Hyperlane in translations
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		//"techRequired": "Colony Administration", //change this later
+		"uniques": [
+			"Transport Network",
+			"Can be built outside your borders",
+			"Costs [2] [Gold] per turn when in your territory"
+		],
+		"shortcutKey": "R",
+		"civilopediaText": [
+			{
+				"text": "A set of gates that use hyperspace manipulation to compress space between them, making travel much faster"
+			},
+			{
+				"text": "Reduces movement cost to ⅒ if the other tile also has a Hyperlane"
+			}
+		]
+	},
+	
 	// Removals
 	{
 		"name": "Remove Asteroid Field", //rename to Harvest Asteroid Field
@@ -72,7 +129,20 @@ citadel stations
 	{
 		//"name": "Ancient ruins",
 		"name": "Ancient ruins", //rename to Ancient wreck
-		"terrainsCanBeBuiltOn": ["Land","Water"],
+		"terrainsCanBeBuiltOn": [
+			"Space",
+			"Asteroid Field",
+			"Nebula",
+			"Gas Giant",
+			"Barren Planet",
+			"Frozen Planet",
+			"Molten Planet",
+			"Toxic Planet",
+			"Planetoid",
+			"Habitable Wet Planet",
+			"Habitable Cold Planet",
+			"Habitable Dry Planet"
+		],
 		"uniques": ["Unpillagable", "Provides a random bonus when entered","Unbuildable"],
 		"civilopediaText": [
 			/*
@@ -91,7 +161,9 @@ citadel stations
 	},
 	{
 		"name": "City ruins", //rename city ruins -> colony ruins
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
 		"uniques": ["Unpillagable","Unbuildable","Will be replaced by automated workers"],
 		"civilopediaText": [
 			/*
@@ -126,7 +198,20 @@ citadel stations
 	},
 	{
 		"name": "Barbarian encampment", //rename Barbarian encampment -> raider base
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": [
+			"Space",
+			"Asteroid Field",
+			"Nebula",
+			"Gas Giant",
+			"Barren Planet",
+			"Frozen Planet",
+			"Molten Planet",
+			"Toxic Planet",
+			"Planetoid",
+			"Habitable Wet Planet",
+			"Habitable Cold Planet",
+			"Habitable Dry Planet"
+		],
 		"uniques": ["Unpillagable","Unbuildable"],
 		"civilopediaText": [
 			/*
@@ -139,7 +224,7 @@ citadel stations
 				"Separator": true
 			},
 			{
-				"text": "Home to savage Xenos, will spawn a hostile xeno from time to time"
+				"text": "Dens of scum and villainy, where bandits, outcasts and malcontents gather and multiply."
 			}
 		]
 	}
