@@ -260,7 +260,6 @@ UB: Dense Aquaponics
 			"Josef"
 		]
 	},
-
 	{
 		"name": "Rextani Empire",
 		"leaderName": "Emperor Toraksh III",
@@ -322,6 +321,195 @@ UB: Dense Aquaponics
 			"Monitor",
 			"Skink",
 			"Tegu"
+		]
+	},
+	{
+		"name": "Zzathak Swarm",
+		"leaderName": "Hive-Queen Khazz-Zara",
+		"adjective": ["Zzathaki"],
+		"startBias": ["Space"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"denounced": ".",
+		"tradeRequest": ".",
+
+		"outerColor": [85, 85, 85],
+		"innerColor": [126, 192, 253],
+		"favoredReligion": "Hivethought",
+		"uniqueName": "Star-Blotting Myriad",
+		"uniques": [
+			"Comment [Placeholder!]"
+		],
+		"cities": [
+			"First Hive Zzathak",
+			"Hive Gzzizz",
+			"Hive Makhzz",
+			"Hive Brmzzi",
+			"Hive Razzthak",
+			"Hive Thrizzi",
+			"Hive Rakazzak",
+			"Hive Mbrzzi",
+			"Hive Harzzathak",
+			"Hive Krizzi",
+			"Hive Rikkizzi",
+			"Hive Mbrazzathak",
+			"Hive Klak-klak",
+			"Hive Zzarathak",
+			"Hive Klakazz",
+			"Hive Rmzzithak",
+			"Hive Zzragathak",
+			"Hive Mirbzzak",
+			"Hive Thrak-klak",
+			"Hive Rathazzak"
+		],
+		"spyNames": [
+			"Blattoid",
+			"Lepidopter",
+			"Phasmid",
+			"Neuropter",
+			"Zygen",
+			"Megalopter",
+			"Coleopter",
+			"Dermapter",
+			"Archeogna",
+			"Siphonapter"
+		]
+	},
+	{
+		"name": "Karak-Haan Nomads",
+		"leaderName": "Elder Bar-Toba",
+		"adjective": ["Karak-Haan"],
+		"startBias": ["Space"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"denounced": ".",
+		"tradeRequest": ".",
+
+		"outerColor": [85, 85, 85],
+		"innerColor": [126, 192, 253],
+		"favoredReligion": "The Journey Eternal",
+		"uniqueName": "Restless Fleet",
+		"uniques": [
+			"Comment [Placeholder!]"
+		],
+		"cities": [
+			"Land-Home",
+			"Rich-Skies",
+			"Long-Walk",
+			"Shade-Cove",
+			"Rest-Meadow",
+			"Star-Home",
+			"Once-Festive",
+			"Fresh-Wind",
+			"Light-Step",
+			"Even-Shade",
+			"Thirst-Quench",
+			"Shade-Sea",
+			"Star-Wind",
+			"Dusk-Light",
+			"Rich-Meadow",
+			"Fresh-Walk",
+			"Long-Cove",
+			"Star-Skies",
+			"Dusk-Wind",
+			"Rest-Step"
+		],
+		"spyNames": [
+			"Teo-Naan",
+			"Maka-Yonn",
+			"Nandar-Ban",
+			"Raka-Teka",
+			"Fuun-Toba",
+			"Maan-Naan",
+			"Yodan-Hafa",
+			"Bar-Maan",
+			"Panna-Ronna",
+			"Bata-Gaan"
+		]
+	},
+	{
+		"name": "Slirathine Institute",
+		"leaderName": "Academician Surari",
+		"adjective": ["Slirathine"],
+		"startBias": ["Space"],
+		"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": ".",
+		"startIntroPart2": ". Can you build a colony that stands the test of time?",
+
+		"declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+
+		"neutralHello": ".",
+		"hateHello": ".",
+
+		"denounced": ".",
+		"tradeRequest": ".",
+
+		"outerColor": [85, 85, 85],
+		"innerColor": [126, 192, 253],
+		"favoredReligion": "Slirathionalism",
+		"uniqueName": "Rapid Prototyping",
+		"uniques": [
+			"Uniques Go Here"
+		],
+		"cities": [
+			"Slirath",
+			"Malara",
+			"Maslira",
+			"Surruura",
+			"Nulkuri",
+			"Llun",
+			"Suwura",
+			"Larath",
+			"Tharalu",
+			"Slirthui",
+			"Maslun",
+			"Sulusulu",
+			"Malkuslun",
+			"Ssulli",
+			"Nalmawa",
+			"Ullun",
+			"Thulkuri",
+			"Nulsurru",
+			"Luwusura",
+			"Sullira"
+		],
+		"spyNames": [
+			"Bichir",
+			"Gar",
+			"Aholehole",
+			"Bonito",
+			"Devario",
+			"Gombessa",
+			"Opah",
+			"Mojarra",
+			"Remora",
+			"Snook"
 		]
 	},
 	
