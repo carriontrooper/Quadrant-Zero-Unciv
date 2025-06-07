@@ -326,6 +326,7 @@ UB: Dense Aquaponics
 			"Tegu"
 		]
 	},
+	/*
 	{
 		"name": "Zzathak Swarm",
 		"leaderName": "Hive-Queen Khazz-Zara",
@@ -481,7 +482,7 @@ UB: Dense Aquaponics
 		"favoredReligion": "Slirathionalism",
 		"uniqueName": "Rapid Prototyping",
 		"uniques": [
-			"Uniques Go Here"
+			"Comment [Placeholder!]"
 		],
 		"cities": [
 			"Slirath",
@@ -518,6 +519,7 @@ UB: Dense Aquaponics
 			"Snook"
 		]
 	},
+	*/
 	
 	// Barbarian - rename to Raider
 	{
