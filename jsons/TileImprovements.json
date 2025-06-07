@@ -21,7 +21,233 @@ citadel stations
 [
 	// Stations (space or asteroid)
 
+	{
+		"name": "Agri-Station",
+		"terrainsCanBeBuiltOn": [
+			"Space",
+			"Asteroid Field",
+			"Nebula"
+		],
+		"food": 1,
+		"turnsToBuild": 6,
+		//"techRequired": "Old Earth Knowledge", //change later
+		"uniques": [
+			"Agricultural",
+			//"Can also be built on tiles adjacent to fresh water",
+			"Cannot be built on [Water] tiles",
+			//"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>", //re-enable these after techs are done
+			//"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>",
+			"[+1 Food] <within [1] tiles of a [Common Star]>",
+			"Pillaging this improvement yields approximately [+3 Food]"
+		],
+		"shortcutKey": "F",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri-Station",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
+			{
+				"text": "This spaceborne station's primary function is to grow food - whether it's rows upon rows of hydroponics or mealworm mini-ranches."
+			}
+		]
+	},
+	{
+		"name": "Mining Station",
+		"terrainsCanBeBuiltOn": [
+			"Space",
+			"Asteroid Field"
+		],
+		"production": 1,
+		"turnsToBuild": 6,
+		//"techRequired": "Old Earth Knowledge", //change later
+		"uniques": [
+			"Mining",
+			"Cannot be built on [Water] tiles",
+			//"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>", //re-enable these after techs are done
+			//"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>",
+			"[+1 Production] from [Asteroid Field] tiles",
+			"[+1 Production] <within [1] tiles of a [Asteroid Field]>",
+			"Pillaging this improvement yields approximately [+2 Production, +2 Gold]"
+		],
+		"shortcutKey": "F",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Mining Station",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
+			{
+				"text": "This spaceborne station's primary function is to mine minerals from asteroids."
+			}
+		]
+	},
+	{
+		"name": "Scientific Station",
+		"terrainsCanBeBuiltOn": [
+			"Space",
+			"Asteroid Field",
+			"Nebula"
+		],
+		"science": 1,
+		"turnsToBuild": 6,
+		//"techRequired": "Old Earth Knowledge", //change later
+		"uniques": [
+			"Scientific",
+			"Cannot be built on [Water] tiles",
+			//"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>", //re-enable these after techs are done
+			//"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>",
+			"[+1 Science] <within [1] tiles of a [Nebula]>",
+			"Pillaging this improvement yields approximately [+1 Science, +3 Gold]"
+		],
+		"shortcutKey": "F",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri-Station",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
+			{
+				"text": "This spaceborne station's primary function is to grow food - whether it's rows upon rows of hydroponics or mealworm mini-ranches."
+			}
+		]
+	},
+
 	// Outposts (planet)
+
+	{
+		"name": "Agricultural Outpost",
+		"terrainsCanBeBuiltOn": [
+			"Barren Planet",
+			"Frozen Planet",
+			"Molten Planet",
+			"Toxic Planet",
+			"Planetoid",
+			"Habitable Wet Planet",
+			"Habitable Cold Planet",
+			"Habitable Dry Planet"
+		],
+		"food": 2,
+		"turnsToBuild": 6,
+		//"techRequired": "Old Earth Knowledge", //change later
+		"uniques": [
+			"Agricultural",
+			//"Can also be built on tiles adjacent to fresh water",
+			"Cannot be built on [Water] tiles",
+			//"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>", //re-enable these after techs are done
+			//"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>",
+			"[+2 Food] <within [1] tiles of a [Common Star]>",
+			"[+1 Food] <within [1] tiles of a [Common Star]>",
+			"[+1 Food] <in [Habitable Planet] tiles>",
+			"Pillaging this improvement yields approximately [+5 Food]"
+		],
+		"shortcutKey": "F",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agricultural Outpost",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
+			{
+				"text": "A planetary outpost dedicated to growing food."
+			}
+		]
+	},
+	{
+		"name": "Mining Outpost",
+		"terrainsCanBeBuiltOn": [
+			"Barren Planet",
+			"Frozen Planet",
+			"Molten Planet",
+			"Toxic Planet",
+			"Planetoid",
+			"Habitable Wet Planet",
+			"Habitable Cold Planet",
+			"Habitable Dry Planet"
+		],
+		"production": 2,
+		"turnsToBuild": 6,
+		//"techRequired": "Old Earth Knowledge", //change later
+		"uniques": [
+			"Mining",
+			"Cannot be built on [Water] tiles",
+			//"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>", //re-enable these after techs are done
+			//"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>",
+			"[+2 Production] <in [Molten Planet] tiles>",
+			"[+1 Production] <within [1] tiles of a [Asteroid Field]>",
+			"Pillaging this improvement yields approximately [+4 Production, +2 Gold]"
+		],
+		"shortcutKey": "F",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Mining Outpost",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
+			{
+				"text": "A planetary outpost dedicated to mineral extraction."
+			}
+		]
+	},
+	{
+		"name": "Scientific Outpost",
+		"terrainsCanBeBuiltOn": [
+			"Barren Planet",
+			"Frozen Planet",
+			"Molten Planet",
+			"Toxic Planet",
+			"Planetoid",
+			"Habitable Wet Planet",
+			"Habitable Cold Planet",
+			"Habitable Dry Planet"
+		],
+		"science": 2,
+		"turnsToBuild": 6,
+		//"techRequired": "Old Earth Knowledge", //change later
+		"uniques": [
+			"Scientific",
+			"Cannot be built on [Water] tiles",
+			//"[+1 Food] from [Fresh water] tiles <after discovering [Xeno-Grafting]>", //re-enable these after techs are done
+			//"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>",
+			"[+1 Production] <within [1] tiles of a [Nebula]>",
+			"Pillaging this improvement yields approximately [+2 Science, +3 Gold]"
+		],
+		"shortcutKey": "F",
+		"civilopediaText": [
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Mining Outpost",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			*/
+			{
+				"text": "A planetary outpost dedicated to mineral extraction."
+			}
+		]
+	},
 
 	// Defense sites
 
