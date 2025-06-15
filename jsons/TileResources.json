@@ -63,7 +63,23 @@
 		"name": "Spatial Anomalies",
 		"resourceType": "Bonus",
 		//"revealedBy": "Deep Resource Scanning", //change this later
-		"terrainsCanBeFoundOn": ["Land", "Water"],
+		"terrainsCanBeFoundOn": [
+			"Space",
+			"Asteroid Field",
+			"Nebula",
+			"Barren Planet",
+			"Frozen Planet",
+			"Molten Planet",
+			"Toxic Planet",
+			"Habitable Wet Planet",
+			"Habitable Cold Planet",
+			"Habitable Dry Planet",
+			"Planetoid",
+			"Gas Giant",
+			"Ocean",
+			"Coast",
+			"Lakes"
+		],
 		"science": 3,
 		"improvedBy": [
 			"Scientific Outpost",
@@ -169,7 +185,13 @@
 		"name": "Minovich Particles",
 		"resourceType": "Bonus",
 		//"revealedBy": "Deep Resource Scanning", //change this later
-		"terrainsCanBeFoundOn": ["Space", "Nebula", "Water"],
+		"terrainsCanBeFoundOn": [
+			"Space",
+			"Nebula",
+			"Ocean",
+			"Coast",
+			"Lakes"
+		],
 		"science": 3,
 		"improvedBy": [
 			"Scientific Outpost",
@@ -377,7 +399,13 @@
 		"name": "Unique Radiation",
 		"resourceType": "Bonus",
 		//"revealedBy": "Deep Resource Scanning", //change this later
-		"terrainsCanBeFoundOn": ["Space", "Nebula", "Water"],
+		"terrainsCanBeFoundOn": [
+			"Space",
+			"Nebula",
+			"Ocean",
+			"Coast",
+			"Lakes"
+		],
 		"science": 3,
 		"improvedBy": [
 			"Scientific Outpost",
