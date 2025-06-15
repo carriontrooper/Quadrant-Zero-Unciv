@@ -278,11 +278,12 @@
 		],
 		"uniques": [
 			"Rough terrain",
-			//"Vegetation",
+			"Vegetation",
 			"Provides a one-time Production bonus to the closest city when cut down",
 			"[+5] Strength for cities built on this terrain",
 			"Has an elevation of [2] for visibility calculations",
 			"Blocks line-of-sight from tiles at same elevation",
+			"Occurs in groups around high elevations",
 			"[+1] to Fertility for Map Generation",
 			"Always Fertility [1] for Map Generation",
 			"[50]% Chance to be destroyed by nukes",
