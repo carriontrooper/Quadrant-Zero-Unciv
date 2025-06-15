@@ -251,6 +251,64 @@
 	},
 	
 	//Exploration Era
+	{
+		"columnNumber": 3,
+		"era": "Exploration era",
+		"techCost": 105,
+		"buildingCost": 160,
+		"wonderCost": 320,
+		"techs": [
+			{
+				"name": "Electromagnetic Sensors",
+				"row": 8,
+				"quote": "'.' - ",
+				"prerequisites": ["Electronic Countermeasures"]
+			},
+			{
+				"name": "Data Transmission",
+				"row": 9,
+				"quote": "'.' - ",
+				"prerequisites": ["Electronic Computing"]
+			},
+			{
+				"name": "Fusion", // energy branch
+				"row": 10,
+				"quote": "'.' - ",
+				"prerequisites": ["Fission"]
+			},
+			{
+				"name": "Simple Orbital Habitats", // construction branch
+				"row": 11,
+				"quote": "'.' - ",
+				"prerequisites": ["3D Printing"]
+				//"uniques": ["Roads connect tiles across rivers"]
+			},
+			{
+				"name": "Composite Armor", // defense branch
+				"row": 12,
+				"quote": "'.' - ",
+				"prerequisites": ["Metallurgy"]
+			},
+			{
+				"name": "Shields", // defense branch
+				"row": 13,
+				"quote": "'.' - ",
+				"prerequisites": ["Deflectors"]
+			},
+			{
+				"name": "Missiles", // weaponry branch
+				"row": 14,
+				"quote": "'.' - ",
+				"prerequisites": ["Guidance Systems", "Advanced Chemical Propulsion"]
+			},
+			{
+				"name": "Navigation Systems",
+				"row": 15,
+				"quote": "'.' - ",
+				"prerequisites": ["Guidance Systems"]
+			}
+		]
+	},
 
 	//Fusion Era
 
