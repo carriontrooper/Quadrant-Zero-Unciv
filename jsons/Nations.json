@@ -399,7 +399,8 @@ UU: Chorus Corvette
 		"leaderName": "Elder Bar-Toba",
 		"adjective": ["Karak-Haan"],
 		"startBias": ["Space"],
-		"preferredVictoryType":"Diplomatic",
+		//"preferredVictoryType":"Diplomatic",
+		"preferredVictoryType":"Domination", //only for testing
 
 		"startIntroPart1": ".",
 		"startIntroPart2": ". Can you build a colony that stands the test of time?",
@@ -463,7 +464,8 @@ UU: Chorus Corvette
 		"leaderName": "Academician Surari",
 		"adjective": ["Slirathine"],
 		"startBias": ["Space"],
-		"preferredVictoryType":"Scientific",
+		//"preferredVictoryType":"Scientific",
+		"preferredVictoryType":"Domination", //only for testing
 
 		"startIntroPart1": ".",
 		"startIntroPart2": ". Can you build a colony that stands the test of time?",
