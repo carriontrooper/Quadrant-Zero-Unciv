@@ -235,6 +235,7 @@
 			//"Occurs in chains at high elevations",
 			"[+1] to Fertility for Map Generation",
 			"Always Fertility [1] for Map Generation",
+			"[50]% Chance to be destroyed by nukes",
 			"A Region is formed with at least [40]% [Asteroid Field] tiles, with priority [5]",
 			"A Region is formed with at least [45]% [Asteroid Field] tiles and [Nebula] tiles, with priority [3]",
 			"A Region can not contain more [Nebula] tiles than [Asteroid Field] tiles",
@@ -243,8 +244,8 @@
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
 			"Every [22] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Becomes [Nebula] when adjacent to [Nebula] <with [80]% chance>",
-			"Becomes [Nebula] when adjacent to [Space] <with [50]% chance>",
+			"Becomes [Nebula] when adjacent to [Nebula] <with [90]% chance>",
+			"Becomes [Nebula] when adjacent to [Space] <with [80]% chance>",
 			"Becomes [Planetoid] when adjacent to [Asteroid Field] <with [80]% chance>",
 			"Becomes [Barren Planet] when adjacent to [Gravity Well Tile] <with [60]% chance>",
 			"Becomes [Frozen Planet] when adjacent to [Gravity Well Tile] <with [60]% chance>",
@@ -277,7 +278,7 @@
 		],
 		"uniques": [
 			"Rough terrain",
-			"Vegetation",
+			//"Vegetation",
 			"Provides a one-time Production bonus to the closest city when cut down",
 			"[+5] Strength for cities built on this terrain",
 			"Has an elevation of [2] for visibility calculations",
@@ -285,13 +286,13 @@
 			"[+1] to Fertility for Map Generation",
 			"Always Fertility [1] for Map Generation",
 			"[50]% Chance to be destroyed by nukes",
-			"A Region is formed with at least [30]% [Nebula] tiles, with priority [3]",
-			"A Region is formed with at least [35]% [Nebula] tiles and [Asteroid Field] tiles, with priority [3]",
+			"A Region is formed with at least [20]% [Nebula] tiles, with priority [3]",
+			"A Region is formed with at least [25]% [Nebula] tiles and [Asteroid Field] tiles, with priority [3]",
 			"A Region can not contain more [Asteroid Field] tiles than [Nebula] tiles",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
 			"Considered [Production] when determining start locations <in [Nebula] Regions>",
-			"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."
 		],
 		"civilopediaText": [
 			{
