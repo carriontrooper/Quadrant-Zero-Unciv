@@ -150,7 +150,7 @@ citadel stations
 			//"[+1 Food] from [non-fresh water] tiles <after discovering [Genetics]>",
 			"[+2 Food] <within [1] tiles of a [Common Star]>",
 			"[+1 Food] <within [1] tiles of a [Common Star]>",
-			"[+1 Food] <in [Habitable Planet] tiles>",
+			"[+1 Food] <in [Habitable planet] tiles>",
 			"Pillaging this improvement yields approximately [+5 Food]"
 		],
 		"shortcutKey": "F",
