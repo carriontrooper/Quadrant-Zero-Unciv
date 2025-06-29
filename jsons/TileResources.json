@@ -87,8 +87,8 @@
 		],
 		"improvementStats": { "science": 2 },
 		"uniques": [
-			"Generated on every [128] tiles <in [Land] tiles>",
-			"Generated on every [128] tiles <in [Water] tiles>"
+			"Generated on every [256] tiles <in [Land] tiles>",
+			"Generated on every [256] tiles <in [Water] tiles>"
 		],
 		"civilopediaText": [
 			/*
@@ -192,7 +192,7 @@
 			"Coast",
 			"Lakes"
 		],
-		"science": 3,
+		"science": 1,
 		"improvedBy": [
 			"Scientific Outpost",
 			"Scientific Station"
@@ -277,7 +277,7 @@
 			"Planetoid",
 			"Nebula"
 		],
-		"food": 2,
+		"food": 1,
 		"improvedBy": [
 			"Agricultural Outpost",
 			"Agri-Station"
@@ -406,12 +406,12 @@
 			"Coast",
 			"Lakes"
 		],
-		"science": 3,
+		"science": 1,
 		"improvedBy": [
 			"Scientific Outpost",
 			"Scientific Station"
 		],
-		"improvementStats": { "science": 3 },
+		"improvementStats": { "science": 2 },
 		"uniques": [
 			"Particle",
 			"Generated on every [128] tiles <in [Land] tiles>",
