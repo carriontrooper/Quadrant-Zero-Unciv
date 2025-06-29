@@ -76,7 +76,7 @@
 			"Habitable Dry Planet",
 			"Planetoid",
 			"Gas Giant",
-			"Ocean",
+			//"Ocean",
 			"Coast",
 			"Lakes"
 		],
@@ -188,7 +188,7 @@
 		"terrainsCanBeFoundOn": [
 			"Space",
 			"Nebula",
-			"Ocean",
+			//"Ocean",
 			"Coast",
 			"Lakes"
 		],
@@ -402,7 +402,7 @@
 		"terrainsCanBeFoundOn": [
 			"Space",
 			"Nebula",
-			"Ocean",
+			//"Ocean",
 			"Coast",
 			"Lakes"
 		],
