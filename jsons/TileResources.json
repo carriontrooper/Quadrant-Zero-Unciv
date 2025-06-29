@@ -80,7 +80,7 @@
 			"Coast",
 			"Lakes"
 		],
-		"science": 3,
+		"science": 2,
 		"improvedBy": [
 			"Scientific Outpost",
 			"Scientific Station"
@@ -406,7 +406,7 @@
 			"Coast",
 			"Lakes"
 		],
-		"science": 1,
+		"science": 3,
 		"improvedBy": [
 			"Scientific Outpost",
 			"Scientific Station"
@@ -414,8 +414,8 @@
 		"improvementStats": { "science": 2 },
 		"uniques": [
 			"Particle",
-			"Generated on every [128] tiles <in [Land] tiles>",
-			"Generated on every [64] tiles <in [Water] tiles>"
+			"Generated on every [256] tiles <in [Land] tiles>",
+			"Generated on every [512] tiles <in [Water] tiles>"
 		],
 		"civilopediaText": [
 			/*
