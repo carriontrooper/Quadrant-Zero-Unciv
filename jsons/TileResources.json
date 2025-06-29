@@ -87,8 +87,8 @@
 		],
 		"improvementStats": { "science": 2 },
 		"uniques": [
-			"Generated on every [32] tiles <in [Land] tiles>",
-			"Generated on every [38] tiles <in [Water] tiles>"
+			"Generated on every [64] tiles <in [Land] tiles>",
+			"Generated on every [64] tiles <in [Water] tiles>"
 		],
 		"civilopediaText": [
 			/*
@@ -200,8 +200,8 @@
 		"improvementStats": { "science": 2 },
 		"uniques": [
 			"Particle",
-			"Generated on every [32] tiles <in [Land] tiles>",
-			"Generated on every [15] tiles <in [Water] tiles>"
+			"Generated on every [64] tiles <in [Land] tiles>",
+			"Generated on every [32] tiles <in [Water] tiles>"
 		],
 		"civilopediaText": [
 			/*
@@ -414,8 +414,8 @@
 		"improvementStats": { "science": 3 },
 		"uniques": [
 			"Particle",
-			"Generated on every [32] tiles <in [Land] tiles>",
-			"Generated on every [15] tiles <in [Water] tiles>"
+			"Generated on every [64] tiles <in [Land] tiles>",
+			"Generated on every [32] tiles <in [Water] tiles>"
 		],
 		"civilopediaText": [
 			/*
