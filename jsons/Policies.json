@@ -20,4 +20,270 @@
 	Evolutionist
 	Mechanist
 	*/
+	/*
+	{
+		"name": "Policy Branch",
+		"era": "Era era",
+		"priorities": {
+			"Neutral": 30,
+			"Cultural": 10,
+			"Diplomatic": 10,
+			"Domination": 10,
+			"Scientific": 10
+        	},
+		"uniques": [
+			"Comment [Placeholder]"
+		],
+		"policies": [
+			{
+				"name": "Policy 1",
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Policy 2",
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Policy 3",
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Policy 4",
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"requires": ["Policy 1"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Policy 5",
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"requires": ["Policy 1", "Policy 2"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Policy Branch Complete",
+				"uniques": [
+					"Comment [Placeholder]"
+				]
+			}
+		]
+	},
+	*/
+
+	// Discovery
+	{
+		"name": "Discovery",
+		"era": "Nascency era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 10,
+			"Diplomatic": 10,
+			"Domination": 10,
+			"Scientific": 30
+        	},
+		"uniques": [
+			"Comment [Placeholder]"
+		],
+		"policies": [
+			{
+				"name": "Exploration Initiative", //movement bonus to scoutships/early ships
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Networked Research", //bonus science to science buildings
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Analytical Thinking", //scientist specialist buff
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Scientific Education", //more scientist speiclist slots on science buildings
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"requires": ["Networked Research"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Citizen Scientists", //adds science per x population
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"requires": ["Scientific Education", "Analytical Thinking"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Discovery Complete", //able to buy great scientists with faith, +sight to units
+				"uniques": [
+					"Comment [Placeholder]"
+				]
+			}
+		]
+	},
+
+	// Expansion
+	{
+		"name": "Expansion",
+		"era": "Nascency era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 20,
+			"Diplomatic": 20,
+			"Domination": 20,
+			"Scientific": 10
+        	},
+		"uniques": [
+			"Comment [Placeholder]"
+		],
+		"policies": [
+			{
+				"name": "Colonization Drive", //build colonizers faster, +1 free colonizer
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Standardized Comms", //adds science, culture and credit buffs on all cities
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Habitat Adaptation", //adds food on cities
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"requires": ["Colonization Drive"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Claim Broadcasts", //faster tile gain from culture
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"requires": ["Standardized Comms"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Exospace Deeds", //enables buying tiles with credits
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"requires": ["Standardized Comms"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Expansion Complete", //1 free great unit of your choice, faster city growth
+				"uniques": [
+					"Comment [Placeholder]"
+				]
+			}
+		]
+	},
+
+	// Might
+	{
+		"name": "Might",
+		"era": "Nascency era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 10,
+			"Diplomatic": 10,
+			"Domination": 30,
+			"Scientific": 10
+        	},
+		"uniques": [
+			"Comment [Placeholder]"
+		],
+		"policies": [
+			{
+				"name": "Piracy Suppression", //more damage vs raiders and shows their lairs
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Recruitment Drive", //faster ship manufacturing
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Secure Logistics", //garrisoned planets gain industry and happiness
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"requires": ["Piracy Suppression"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Academy Training", //unlocks advanced training promotions
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"requires": ["Recruitment Drive"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Space Doctrine", //unlocks special uniques and tactic promotions depending on ship type
+				"uniques": [
+					"Comment [Placeholder]"
+				],
+				"requires": ["Secure Logistics", "Academy Training"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Might Complete", //able to buy great admirals with faith, units do more damage
+				"uniques": [
+					"Comment [Placeholder]"
+				]
+			}
+		]
+	}
 ]
