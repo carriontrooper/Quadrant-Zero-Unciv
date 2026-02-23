@@ -56,7 +56,7 @@
 	// ## Offensive: Weapons and such
 	// Ballistic is straightforward
 	// Energy has crit chances
-	// Missile has no defending terrain penalty
+	// Missile bypasses defending terrain penalty
 	
 	// # Ballistic
 	// # Energy
@@ -66,8 +66,16 @@
 	// Engines = movement
 	// Thrusters = chance to dodge, ignore zone
 	
-	// ## Reactors: power source, some types of equipment promos need these (basically unlocker promotions)
-	
+	// ## Reactors: power source, some types of equipment promos need these (basically unlocker promotions, unlocks next tier of reactors with tech)
+	/*
+	- Chem-Reactor
+	- Fission Reactor
+	- Fusion Reactor
+	- Antimatter Reactor
+	- Quantum Reactor
+	- Zero-Point Reactor
+	*/
+
 	// ## Others: Misc equipments
 	/*
 	stuff like:
