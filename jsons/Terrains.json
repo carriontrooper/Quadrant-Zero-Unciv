@@ -773,6 +773,7 @@
 		"gold": 1,
 		"production": 1,
 		"impassable": true,
+		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"RGB": [222,222,252],
 		"occursOn": [
@@ -818,6 +819,7 @@
 		"type": "TerrainFeature",
 		"gold": 2,
 		"impassable": true,
+		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"RGB": [222,222,252],
 		"occursOn": [
@@ -854,6 +856,7 @@
 		"type": "TerrainFeature",
 		"gold": 2,
 		"impassable": true,
+		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"RGB": [222,222,222],
 		"occursOn": [
@@ -890,6 +893,7 @@
 		"type": "TerrainFeature",
 		"gold": 2,
 		"impassable": true,
+		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"RGB": [252,252,222],
 		"occursOn": [
@@ -926,6 +930,7 @@
 		"type": "TerrainFeature",
 		"gold": 2,
 		"impassable": true,
+		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"RGB": [252,222,222],
 		"occursOn": [
@@ -962,6 +967,7 @@
 		"type": "TerrainFeature",
 		"gold": 2,
 		"impassable": true,
+		"unbuildable": true,
 		"defenceBonus": -0.25,
 		"RGB": [232,222,232],
 		"occursOn": [
@@ -993,43 +999,11 @@
 		]
 	},
 	{
-		"name": "Black Hole",
-		"type": "TerrainFeature",
-		"science": 2,
-		"impassable": true,
-		"defenceBonus": -0.25,
-		"RGB": [0,0,0],
-		"occursOn": [
-			"Space",
-			"Black Hole Gravity Well",
-			"Coast"
-		],
-		"uniques": [
-			//"Star",
-			"Uncommon Star",
-			"Rough terrain",
-			"Rare feature",
-			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
-			"Has an elevation of [4] for visibility calculations",
-			"Occurs in groups of [1] to [1] tiles",
-			"Units ending their turn on this terrain take [100] damage",
-			"Always Fertility [-1] for Map Generation",
-			//"Never receives any resources",
-			"Tile provides yield without assigned population",
-			"Considered [Undesirable] when determining start locations",
-			"Neighboring tiles will convert to [Black Hole Gravity Well] <in tiles without [Black Hole Gravity Well]>"
-		],
-		"civilopediaText": [
-			{
-				"text": "A massive star that had collapsed due to its own gravity."
-			}
-		]
-	},
-	{
 		"name": "Neutron Star",
 		"type": "TerrainFeature",
 		"gold": 2,
 		"impassable": true,
+		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"RGB": [222,222,232],
 		"occursOn": [
@@ -1065,6 +1039,7 @@
 		"type": "TerrainFeature",
 		"gold": 2,
 		"impassable": true,
+		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"RGB": [222, 192, 142],
 		"occursOn": [
@@ -1093,6 +1068,41 @@
 				"text": "Not-so-hot ball of atomic fusion."
 			}
 		]
+	},
+	// Natural Wonders
+	{
+		"name": "Black Hole",
+		"type": "NaturalWonder",
+		"science": 2,
+		"turnsInto": "Black Hole Gravity Well",
+		"impassable": true,
+		"unbuildable": true,
+		"defenceBonus": -0.25,
+		"RGB": [0,0,0],
+		"occursOn": [
+			"Space",
+			"Black Hole Gravity Well",
+			"Coast"
+		],
+		"uniques": [
+			//"Star",
+			"Uncommon Star",
+			"Rough terrain",
+			//"Rare feature",
+			"Occurs at temperature between [-1] and [1] and humidity between [0] and [1]",
+			"Has an elevation of [4] for visibility calculations",
+			"Occurs in groups of [1] to [1] tiles",
+			"Units ending their turn on this terrain take [100] damage",
+			"Always Fertility [-1] for Map Generation",
+			//"Never receives any resources",
+			"Tile provides yield without assigned population",
+			"Considered [Undesirable] when determining start locations",
+			"Neighboring tiles will convert to [Black Hole Gravity Well] <in tiles without [Black Hole Gravity Well]>"
+		],
+		"civilopediaText": [
+			{
+				"text": "A massive star that had collapsed due to its own gravity."
+			}
+		]
 	}
-	// Wonders
 ]
