@@ -231,6 +231,13 @@ UU: Chorus Corvette
 		"declaringFriendship": ".",
 		"tradeRequest": ".",
 
+		"neutralDenouncing": ".",
+		"hateDenouncing": ".",
+		
+		"acceptingDemand": ".",
+		"neutralRejectingDemand": ".",
+		"hateRejectingDemand": ".",
+
 		"outerColor": [85, 85, 85],
 		"innerColor": [126, 192, 253],
 		"favoredReligion": "Pan-Humanism",
@@ -295,6 +302,13 @@ UU: Chorus Corvette
 		"declaringFriendship": ".",
 		"tradeRequest": ".",
 
+		"neutralDenouncing": ".",
+		"hateDenouncing": ".",
+		
+		"acceptingDemand": ".",
+		"neutralRejectingDemand": ".",
+		"hateRejectingDemand": ".",
+
 		"outerColor": [77, 40, 0],
 		"innerColor": [201, 60, 28],
 		"favoredReligion": "Saurian Doctrine",
@@ -358,6 +372,13 @@ UU: Chorus Corvette
 		"denounced": ".",
 		"declaringFriendship": ".",
 		"tradeRequest": ".",
+
+		"neutralDenouncing": ".",
+		"hateDenouncing": ".",
+		
+		"acceptingDemand": ".",
+		"neutralRejectingDemand": ".",
+		"hateRejectingDemand": ".",
 
 		"outerColor": [150, 204, 0],
 		"innerColor": [19, 97, 0],
@@ -424,6 +445,13 @@ UU: Chorus Corvette
 		"declaringFriendship": ".",
 		"tradeRequest": ".",
 
+		"neutralDenouncing": ".",
+		"hateDenouncing": ".",
+		
+		"acceptingDemand": ".",
+		"neutralRejectingDemand": ".",
+		"hateRejectingDemand": ".",
+
 		"outerColor": [65, 51, 87],
 		"innerColor": [144, 209, 192],
 		"favoredReligion": "The Journey Eternal",
@@ -488,6 +516,13 @@ UU: Chorus Corvette
 		"denounced": ".",
 		"declaringFriendship": ".",
 		"tradeRequest": ".",
+
+		"neutralDenouncing": ".",
+		"hateDenouncing": ".",
+		
+		"acceptingDemand": ".",
+		"neutralRejectingDemand": ".",
+		"hateRejectingDemand": ".",
 
 		"outerColor": [140, 182, 230],
 		"innerColor": [78, 157, 217],
