@@ -19,6 +19,7 @@
 	// Training *****
 	// Basically what is the crew trained for
 	// ÷ General
+	// Drill
 	{
 		"name": "Trn - Drill I",
 		"uniques": [
@@ -30,16 +31,23 @@
 		"row": 1,
 		"column": 0
 	},
+	// Medical (+ heal, + heal to nearby allies)
+	// Maneuver (+strength in asteroids)
+	// Navigation (+strength in nebulae)
+	// Piloting (for strikecraft, +strength in asteroids, +strength vs strikecraft)
+	// Point Defense (+strength vs strikecraft)
+
+	// Unique training
 
 	// Tactics *****
 	// ÷ General
-	// Wolfpack
-	// Hammer-Anvil
-	// Flanker
-	// Hunter-Killer
-	// Shock-Awe
+	// Wolfpack (+strength the more allies that are nearby)
+	// Feint (chance to dodge, but on a cooldown)
+	// Flanker (+flanking strength)
+	// Hunter-Killer (+strength vs wounded)
+	// Shock-Awe (-strength to nearby enemies after killing an enemy)
 	
-	// ÷ Unique
+	// ÷ Unique tactics
 
 	// Outfit *****
 	// ÷ General
