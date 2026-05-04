@@ -12,9 +12,9 @@
 		"color": [255, 234, 0]
 	},
 	{
-		"name": "Agrotech",
+		"name": "Supplier",
 		"food": 2,
-		"greatPersonPoints": { "Great Agrotech": 3 },
+		"greatPersonPoints": { "Great Logistician": 3 },
 		"color": [129, 222, 0]
 	},
 	{
