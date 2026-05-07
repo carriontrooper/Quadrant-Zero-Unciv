@@ -1,3 +1,43 @@
 [
+	/* template
+	// victory types: Scientific, Diplomatic, Cultural, Domination
+	// QZ VictoryTypes: 
 	
+	{
+		"name": "PersonalityName",
+		"preferredVictoryType": "Domination",
+		"culture": 10,
+		"faith": 10,
+		"food": 10,
+		"gold": 10,
+		"happiness": 10,
+		"production": 10,
+		"science": 10,
+		
+		"military": 10,
+		"aggressive": 10,
+		"declareWar": 10,
+		"commerce": 10,
+		"diplomacy": 10,
+		"loyal": 10,
+		"expansion": 10,
+		"denounceWillingness": 10,
+		
+		"priorities": {
+			"Discovery": 10,
+			"Expansion": 20,
+			"Might": 30,
+			"Prosperity": 10,
+			"Industry": 20,
+			"Erudition": 30,
+			"Spiritualism": 10,
+			"Ascensionist": 20,
+			"Supremacist": 30,
+			"Utopianist": 10
+		},
+		"civilopediaText": [
+			{"text": "."}
+		]
+	}
+	*/
 ]
